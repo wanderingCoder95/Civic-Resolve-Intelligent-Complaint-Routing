@@ -1,0 +1,1001 @@
+ticket_id,user_id,timestamp,description,wing,priority,status,true_wing
+TICK_1336,STU00001,2026-04-10 21:50,There is something wrong with the flush is not functioning properly in the corridor,Plumbing,Medium,Pending,Plumbing
+TICK_1949,FAC001,2026-03-21 10:29,"I noticed that the network is not functioning properly in my hostel room, on top of that the cupboard is also not working. Please resolve this urgently.",IT,High,In Progress,IT
+TICK_1152,STU00015,2026-03-24 10:14,I am facing an issue where the hinge is not functioning properly,Carpentry,Low,Resolved,Carpentry
+TICK_1773,STU00016,2026-03-16 22:44,There is something wrong with the flush is not functioning properly,HVAC,Medium,Resolved,Plumbing
+TICK_1575,OFF003,2026-04-13 06:15,"Currently experiencing an issue with the airflow is not functioning properly near the washroom, additionally the cleanliness is also not working. Please resolve this urgently.",HVAC,High,Pending,HVAC
+TICK_1626,FAC007,2026-04-01 22:31,There seems to be a problem with the lock is not functioning properly in the common area,Cleaning,Medium,Resolved,Carpentry
+TICK_1007,STU00017,2026-04-04 17:02,There seems to be a problem with the portal is not functioning properly in the common area. This needs immediate attention.,IT,Medium,In Progress,IT
+TICK_1707,STU00006,2026-04-07 19:42,currently experiencing an issue with the overflow is not functioning properly in the common area,Plumbing,High,Pending,Plumbing
+TICK_1004,STU00020,2026-04-06 02:50,wifi disconnecting frequently,HVAC,Medium,In Progress,HVAC
+TICK_1110,FAC005,2026-04-06 01:36,There seems to be a problem with the odour is not functioning properly in my hostel room,Cleaning,Medium,Pending,Cleaning
+TICK_1537,STU00011,2026-03-19 05:28,"There is something wrong with the drawer is not functioning properly, additionally the login is also not working",Carpentry,Medium,Resolved,Carpentry
+TICK_1634,FAC004,2026-03-27 16:06,wifi disconnecting frequently,IT,Medium,In Progress,IT
+TICK_1461,STU00005,2026-03-24 17:35,I am facing an issue where the tap is not functioning properly,Plumbing,Medium,Resolved,Plumbing
+TICK_1744,STU00012,2026-03-25 02:50,"There seems to be a problem with the leak is not functioning properly, and also the login is also not working. This is causing inconvenience.",Plumbing,Medium,Resolved,Plumbing
+TICK_1603,STU00017,2026-04-11 17:36,There is something wrong with the sparking is not functioning properly in the common area. Please resolve this urgently.,Electrical,High,Pending,Electrical
+TICK_1821,STU00003,2026-04-11 00:28,I noticed that the light is not functioning properly in the corridor,Electrical,Medium,Pending,Electrical
+TICK_1529,STU00004,2026-03-20 07:00,fan not working and making noise,Plumbing,Medium,Resolved,Plumbing
+TICK_1410,STU00010,2026-03-27 04:33,I noticed that the fan is not functioning properly in the common area. Please resolve this urgently.,Electrical,High,Resolved,Electrical
+TICK_1392,STU00018,2026-04-04 17:00,There is something wrong with the drain is not functioning properly in the corridor. Kindly look into this as soon as possible.,Plumbing,Medium,Pending,Plumbing
+TICK_1938,FAC002,2026-04-02 00:34,I noticed that the sparking is not functioning properly in the corridor,Electrical,High,In Progress,Electrical
+TICK_1137,STU00007,2026-04-06 16:53,"There seems to be a problem with the mopping is not functioning properly, on top of that the switchboard is also not working",Cleaning,Medium,In Progress,Cleaning
+TICK_1985,STU00014,2026-04-08 13:29,"i noticed that the flush is not functioning properly in my hostel room, on top of that the mopping is also not working",Plumbing,Low,Pending,Plumbing
+TICK_1385,STU00002,2026-03-21 04:10,fan not working and making noise,HVAC,Medium,Resolved,HVAC
+TICK_1045,STU00018,2026-04-13 22:03,"I noticed that the airflow is not functioning properly in the common area, and also the tap is also not working. Please resolve this urgently.",HVAC,High,Pending,HVAC
+TICK_1518,STU00015,2026-04-09 17:02,There seems to be a problem with the switchboard is not functioning properly. Kindly look into this as soon as possible.,Electrical,Medium,Pending,Electrical
+TICK_1453,OFF005,2026-04-06 10:09,I noticed that the odour is not functioning properly. This needs immediate attention.,Cleaning,Low,Pending,Cleaning
+TICK_1000,STU00011,2026-04-09 02:07,There seems to be a problem with the cupboard is not functioning properly in the common area. This needs immediate attention.,Carpentry,Medium,In Progress,Carpentry
+TICK_1262,STU00002,2026-03-30 15:20,I am facing an issue where the fan is not functioning properly near the washroom,Electrical,Medium,Resolved,Electrical
+TICK_1708,STU00017,2026-03-16 16:11,i am facing an issue where the switchboard is not functioning properly. please resolve this urgently.,Electrical,High,Resolved,Electrical
+TICK_1143,STU00013,2026-03-15 21:16,There seems to be a problem with the cleanliness is not functioning properly in the lab. This is causing inconvenience.,Cleaning,Medium,In Progress,Cleaning
+TICK_1544,FAC006,2026-04-10 09:41,wifi disconnecting frequently,IT,Low,Pending,Electrical
+TICK_1619,ADMIN001,2026-04-02 10:57,There is something wrong with the tap is not functioning properly in my hostel room. This is causing inconvenience.,Plumbing,Medium,Resolved,Plumbing
+TICK_1342,STU00002,2026-03-31 13:05,there is something wrong with the socket is not functioning properly. please resolve this urgently.,Electrical,High,Resolved,Electrical
+TICK_1154,STU00017,2026-04-04 15:45,There seems to be a problem with the airflow is not functioning properly,HVAC,Medium,In Progress,HVAC
+TICK_1049,STU00018,2026-04-09 19:45,Currently experiencing an issue with the odour is not functioning properly. This needs immediate attention.,Cleaning,Low,Pending,Cleaning
+TICK_1502,STU00017,2026-04-09 12:05,There seems to be a problem with the tap is not functioning properly in the lab,Plumbing,Medium,In Progress,Plumbing
+TICK_1053,STU00006,2026-03-16 06:29,water leaking continuously from pipe,HVAC,Medium,In Progress,HVAC
+TICK_1114,FAC002,2026-04-09 23:37,Currently experiencing an issue with the wiring is not functioning properly in the common area. Kindly look into this as soon as possible.,Electrical,Low,In Progress,Electrical
+TICK_1118,STU00014,2026-03-25 04:35,"There seems to be a problem with the geyser is not functioning properly, on top of that the light is also not working",Electrical,Low,In Progress,Plumbing
+TICK_1944,STU00008,2026-04-09 05:02,There is something wrong with the internet is not functioning properly in the corridor. Kindly look into this as soon as possible.,IT,Low,In Progress,IT
+TICK_1748,OFF001,2026-04-11 03:06,"There is something wrong with the overflow is not functioning properly near the washroom, additionally the light is also not working",Plumbing,High,Pending,Plumbing
+TICK_1411,STU00004,2026-04-03 05:17,garbage not collected for days,Plumbing,Low,Resolved,Plumbing
+TICK_1971,FAC004,2026-03-16 14:29,"Currently experiencing an issue with the filter is not functioning properly, along with that the garbage is also not working",HVAC,Low,Resolved,HVAC
+TICK_1826,STU00006,2026-04-14 06:23,"I am facing an issue where the drawer is not functioning properly in the common area, additionally the ventilation is also not working",Carpentry,Low,Pending,Carpentry
+TICK_1395,STU00010,2026-03-22 19:39,Currently experiencing an issue with the drain is not functioning properly,Plumbing,Medium,Resolved,Plumbing
+TICK_1420,STU00019,2026-03-29 10:07,"There seems to be a problem with the lock is not functioning properly in the corridor, additionally the internet is also not working. Please resolve this urgently.",Carpentry,High,Resolved,Carpentry
+TICK_1431,STU00009,2026-04-07 19:21,There seems to be a problem with the socket is not functioning properly in the lab. This needs immediate attention.,Electrical,Medium,Pending,Electrical
+TICK_1228,STU00016,2026-04-13 07:58,I noticed that the socket is not functioning properly in my hostel room,Electrical,Medium,Pending,Electrical
+TICK_1246,STU00008,2026-04-05 06:32,fan not working and making noise,Cleaning,Medium,In Progress,Cleaning
+TICK_1220,FAC007,2026-04-03 12:18,wifi disconnecting frequently,Cleaning,Low,Resolved,Cleaning
+TICK_1106,OFF001,2026-04-09 23:27,"There seems to be a problem with the ventilation is not functioning properly in the common area, and also the lock is also not working",HVAC,Medium,In Progress,HVAC
+TICK_1888,STU00018,2026-04-14 05:03,fan not working and making noise,Electrical,Medium,Pending,Electrical
+TICK_1481,STU00020,2026-03-18 10:52,"I am facing an issue where the window is not functioning properly, and also the pipe is also not working",Carpentry,Medium,Resolved,Carpentry
+TICK_1779,STU00018,2026-04-13 13:57,i noticed that the hinge is not functioning properly. please resolve this urgently.,Carpentry,High,Pending,Carpentry
+TICK_1321,OFF006,2026-03-17 20:20,garbage not collected for days,Carpentry,Medium,Resolved,Carpentry
+TICK_1371,STU00009,2026-04-01 04:39,Currently experiencing an issue with the tap is not functioning properly in my hostel room. This needs immediate attention.,HVAC,Medium,Resolved,Plumbing
+TICK_1954,STU00018,2026-03-30 05:44,"There seems to be a problem with the MCB is not functioning properly near the washroom, additionally the cupboard is also not working",Electrical,Low,Resolved,Electrical
+TICK_1151,STU00007,2026-03-17 07:56,I noticed that the mopping is not functioning properly in the corridor. Please resolve this urgently.,Cleaning,High,Resolved,Cleaning
+TICK_1691,STU00016,2026-03-30 14:05,There seems to be a problem with the hinge is not functioning properly in my hostel room,Carpentry,Medium,Resolved,Carpentry
+TICK_1207,STU00018,2026-03-30 01:20,Currently experiencing an issue with the tap is not functioning properly in my hostel room. Kindly look into this as soon as possible.,Electrical,Medium,Resolved,Plumbing
+TICK_1718,FAC002,2026-04-03 10:16,"There seems to be a problem with the airflow is not functioning properly in the corridor, and also the flush is also not working",HVAC,Low,Resolved,HVAC
+TICK_1381,STU00013,2026-03-24 17:41,There is something wrong with the window is not functioning properly. Kindly look into this as soon as possible.,Carpentry,Medium,In Progress,Carpentry
+TICK_1764,STU00011,2026-04-09 22:37,Currently experiencing an issue with the drawer is not functioning properly in the corridor,Carpentry,Medium,In Progress,Carpentry
+TICK_1725,STU00011,2026-04-06 07:03,There seems to be a problem with the socket is not functioning properly in my hostel room. This is causing inconvenience.,Electrical,Medium,Pending,Electrical
+TICK_1640,OFF001,2026-04-08 02:44,"I am facing an issue where the mopping is not functioning properly in the lab, additionally the internet is also not working. This needs immediate attention.",Cleaning,Low,Pending,Cleaning
+TICK_1756,STU00017,2026-04-13 13:57,There is something wrong with the cupboard is not functioning properly,Carpentry,Medium,Pending,Carpentry
+TICK_1126,STU00020,2026-04-01 04:16,I noticed that the odour is not functioning properly in the corridor,Cleaning,Medium,In Progress,Cleaning
+TICK_1763,STU00008,2026-03-27 22:56,I noticed that the odour is not functioning properly near the washroom. This needs immediate attention.,Cleaning,Medium,In Progress,Cleaning
+TICK_1483,OFF003,2026-03-17 20:39,There seems to be a problem with the tap is not functioning properly in the lab,Plumbing,Medium,Resolved,Plumbing
+TICK_1945,STU00006,2026-03-19 11:49,I noticed that the pipe is not functioning properly in the common area. Please resolve this urgently.,Plumbing,High,Resolved,Plumbing
+TICK_1117,STU00010,2026-04-11 05:11,There is something wrong with the sparking is not functioning properly,Electrical,High,Pending,Electrical
+TICK_1596,STU00010,2026-03-28 10:48,I am facing an issue where the switchboard is not functioning properly. Please resolve this urgently.,Electrical,High,Resolved,Electrical
+TICK_1894,STU00006,2026-04-09 18:12,there is something wrong with the wifi is not functioning properly in the common area. please resolve this urgently.,Carpentry,High,In Progress,IT
+TICK_1335,FAC004,2026-03-16 16:52,"There is something wrong with the drawer is not functioning properly, along with that the internet is also not working. This is causing inconvenience.",Carpentry,Medium,Resolved,Carpentry
+TICK_1571,FAC005,2026-04-01 14:41,There is something wrong with the window is not functioning properly in the common area. This is causing inconvenience.,Carpentry,Medium,Resolved,Carpentry
+TICK_1769,STU00019,2026-04-01 15:57,garbage not collected for days,Cleaning,Medium,Resolved,Cleaning
+TICK_1903,STU00010,2026-03-30 21:16,Currently experiencing an issue with the cupboard is not functioning properly in the common area. Kindly look into this as soon as possible.,Carpentry,Medium,Resolved,Carpentry
+TICK_1319,STU00016,2026-04-09 11:25,currently experiencing an issue with the overflow is not functioning properly. please resolve this urgently.,Plumbing,High,In Progress,Plumbing
+TICK_1261,FAC005,2026-03-19 10:15,There is something wrong with the garbage is not functioning properly,IT,Medium,Resolved,Cleaning
+TICK_1935,STU00010,2026-04-03 13:00,There is something wrong with the socket is not functioning properly in the corridor. This needs immediate attention.,HVAC,Medium,In Progress,Electrical
+TICK_1189,STU00014,2026-03-31 15:05,"I noticed that the fan is not functioning properly near the washroom, additionally the portal is also not working. Kindly look into this as soon as possible.",Electrical,Medium,Resolved,Electrical
+TICK_1638,FAC004,2026-04-11 05:15,"I noticed that the portal is not functioning properly in the lab, additionally the sparking is also not working. This needs immediate attention.",IT,High,Pending,IT
+TICK_1020,STU00007,2026-03-17 12:15,Currently experiencing an issue with the filter is not functioning properly in my hostel room,HVAC,Medium,Resolved,HVAC
+TICK_1549,FAC004,2026-04-06 22:12,"I am facing an issue where the light is not functioning properly in the lab, additionally the airflow is also not working. This needs immediate attention.",Electrical,Medium,Pending,Electrical
+TICK_1896,OFF001,2026-03-30 05:20,I noticed that the wifi is not functioning properly in the lab,IT,Medium,In Progress,IT
+TICK_1113,STU00008,2026-04-02 06:13,garbage not collected for days,Electrical,Low,Resolved,Electrical
+TICK_1229,STU00016,2026-03-27 04:07,I noticed that the cleanliness is not functioning properly,Cleaning,Medium,In Progress,Cleaning
+TICK_1443,STU00017,2026-03-21 20:27,"There is something wrong with the hinge is not functioning properly, and also the MCB is also not working. Kindly look into this as soon as possible.",Carpentry,Medium,Resolved,Carpentry
+TICK_1002,STU00006,2026-04-12 10:00,"I noticed that the internet is not functioning properly near the washroom, on top of that the leak is also not working. This is causing inconvenience.",HVAC,Medium,Pending,IT
+TICK_1874,OFF001,2026-03-19 03:13,There is something wrong with the wiring is not functioning properly in the corridor,Electrical,Low,Resolved,Electrical
+TICK_1334,FAC003,2026-04-06 20:24,"I noticed that the cooling is not functioning properly, on top of that the light is also not working. This needs immediate attention.",HVAC,Medium,In Progress,HVAC
+TICK_1819,STU00004,2026-03-25 10:08,There is something wrong with the MCB is not functioning properly in the common area. Kindly look into this as soon as possible.,Electrical,Medium,Resolved,Electrical
+TICK_1650,FAC005,2026-04-02 03:20,There is something wrong with the wiring is not functioning properly. Please resolve this urgently.,Electrical,High,Resolved,Electrical
+TICK_1681,STU00001,2026-03-23 12:04,I am facing an issue where the leak is not functioning properly near the washroom. This is causing inconvenience.,Plumbing,Medium,Resolved,Plumbing
+TICK_1005,STU00012,2026-03-29 18:16,wifi disconnecting frequently,Electrical,Low,Resolved,Electrical
+TICK_1594,FAC004,2026-03-29 02:24,fan not working and making noise,Electrical,Medium,Resolved,Electrical
+TICK_1145,STU00005,2026-04-12 19:47,Currently experiencing an issue with the router is not functioning properly in the lab,IT,Low,Pending,IT
+TICK_1827,FAC008,2026-03-16 14:53,fan not working and making noise,HVAC,Low,Resolved,HVAC
+TICK_1641,STU00016,2026-03-19 23:53,There is something wrong with the pipe is not functioning properly,Plumbing,Medium,Resolved,Plumbing
+TICK_1073,STU00012,2026-03-26 21:17,I noticed that the drain is not functioning properly in my hostel room. Kindly look into this as soon as possible.,Plumbing,Low,Resolved,Plumbing
+TICK_1291,STU00020,2026-04-09 13:10,fan not working and making noise,Cleaning,Low,In Progress,Cleaning
+TICK_1382,FAC001,2026-03-20 20:11,door lock broken and unsafe,HVAC,Low,Resolved,HVAC
+TICK_1750,FAC001,2026-03-31 06:43,I noticed that the router is not functioning properly in my hostel room. This is causing inconvenience.,IT,Medium,In Progress,IT
+TICK_1044,FAC002,2026-03-29 04:28,Currently experiencing an issue with the wiring is not functioning properly near the washroom. Please resolve this urgently.,Electrical,High,In Progress,Electrical
+TICK_1973,OFF004,2026-04-01 12:05,There is something wrong with the drawer is not functioning properly in the lab. Please resolve this urgently.,Carpentry,High,Resolved,Carpentry
+TICK_1540,STU00012,2026-04-06 06:36,There is something wrong with the switchboard is not functioning properly in the corridor. This is causing inconvenience.,Electrical,Medium,Pending,Electrical
+TICK_1269,FAC008,2026-03-21 09:29,I noticed that the tap is not functioning properly near the washroom. Please resolve this urgently.,Plumbing,High,Resolved,Plumbing
+TICK_1884,FAC001,2026-03-22 06:37,Currently experiencing an issue with the ventilation is not functioning properly in the lab. This is causing inconvenience.,HVAC,Medium,Resolved,HVAC
+TICK_1484,STU00015,2026-03-28 19:40,There is something wrong with the odour is not functioning properly in the common area,Plumbing,Medium,Resolved,Cleaning
+TICK_1243,FAC008,2026-04-09 12:14,Currently experiencing an issue with the internet is not functioning properly near the washroom. Please resolve this urgently.,IT,High,Pending,IT
+TICK_1495,STU00018,2026-04-12 12:29,"Currently experiencing an issue with the lock is not functioning properly in the common area, on top of that the geyser is also not working. Please resolve this urgently.",Carpentry,High,Pending,Carpentry
+TICK_1841,FAC004,2026-03-21 18:52,"There seems to be a problem with the MCB is not functioning properly in the lab, on top of that the trash is also not working. This is causing inconvenience.",Electrical,Medium,Resolved,Electrical
+TICK_1312,STU00010,2026-03-30 03:51,"There is something wrong with the fan is not functioning properly near the washroom, and also the drawer is also not working",Carpentry,Low,Resolved,Electrical
+TICK_1778,STU00005,2026-04-10 17:56,There is something wrong with the hinge is not functioning properly in the lab,Carpentry,Medium,Pending,Carpentry
+TICK_1515,STU00004,2026-04-12 20:24,There is something wrong with the drain is not functioning properly near the washroom. Kindly look into this as soon as possible.,Plumbing,Medium,Pending,Plumbing
+TICK_1065,STU00001,2026-04-01 16:09,"I am facing an issue where the portal is not functioning properly, and also the cupboard is also not working. This is causing inconvenience.",IT,Low,Resolved,IT
+TICK_1755,STU00007,2026-04-02 06:56,"I am facing an issue where the dustbin is not functioning properly in the lab, along with that the cooling is also not working",Cleaning,Low,Resolved,Cleaning
+TICK_1456,STU00020,2026-03-26 01:23,"Currently experiencing an issue with the fan is not functioning properly in my hostel room, along with that the AC is also not working. Please resolve this urgently.",Electrical,High,Resolved,Electrical
+TICK_1409,STU00001,2026-03-18 11:10,fan not working and making noise,Plumbing,Medium,In Progress,Plumbing
+TICK_1561,FAC002,2026-03-20 11:07,I am facing an issue where the garbage is not functioning properly,Cleaning,Medium,Resolved,Cleaning
+TICK_1205,STU00009,2026-03-16 16:13,I noticed that the odour is not functioning properly in the lab. This is causing inconvenience.,Cleaning,Medium,Resolved,Cleaning
+TICK_1282,STU00012,2026-03-23 02:12,door lock broken and unsafe,HVAC,Low,Resolved,IT
+TICK_1062,STU00016,2026-04-12 23:23,There seems to be a problem with the login is not functioning properly in the corridor,IT,Medium,Pending,IT
+TICK_1109,STU00011,2026-03-17 04:37,"I am facing an issue where the garbage is not functioning properly, along with that the leak is also not working",Cleaning,Low,Resolved,Cleaning
+TICK_1430,OFF006,2026-03-28 09:32,water leaking continuously from pipe,Carpentry,Medium,Resolved,Carpentry
+TICK_1235,STU00005,2026-03-16 16:24,"i am facing an issue where the ac is not functioning properly, additionally the switchboard is also not working",HVAC,Medium,Resolved,HVAC
+TICK_1581,STU00020,2026-03-30 17:07,"I noticed that the mopping is not functioning properly in the corridor, on top of that the drawer is also not working",Cleaning,Medium,Resolved,Cleaning
+TICK_1854,STU00015,2026-03-30 10:02,There is something wrong with the lock is not functioning properly in the corridor,Carpentry,Medium,Resolved,Carpentry
+TICK_1452,STU00016,2026-03-20 05:09,Currently experiencing an issue with the light is not functioning properly in my hostel room. This needs immediate attention.,Electrical,Low,Resolved,Electrical
+TICK_1496,STU00015,2026-04-10 16:11,There is something wrong with the flush is not functioning properly in the common area,HVAC,Low,In Progress,Plumbing
+TICK_1052,OFF004,2026-04-10 13:09,There seems to be a problem with the filter is not functioning properly in the common area. This is causing inconvenience.,HVAC,Low,In Progress,HVAC
+TICK_1478,STU00008,2026-04-14 00:46,I am facing an issue where the odour is not functioning properly in the lab,Cleaning,Medium,Pending,Cleaning
+TICK_1923,STU00013,2026-03-23 17:53,Currently experiencing an issue with the dustbin is not functioning properly,Cleaning,Medium,Resolved,Cleaning
+TICK_1096,STU00001,2026-04-12 22:39,Currently experiencing an issue with the leak is not functioning properly in the lab. This is causing inconvenience.,Plumbing,Low,Pending,Plumbing
+TICK_1519,OFF005,2026-04-04 20:50,"I noticed that the drawer is not functioning properly, on top of that the tap is also not working. Kindly look into this as soon as possible.",Carpentry,Low,Pending,Carpentry
+TICK_1880,STU00001,2026-03-28 20:49,There is something wrong with the socket is not functioning properly,Electrical,Medium,Resolved,Electrical
+TICK_1611,OFF003,2026-04-13 09:07,there seems to be a problem with the dustbin is not functioning properly in the corridor,Plumbing,Low,Pending,Cleaning
+TICK_1054,STU00020,2026-03-20 15:58,I noticed that the overflow is not functioning properly. Please resolve this urgently.,Plumbing,High,Resolved,Plumbing
+TICK_1257,FAC002,2026-04-10 09:58,I am facing an issue where the MCB is not functioning properly in my hostel room. This is causing inconvenience.,Electrical,Medium,Pending,Electrical
+TICK_1397,STU00005,2026-03-28 07:11,door lock broken and unsafe,Electrical,Medium,Resolved,Electrical
+TICK_1498,FAC006,2026-03-28 21:14,"I am facing an issue where the AC is not functioning properly in the lab, along with that the dustbin is also not working. Please resolve this urgently.",HVAC,High,In Progress,HVAC
+TICK_1966,OFF004,2026-03-27 18:39,"Currently experiencing an issue with the dustbin is not functioning properly in the common area, along with that the light is also not working. Please resolve this urgently.",Plumbing,High,Resolved,Cleaning
+TICK_1216,STU00011,2026-04-08 11:33,"There is something wrong with the geyser is not functioning properly near the washroom, on top of that the MCB is also not working. This is causing inconvenience.",Plumbing,Medium,In Progress,Plumbing
+TICK_1398,STU00011,2026-03-21 10:48,There is something wrong with the mopping is not functioning properly,Cleaning,Medium,In Progress,Cleaning
+TICK_1892,STU00018,2026-03-23 03:21,"Currently experiencing an issue with the cleanliness is not functioning properly in the common area, on top of that the geyser is also not working",Cleaning,Medium,Resolved,Cleaning
+TICK_1277,OFF001,2026-03-19 21:43,"there seems to be a problem with the router is not functioning properly in the lab, additionally the garbage is also not working",IT,Low,Resolved,IT
+TICK_1066,FAC007,2026-03-26 16:37,there is something wrong with the network is not functioning properly in my hostel room. please resolve this urgently.,IT,High,Resolved,IT
+TICK_1326,STU00007,2026-03-25 20:22,"I am facing an issue where the trash is not functioning properly near the washroom, along with that the sparking is also not working",Cleaning,High,Resolved,Cleaning
+TICK_1016,STU00001,2026-03-19 01:03,i am facing an issue where the pipe is not functioning properly in the lab. kindly look into this as soon as possible.,Plumbing,Medium,Resolved,Plumbing
+TICK_1388,STU00005,2026-04-04 23:46,I am facing an issue where the fan is not functioning properly in my hostel room,Electrical,Medium,In Progress,Electrical
+TICK_1709,STU00006,2026-04-11 01:50,"There seems to be a problem with the trash is not functioning properly near the washroom, along with that the cupboard is also not working. This needs immediate attention.",Cleaning,Medium,Pending,Cleaning
+TICK_1183,FAC002,2026-03-19 03:07,i noticed that the garbage is not functioning properly near the washroom,Cleaning,Medium,In Progress,Cleaning
+TICK_1403,STU00019,2026-03-26 04:42,wifi disconnecting frequently,Plumbing,Medium,Resolved,Plumbing
+TICK_1979,FAC005,2026-04-07 09:54,Currently experiencing an issue with the login is not functioning properly near the washroom. This needs immediate attention.,IT,Low,In Progress,IT
+TICK_1124,STU00016,2026-03-30 02:07,"There is something wrong with the router is not functioning properly in the lab, and also the ventilation is also not working",IT,Medium,Resolved,IT
+TICK_1924,STU00015,2026-03-18 19:15,currently experiencing an issue with the odour is not functioning properly in the lab. kindly look into this as soon as possible.,Cleaning,Medium,In Progress,Cleaning
+TICK_1249,FAC007,2026-04-04 09:51,fan not working and making noise,Electrical,Medium,In Progress,Electrical
+TICK_1759,FAC006,2026-03-23 06:22,There is something wrong with the internet is not functioning properly in the common area,IT,Medium,Resolved,IT
+TICK_1446,FAC002,2026-04-03 00:02,I am facing an issue where the leak is not functioning properly in the corridor. Kindly look into this as soon as possible.,Plumbing,Low,Resolved,Plumbing
+TICK_1507,FAC006,2026-03-30 21:26,I noticed that the ventilation is not functioning properly in my hostel room. This is causing inconvenience.,HVAC,Medium,Resolved,HVAC
+TICK_1818,STU00005,2026-03-22 07:25,wifi disconnecting frequently,Carpentry,Low,Resolved,Carpentry
+TICK_1208,STU00014,2026-03-31 04:59,garbage not collected for days,Electrical,Low,Resolved,Electrical
+TICK_1357,STU00019,2026-04-08 07:33,Currently experiencing an issue with the garbage is not functioning properly in the corridor,Cleaning,Medium,In Progress,Cleaning
+TICK_1829,STU00015,2026-03-28 15:07,"There is something wrong with the pipe is not functioning properly in the lab, and also the filter is also not working",Plumbing,Medium,In Progress,Plumbing
+TICK_1501,FAC005,2026-04-03 02:54,Currently experiencing an issue with the fan is not functioning properly,Electrical,Low,Resolved,Electrical
+TICK_1977,STU00010,2026-03-20 20:12,Currently experiencing an issue with the geyser is not functioning properly in my hostel room,Plumbing,Low,Resolved,Plumbing
+TICK_1063,STU00003,2026-04-06 16:45,There is something wrong with the drain is not functioning properly. This needs immediate attention.,Plumbing,Low,Pending,Plumbing
+TICK_1997,STU00016,2026-03-28 02:40,fan not working and making noise,Electrical,Low,Resolved,Electrical
+TICK_1146,STU00012,2026-04-07 10:01,"i am facing an issue where the geyser is not functioning properly in the corridor, and also the cooling is also not working. this needs immediate attention.",Plumbing,Low,Pending,Plumbing
+TICK_1482,FAC004,2026-03-27 17:28,I noticed that the lock is not functioning properly near the washroom. This needs immediate attention.,Carpentry,Low,Resolved,Carpentry
+TICK_1031,STU00007,2026-03-16 16:02,"I am facing an issue where the garbage is not functioning properly, and also the filter is also not working. This is causing inconvenience.",Cleaning,Low,Resolved,Cleaning
+TICK_1914,STU00002,2026-03-18 00:24,wifi disconnecting frequently,Plumbing,Medium,Resolved,Plumbing
+TICK_1767,STU00017,2026-04-13 17:28,"There seems to be a problem with the hinge is not functioning properly in my hostel room, additionally the fan is also not working",Carpentry,Medium,Pending,Carpentry
+TICK_1545,FAC002,2026-04-10 20:35,There is something wrong with the garbage is not functioning properly in the common area. Please resolve this urgently.,Cleaning,High,Pending,Cleaning
+TICK_1185,OFF003,2026-03-20 13:23,"I noticed that the cupboard is not functioning properly near the washroom, and also the airflow is also not working",Carpentry,Low,Resolved,Carpentry
+TICK_1025,OFF005,2026-04-08 19:54,Currently experiencing an issue with the lock is not functioning properly in the corridor. Kindly look into this as soon as possible.,Carpentry,Medium,In Progress,Carpentry
+TICK_1304,STU00018,2026-04-07 01:46,garbage not collected for days,Plumbing,Low,In Progress,Plumbing
+TICK_1075,FAC006,2026-04-06 12:47,"I noticed that the mopping is not functioning properly in my hostel room, additionally the ventilation is also not working. Please resolve this urgently.",Cleaning,High,In Progress,Cleaning
+TICK_1845,FAC005,2026-03-18 23:42,"I noticed that the mopping is not functioning properly in my hostel room, and also the cooling is also not working",Cleaning,Medium,Resolved,Cleaning
+TICK_1184,STU00003,2026-04-08 04:55,"There seems to be a problem with the pipe is not functioning properly, on top of that the filter is also not working",Plumbing,Medium,In Progress,Plumbing
+TICK_1889,STU00020,2026-04-07 18:57,currently experiencing an issue with the socket is not functioning properly. this needs immediate attention.,Electrical,Medium,In Progress,Electrical
+TICK_1687,STU00007,2026-03-27 04:36,I am facing an issue where the garbage is not functioning properly in the corridor,Cleaning,Medium,Resolved,Cleaning
+TICK_1383,STU00008,2026-04-05 04:07,There is something wrong with the overflow is not functioning properly,Plumbing,High,Pending,Plumbing
+TICK_1248,FAC002,2026-04-11 10:24,Currently experiencing an issue with the AC is not functioning properly. This is causing inconvenience.,HVAC,Low,Pending,HVAC
+TICK_1322,FAC002,2026-04-06 22:31,Currently experiencing an issue with the MCB is not functioning properly,Electrical,Medium,Pending,Electrical
+TICK_1704,OFF004,2026-04-03 03:06,There is something wrong with the cupboard is not functioning properly. This is causing inconvenience.,Carpentry,Low,Resolved,Carpentry
+TICK_1565,STU00020,2026-03-18 20:21,I am facing an issue where the wiring is not functioning properly in the corridor. This needs immediate attention.,Electrical,Medium,In Progress,Electrical
+TICK_1684,STU00001,2026-04-10 09:49,"Currently experiencing an issue with the light is not functioning properly in my hostel room, and also the cupboard is also not working",Electrical,Medium,In Progress,Electrical
+TICK_1102,FAC003,2026-03-18 04:00,Currently experiencing an issue with the leak is not functioning properly in the lab. This is causing inconvenience.,Plumbing,Medium,Resolved,Plumbing
+TICK_1569,STU00010,2026-04-12 17:58,"Currently experiencing an issue with the geyser is not functioning properly, on top of that the drawer is also not working. Please resolve this urgently.",Plumbing,High,Pending,Plumbing
+TICK_1405,STU00020,2026-03-23 16:51,I am facing an issue where the overflow is not functioning properly,Plumbing,High,Resolved,Plumbing
+TICK_1737,OFF006,2026-04-10 06:00,I am facing an issue where the trash is not functioning properly. Please resolve this urgently.,Plumbing,High,In Progress,Cleaning
+TICK_1386,STU00006,2026-04-09 13:57,Currently experiencing an issue with the trash is not functioning properly. This is causing inconvenience.,Cleaning,Low,Pending,Cleaning
+TICK_1989,FAC004,2026-03-31 03:08,water leaking continuously from pipe,Electrical,Low,Resolved,Electrical
+TICK_1280,STU00017,2026-04-01 14:37,"I noticed that the tap is not functioning properly in my hostel room, along with that the dustbin is also not working. This needs immediate attention.",Carpentry,Medium,Resolved,Plumbing
+TICK_1433,STU00010,2026-04-06 13:33,I noticed that the socket is not functioning properly near the washroom. This is causing inconvenience.,Electrical,Medium,Pending,Electrical
+TICK_1223,STU00004,2026-03-28 15:59,I am facing an issue where the airflow is not functioning properly in the common area. Please resolve this urgently.,HVAC,High,Resolved,HVAC
+TICK_1899,STU00018,2026-04-14 10:12,There is something wrong with the leak is not functioning properly in the corridor. Please resolve this urgently.,Plumbing,High,Pending,Plumbing
+TICK_1048,STU00002,2026-04-02 21:58,I noticed that the light is not functioning properly. This needs immediate attention.,Electrical,Low,Resolved,Electrical
+TICK_1458,STU00007,2026-03-28 16:58,wifi disconnecting frequently,HVAC,Low,Resolved,HVAC
+TICK_1327,STU00006,2026-04-09 03:49,"I noticed that the overflow is not functioning properly, along with that the filter is also not working",Plumbing,High,Pending,Plumbing
+TICK_1955,STU00019,2026-03-20 22:23,"currently experiencing an issue with the dustbin is not functioning properly in my hostel room, on top of that the overflow is also not working. this needs immediate attention.",Cleaning,High,In Progress,Cleaning
+TICK_1942,STU00004,2026-03-21 01:17,There is something wrong with the tap is not functioning properly. Kindly look into this as soon as possible.,Plumbing,Medium,Resolved,Plumbing
+TICK_1509,STU00002,2026-04-11 21:03,I am facing an issue where the cupboard is not functioning properly in my hostel room,Carpentry,Medium,Pending,Carpentry
+TICK_1140,STU00005,2026-03-27 12:53,"I am facing an issue where the tap is not functioning properly in the corridor, along with that the switchboard is also not working. Kindly look into this as soon as possible.",Plumbing,Medium,Resolved,Plumbing
+TICK_1402,STU00001,2026-04-07 17:40,fan not working and making noise,Plumbing,Low,In Progress,Plumbing
+TICK_1527,STU00019,2026-03-31 12:20,I am facing an issue where the trash is not functioning properly,Cleaning,Low,Resolved,Cleaning
+TICK_1661,STU00014,2026-04-05 01:36,There seems to be a problem with the lock is not functioning properly in my hostel room,Carpentry,Medium,Pending,Carpentry
+TICK_1591,STU00014,2026-03-22 23:16,There seems to be a problem with the cupboard is not functioning properly near the washroom. This is causing inconvenience.,Carpentry,Low,In Progress,Carpentry
+TICK_1064,OFF005,2026-03-23 03:04,There is something wrong with the fan is not functioning properly in the corridor. This needs immediate attention.,Electrical,Low,Resolved,Electrical
+TICK_1570,STU00006,2026-04-02 06:36,I noticed that the router is not functioning properly in the lab. This is causing inconvenience.,IT,Medium,Resolved,IT
+TICK_1721,STU00015,2026-04-01 05:49,"I noticed that the pipe is not functioning properly in the common area, along with that the MCB is also not working. Please resolve this urgently.",Plumbing,High,Resolved,Plumbing
+TICK_1852,STU00010,2026-04-11 13:30,"There seems to be a problem with the geyser is not functioning properly in my hostel room, on top of that the drawer is also not working. Please resolve this urgently.",Plumbing,High,Pending,Plumbing
+TICK_1440,FAC002,2026-03-18 11:16,There seems to be a problem with the hinge is not functioning properly in my hostel room. Please resolve this urgently.,Carpentry,High,Resolved,Carpentry
+TICK_1078,STU00007,2026-03-23 19:25,garbage not collected for days,IT,Medium,In Progress,IT
+TICK_1437,STU00007,2026-03-24 11:04,"There seems to be a problem with the trash is not functioning properly, and also the cooling is also not working. Please resolve this urgently.",Cleaning,High,Resolved,Cleaning
+TICK_1931,FAC004,2026-04-13 08:43,garbage not collected for days,IT,Low,Pending,IT
+TICK_1991,STU00014,2026-03-30 15:36,Currently experiencing an issue with the window is not functioning properly near the washroom,Carpentry,Low,Resolved,Carpentry
+TICK_1123,OFF006,2026-03-21 17:52,There is something wrong with the pipe is not functioning properly,Plumbing,Medium,Resolved,Plumbing
+TICK_1784,STU00017,2026-04-05 08:26,there is something wrong with the fan is not functioning properly in my hostel room,Electrical,Medium,In Progress,Electrical
+TICK_1232,STU00002,2026-03-18 07:40,I am facing an issue where the mopping is not functioning properly near the washroom. Please resolve this urgently.,Cleaning,High,Resolved,Cleaning
+TICK_1734,STU00017,2026-03-18 20:54,I am facing an issue where the wifi is not functioning properly in the lab. Kindly look into this as soon as possible.,IT,Low,In Progress,IT
+TICK_1283,FAC004,2026-04-08 10:55,door lock broken and unsafe,IT,Medium,Pending,IT
+TICK_1241,FAC001,2026-04-10 15:55,I noticed that the socket is not functioning properly,Electrical,Medium,Pending,Electrical
+TICK_1487,STU00009,2026-04-06 03:58,I am facing an issue where the network is not functioning properly in the lab. This is causing inconvenience.,IT,Medium,In Progress,IT
+TICK_1292,STU00001,2026-03-16 01:08,There seems to be a problem with the overflow is not functioning properly,Plumbing,High,Resolved,Plumbing
+TICK_1476,STU00016,2026-03-24 18:32,door lock broken and unsafe,Cleaning,Medium,In Progress,IT
+TICK_1765,OFF003,2026-03-29 15:51,There is something wrong with the sparking is not functioning properly in the corridor,Carpentry,High,Resolved,Electrical
+TICK_1105,STU00014,2026-03-22 18:17,There seems to be a problem with the lock is not functioning properly in my hostel room,Carpentry,Medium,Resolved,Carpentry
+TICK_1417,STU00018,2026-03-31 17:57,door lock broken and unsafe,Plumbing,Medium,In Progress,Plumbing
+TICK_1081,STU00010,2026-03-30 06:21,there is something wrong with the overflow is not functioning properly in the common area,Plumbing,High,Resolved,Plumbing
+TICK_1683,STU00013,2026-04-03 10:59,"Currently experiencing an issue with the ventilation is not functioning properly in the common area, additionally the garbage is also not working. This needs immediate attention.",HVAC,Low,Resolved,HVAC
+TICK_1929,STU00011,2026-04-03 08:55,"Currently experiencing an issue with the mopping is not functioning properly in the common area, on top of that the wifi is also not working",Plumbing,Medium,Resolved,Cleaning
+TICK_1870,STU00019,2026-04-05 15:58,There seems to be a problem with the fan is not functioning properly in my hostel room. This needs immediate attention.,Electrical,Medium,In Progress,Electrical
+TICK_1771,STU00008,2026-03-26 01:12,"I noticed that the door is not functioning properly, additionally the geyser is also not working. Please resolve this urgently.",Cleaning,High,Resolved,Carpentry
+TICK_1669,STU00006,2026-04-03 17:48,I noticed that the tap is not functioning properly in my hostel room,Plumbing,Medium,Resolved,Plumbing
+TICK_1984,STU00002,2026-03-30 12:33,"There seems to be a problem with the garbage is not functioning properly, on top of that the AC is also not working",Cleaning,Medium,Resolved,Cleaning
+TICK_1272,FAC001,2026-03-23 20:47,there seems to be a problem with the airflow is not functioning properly in my hostel room. this is causing inconvenience.,HVAC,Medium,Resolved,HVAC
+TICK_1861,STU00010,2026-04-10 12:22,There is something wrong with the internet is not functioning properly in the lab,IT,Medium,In Progress,IT
+TICK_1560,STU00005,2026-04-08 07:17,I noticed that the garbage is not functioning properly. Please resolve this urgently.,Cleaning,High,Pending,Cleaning
+TICK_1343,STU00013,2026-04-11 13:53,"There is something wrong with the sparking is not functioning properly in my hostel room, on top of that the login is also not working. Please resolve this urgently.",Electrical,High,Pending,Electrical
+TICK_1711,OFF005,2026-04-02 20:53,There seems to be a problem with the light is not functioning properly in the lab. Kindly look into this as soon as possible.,Electrical,Medium,Resolved,Electrical
+TICK_1847,OFF005,2026-04-04 15:33,Currently experiencing an issue with the odour is not functioning properly,Cleaning,Medium,In Progress,Cleaning
+TICK_1536,FAC005,2026-03-30 05:10,I am facing an issue where the door is not functioning properly near the washroom. Please resolve this urgently.,Carpentry,High,Resolved,Carpentry
+TICK_1180,STU00015,2026-04-05 12:35,There is something wrong with the leak is not functioning properly near the washroom. Kindly look into this as soon as possible.,Plumbing,Medium,In Progress,Plumbing
+TICK_1786,STU00002,2026-04-10 22:01,there is something wrong with the garbage is not functioning properly in the lab,Cleaning,Medium,Pending,Cleaning
+TICK_1307,STU00018,2026-03-24 13:56,wifi disconnecting frequently,Cleaning,Medium,Resolved,Cleaning
+TICK_1950,STU00009,2026-03-26 12:55,There seems to be a problem with the airflow is not functioning properly near the washroom,Carpentry,Low,Resolved,HVAC
+TICK_1738,FAC003,2026-03-23 09:53,I am facing an issue where the dustbin is not functioning properly,Cleaning,Medium,Resolved,Cleaning
+TICK_1161,STU00004,2026-04-11 02:41,door lock broken and unsafe,Electrical,Medium,Pending,Electrical
+TICK_1166,STU00004,2026-03-18 14:32,garbage not collected for days,Electrical,Low,Resolved,Electrical
+TICK_1688,OFF001,2026-04-11 03:00,door lock broken and unsafe,Electrical,Medium,Pending,Electrical
+TICK_1475,FAC008,2026-03-20 07:19,There seems to be a problem with the switchboard is not functioning properly in the common area. Kindly look into this as soon as possible.,Electrical,Medium,Resolved,Electrical
+TICK_1314,FAC004,2026-03-21 02:17,I am facing an issue where the drawer is not functioning properly,Carpentry,Low,Resolved,Carpentry
+TICK_1068,STU00017,2026-03-21 23:09,I am facing an issue where the overflow is not functioning properly. This needs immediate attention.,Plumbing,High,Resolved,Plumbing
+TICK_1788,FAC001,2026-04-02 04:54,I noticed that the dustbin is not functioning properly in the common area. Please resolve this urgently.,Cleaning,High,Resolved,Cleaning
+TICK_1471,STU00009,2026-03-22 17:43,water leaking continuously from pipe,HVAC,Low,In Progress,HVAC
+TICK_1494,STU00015,2026-03-25 12:14,wifi disconnecting frequently,HVAC,Medium,Resolved,HVAC
+TICK_1255,FAC001,2026-03-19 01:02,I am facing an issue where the portal is not functioning properly in the corridor. Please resolve this urgently.,IT,High,Resolved,IT
+TICK_1480,STU00007,2026-03-18 11:20,"There is something wrong with the AC is not functioning properly in the lab, on top of that the MCB is also not working",HVAC,Medium,Resolved,HVAC
+TICK_1548,FAC002,2026-04-07 17:19,There seems to be a problem with the login is not functioning properly near the washroom. Kindly look into this as soon as possible.,IT,Medium,Pending,IT
+TICK_1083,STU00017,2026-04-06 04:04,"There is something wrong with the trash is not functioning properly, along with that the leak is also not working. Kindly look into this as soon as possible.",Cleaning,Medium,Pending,Cleaning
+TICK_1864,STU00015,2026-03-16 19:25,I noticed that the cupboard is not functioning properly. Kindly look into this as soon as possible.,Carpentry,Medium,Resolved,Carpentry
+TICK_1844,FAC007,2026-04-04 16:11,i am facing an issue where the garbage is not functioning properly. please resolve this urgently.,Cleaning,High,In Progress,Cleaning
+TICK_1793,STU00003,2026-04-03 11:44,I noticed that the leak is not functioning properly in the lab,Cleaning,Low,In Progress,Plumbing
+TICK_1968,STU00020,2026-03-20 07:25,"There seems to be a problem with the fan is not functioning properly in the corridor, on top of that the ventilation is also not working",Electrical,Low,In Progress,Electrical
+TICK_1820,FAC006,2026-03-26 12:03,garbage not collected for days,Plumbing,Low,Resolved,Plumbing
+TICK_1024,STU00019,2026-04-09 01:25,"I noticed that the socket is not functioning properly, on top of that the odour is also not working. Please resolve this urgently.",Electrical,High,In Progress,Electrical
+TICK_1735,STU00010,2026-04-12 21:13,There seems to be a problem with the cleanliness is not functioning properly in the corridor,Cleaning,Medium,Pending,Cleaning
+TICK_1258,FAC002,2026-04-06 17:22,garbage not collected for days,HVAC,Medium,Pending,HVAC
+TICK_1521,STU00001,2026-03-23 09:18,garbage not collected for days,Plumbing,Medium,Resolved,Plumbing
+TICK_1013,STU00007,2026-04-09 14:13,I am facing an issue where the internet is not functioning properly in my hostel room,IT,Medium,Pending,IT
+TICK_1488,FAC001,2026-03-27 16:30,There seems to be a problem with the mopping is not functioning properly. Kindly look into this as soon as possible.,Cleaning,Medium,Resolved,Cleaning
+TICK_1038,STU00005,2026-03-31 17:07,I noticed that the odour is not functioning properly. Please resolve this urgently.,Cleaning,High,Resolved,Cleaning
+TICK_1887,STU00001,2026-04-04 16:07,water leaking continuously from pipe,Cleaning,Medium,In Progress,Cleaning
+TICK_1486,FAC003,2026-03-22 09:29,garbage not collected for days,IT,Low,In Progress,IT
+TICK_1992,OFF004,2026-03-24 12:02,Currently experiencing an issue with the filter is not functioning properly in the lab. This needs immediate attention.,HVAC,Medium,In Progress,HVAC
+TICK_1192,STU00005,2026-04-12 16:36,"currently experiencing an issue with the pipe is not functioning properly in the common area, along with that the portal is also not working",Cleaning,Low,Pending,Plumbing
+TICK_1302,STU00008,2026-04-06 06:10,I am facing an issue where the cooling is not functioning properly in the common area. This needs immediate attention.,HVAC,Medium,Pending,HVAC
+TICK_1199,STU00017,2026-03-23 03:54,I am facing an issue where the tap is not functioning properly. This needs immediate attention.,Plumbing,Medium,Resolved,Plumbing
+TICK_1309,FAC005,2026-04-10 11:17,I am facing an issue where the door is not functioning properly,Carpentry,Medium,In Progress,Carpentry
+TICK_1028,STU00006,2026-03-16 18:38,i am facing an issue where the ventilation is not functioning properly near the washroom. this needs immediate attention.,HVAC,Medium,Resolved,HVAC
+TICK_1474,STU00013,2026-03-26 12:32,currently experiencing an issue with the garbage is not functioning properly,Cleaning,Medium,In Progress,Cleaning
+TICK_1136,OFF003,2026-03-22 01:17,fan not working and making noise,HVAC,Medium,In Progress,HVAC
+TICK_1698,OFF004,2026-03-26 08:06,"I noticed that the cleanliness is not functioning properly in the lab, and also the airflow is also not working",Cleaning,Medium,In Progress,Cleaning
+TICK_1601,STU00016,2026-03-18 21:13,There seems to be a problem with the drain is not functioning properly. Kindly look into this as soon as possible.,Plumbing,Medium,Resolved,Plumbing
+TICK_1170,STU00011,2026-04-12 05:22,i am facing an issue where the hinge is not functioning properly. this needs immediate attention.,Carpentry,Medium,Pending,Carpentry
+TICK_1780,STU00011,2026-04-02 15:21,"There seems to be a problem with the MCB is not functioning properly, on top of that the trash is also not working. Kindly look into this as soon as possible.",Electrical,Low,Resolved,Electrical
+TICK_1313,STU00006,2026-03-30 23:12,I am facing an issue where the trash is not functioning properly near the washroom,Cleaning,Low,Resolved,Cleaning
+TICK_1318,STU00013,2026-04-10 13:52,There is something wrong with the cleanliness is not functioning properly in the common area. Please resolve this urgently.,Cleaning,High,Pending,Cleaning
+TICK_1413,STU00004,2026-03-23 04:00,There is something wrong with the internet is not functioning properly in my hostel room. Please resolve this urgently.,IT,High,Resolved,IT
+TICK_1672,OFF002,2026-03-29 13:37,There is something wrong with the leak is not functioning properly in the lab. This is causing inconvenience.,Plumbing,Medium,Resolved,Plumbing
+TICK_1726,STU00016,2026-04-05 15:49,There is something wrong with the leak is not functioning properly near the washroom. Please resolve this urgently.,Plumbing,High,Pending,Plumbing
+TICK_1084,STU00007,2026-04-01 02:39,"there is something wrong with the light is not functioning properly in my hostel room, along with that the window is also not working. kindly look into this as soon as possible.",Electrical,Low,Resolved,Electrical
+TICK_1236,STU00010,2026-04-13 11:06,There seems to be a problem with the fan is not functioning properly in the common area. Please resolve this urgently.,Electrical,High,Pending,Electrical
+TICK_1144,FAC005,2026-03-31 00:36,"There seems to be a problem with the leak is not functioning properly in the common area, along with that the cupboard is also not working",Plumbing,Medium,Resolved,Plumbing
+TICK_1674,FAC005,2026-03-25 11:38,"I am facing an issue where the airflow is not functioning properly in my hostel room, on top of that the MCB is also not working",Cleaning,Medium,In Progress,HVAC
+TICK_1393,FAC003,2026-03-31 04:38,There seems to be a problem with the fan is not functioning properly in the common area. This needs immediate attention.,Electrical,Medium,Resolved,Electrical
+TICK_1922,STU00020,2026-03-24 03:01,"I noticed that the leak is not functioning properly, on top of that the network is also not working. Kindly look into this as soon as possible.",Plumbing,Low,Resolved,Plumbing
+TICK_1921,STU00018,2026-03-27 21:23,There seems to be a problem with the drain is not functioning properly in the corridor,Plumbing,Medium,Resolved,Plumbing
+TICK_1952,FAC005,2026-04-13 10:14,I am facing an issue where the odour is not functioning properly in the corridor. This is causing inconvenience.,Cleaning,Medium,Pending,Cleaning
+TICK_1242,FAC003,2026-03-26 23:21,Currently experiencing an issue with the router is not functioning properly in the corridor,IT,Low,Resolved,IT
+TICK_1147,STU00011,2026-03-19 12:30,door lock broken and unsafe,Plumbing,Medium,Resolved,HVAC
+TICK_1098,STU00020,2026-03-28 17:56,Currently experiencing an issue with the airflow is not functioning properly. This is causing inconvenience.,HVAC,Medium,In Progress,HVAC
+TICK_1712,STU00012,2026-03-18 22:18,"I noticed that the trash is not functioning properly, additionally the cupboard is also not working. This is causing inconvenience.",Cleaning,Low,In Progress,Cleaning
+TICK_1364,FAC007,2026-03-30 02:21,"There is something wrong with the geyser is not functioning properly, on top of that the internet is also not working",Plumbing,Medium,Resolved,Plumbing
+TICK_1564,FAC004,2026-03-28 00:45,I noticed that the sparking is not functioning properly near the washroom. This is causing inconvenience.,Electrical,High,Resolved,Electrical
+TICK_1908,STU00015,2026-03-31 15:34,There is something wrong with the fan is not functioning properly in the lab,Electrical,Medium,Resolved,Electrical
+TICK_1547,STU00016,2026-04-12 10:22,I am facing an issue where the switchboard is not functioning properly in my hostel room,Electrical,Medium,Pending,Electrical
+TICK_1651,FAC001,2026-03-31 11:49,i am facing an issue where the router is not functioning properly near the washroom,IT,Low,Resolved,IT
+TICK_1074,FAC002,2026-04-05 01:43,There is something wrong with the fan is not functioning properly in my hostel room. Kindly look into this as soon as possible.,Electrical,Low,In Progress,Electrical
+TICK_1328,FAC006,2026-03-15 20:29,There seems to be a problem with the internet is not functioning properly in the lab. Please resolve this urgently.,IT,High,Resolved,IT
+TICK_1462,STU00014,2026-03-31 10:30,Currently experiencing an issue with the drain is not functioning properly. This is causing inconvenience.,Plumbing,Low,Resolved,Plumbing
+TICK_1927,STU00012,2026-03-22 12:45,wifi disconnecting frequently,Cleaning,Low,In Progress,Cleaning
+TICK_1295,FAC005,2026-04-05 23:23,There is something wrong with the drawer is not functioning properly in the corridor. Please resolve this urgently.,Carpentry,High,Pending,Carpentry
+TICK_1095,STU00007,2026-03-20 03:57,I noticed that the garbage is not functioning properly. This needs immediate attention.,Cleaning,Low,Resolved,Cleaning
+TICK_1366,OFF006,2026-04-10 06:39,"I noticed that the cleanliness is not functioning properly in the lab, and also the geyser is also not working. This needs immediate attention.",Cleaning,Medium,In Progress,Cleaning
+TICK_1628,STU00003,2026-04-01 22:00,"I noticed that the airflow is not functioning properly in the lab, additionally the MCB is also not working",HVAC,Medium,In Progress,HVAC
+TICK_1036,ADMIN001,2026-04-03 02:14,I am facing an issue where the lock is not functioning properly. Please resolve this urgently.,Carpentry,High,Resolved,Carpentry
+TICK_1541,STU00020,2026-03-24 12:55,Currently experiencing an issue with the geyser is not functioning properly in the common area. This is causing inconvenience.,Plumbing,Medium,In Progress,Plumbing
+TICK_1663,STU00014,2026-03-29 01:33,There is something wrong with the garbage is not functioning properly in the lab. Kindly look into this as soon as possible.,Cleaning,Medium,Resolved,Cleaning
+TICK_1348,STU00012,2026-04-13 12:10,There is something wrong with the switchboard is not functioning properly in the common area,Electrical,Medium,Pending,Electrical
+TICK_1863,STU00020,2026-03-22 11:35,"I noticed that the light is not functioning properly, and also the lock is also not working. This is causing inconvenience.",Electrical,Medium,Resolved,Electrical
+TICK_1702,STU00004,2026-04-07 20:32,"There seems to be a problem with the drain is not functioning properly near the washroom, and also the AC is also not working",Plumbing,Medium,In Progress,Plumbing
+TICK_1546,FAC006,2026-04-01 10:13,There seems to be a problem with the fan is not functioning properly. This needs immediate attention.,Electrical,Low,Resolved,Electrical
+TICK_1825,STU00005,2026-03-26 12:50,I noticed that the light is not functioning properly near the washroom,Electrical,Low,Resolved,Electrical
+TICK_1915,STU00012,2026-03-23 15:15,fan not working and making noise,Cleaning,Low,Resolved,Cleaning
+TICK_1057,FAC005,2026-04-04 13:30,I am facing an issue where the window is not functioning properly in the corridor. This needs immediate attention.,Carpentry,Medium,In Progress,Carpentry
+TICK_1897,STU00018,2026-04-06 08:24,There seems to be a problem with the switchboard is not functioning properly,IT,Low,Pending,Electrical
+TICK_1325,FAC006,2026-03-18 14:04,Currently experiencing an issue with the wiring is not functioning properly near the washroom,Electrical,Medium,Resolved,Electrical
+TICK_1329,STU00014,2026-04-04 02:42,there seems to be a problem with the geyser is not functioning properly near the washroom. this is causing inconvenience.,Plumbing,Low,In Progress,Plumbing
+TICK_1777,STU00010,2026-03-31 23:36,there seems to be a problem with the light is not functioning properly. this is causing inconvenience.,Electrical,Medium,In Progress,Electrical
+TICK_1032,STU00019,2026-04-12 16:21,I am facing an issue where the switchboard is not functioning properly in the lab,Electrical,Medium,Pending,Electrical
+TICK_1970,FAC003,2026-04-09 21:50,Currently experiencing an issue with the portal is not functioning properly near the washroom,IT,Low,In Progress,IT
+TICK_1174,STU00002,2026-04-12 03:05,I noticed that the cleanliness is not functioning properly in the corridor. Please resolve this urgently.,Cleaning,High,Pending,Cleaning
+TICK_1278,STU00003,2026-04-04 01:13,"I am facing an issue where the pipe is not functioning properly in the corridor, and also the login is also not working",Plumbing,Medium,Pending,Plumbing
+TICK_1503,STU00008,2026-04-05 00:13,"currently experiencing an issue with the ventilation is not functioning properly in my hostel room, and also the portal is also not working. this is causing inconvenience.",HVAC,Medium,In Progress,HVAC
+TICK_1299,STU00008,2026-04-04 02:29,There seems to be a problem with the garbage is not functioning properly. Please resolve this urgently.,Cleaning,High,Pending,Cleaning
+TICK_1524,STU00016,2026-04-02 13:02,There seems to be a problem with the lock is not functioning properly in the lab,Carpentry,Low,Resolved,Carpentry
+TICK_1159,STU00005,2026-04-03 11:29,"I noticed that the cupboard is not functioning properly, on top of that the portal is also not working. Please resolve this urgently.",Carpentry,High,Resolved,Carpentry
+TICK_1851,STU00013,2026-03-24 07:33,i am facing an issue where the window is not functioning properly in my hostel room,Carpentry,Medium,Resolved,Carpentry
+TICK_1071,FAC005,2026-03-27 12:14,door lock broken and unsafe,IT,Medium,In Progress,IT
+TICK_1714,STU00019,2026-03-27 04:12,Currently experiencing an issue with the login is not functioning properly. Kindly look into this as soon as possible.,IT,Medium,Resolved,IT
+TICK_1023,STU00014,2026-04-11 02:25,There seems to be a problem with the wiring is not functioning properly in the lab,Electrical,Medium,Pending,Electrical
+TICK_1762,FAC003,2026-04-04 06:32,"Currently experiencing an issue with the internet is not functioning properly, along with that the cooling is also not working",IT,Low,Pending,IT
+TICK_1368,STU00019,2026-04-14 12:19,I am facing an issue where the sparking is not functioning properly in the corridor. Kindly look into this as soon as possible.,Electrical,High,Pending,Electrical
+TICK_1839,STU00009,2026-04-09 01:24,i noticed that the network is not functioning properly. this needs immediate attention.,IT,Medium,In Progress,IT
+TICK_1490,STU00005,2026-03-17 23:17,There seems to be a problem with the sparking is not functioning properly near the washroom,Electrical,High,Resolved,Electrical
+TICK_1803,OFF004,2026-03-20 03:29,fan not working and making noise,Cleaning,Medium,Resolved,Cleaning
+TICK_1804,FAC001,2026-04-05 23:15,I am facing an issue where the login is not functioning properly,IT,Medium,In Progress,IT
+TICK_1363,STU00010,2026-03-23 23:48,There is something wrong with the pipe is not functioning properly in the common area,Plumbing,Low,In Progress,Plumbing
+TICK_1893,STU00010,2026-03-28 06:57,I noticed that the switchboard is not functioning properly. Please resolve this urgently.,Electrical,High,Resolved,Electrical
+TICK_1928,STU00004,2026-03-25 00:03,There seems to be a problem with the internet is not functioning properly. This is causing inconvenience.,IT,Low,Resolved,IT
+TICK_1853,STU00017,2026-03-20 12:37,Currently experiencing an issue with the wiring is not functioning properly in the lab. Kindly look into this as soon as possible.,Electrical,Medium,Resolved,Electrical
+TICK_1883,STU00014,2026-04-08 10:49,Currently experiencing an issue with the MCB is not functioning properly,Electrical,Low,In Progress,Electrical
+TICK_1196,FAC001,2026-04-01 02:31,I am facing an issue where the wifi is not functioning properly in the corridor. This needs immediate attention.,IT,Medium,In Progress,IT
+TICK_1612,STU00017,2026-04-05 20:32,i am facing an issue where the flush is not functioning properly in the corridor. please resolve this urgently.,Plumbing,High,In Progress,Plumbing
+TICK_1047,ADMIN001,2026-04-02 22:56,I noticed that the internet is not functioning properly in the common area. This needs immediate attention.,IT,Low,Resolved,IT
+TICK_1809,FAC005,2026-04-01 17:10,There is something wrong with the AC is not functioning properly in the lab. Please resolve this urgently.,HVAC,High,Resolved,HVAC
+TICK_1308,STU00007,2026-04-12 11:33,I am facing an issue where the odour is not functioning properly,Cleaning,Low,Pending,Cleaning
+TICK_1550,STU00017,2026-03-22 11:15,I noticed that the garbage is not functioning properly in the corridor. This is causing inconvenience.,Cleaning,Low,Resolved,Cleaning
+TICK_1749,STU00001,2026-04-01 13:35,There is something wrong with the socket is not functioning properly,Electrical,Medium,In Progress,Electrical
+TICK_1412,FAC007,2026-04-13 22:10,"I noticed that the portal is not functioning properly in the common area, on top of that the window is also not working. Kindly look into this as soon as possible.",IT,Low,Pending,IT
+TICK_1587,STU00004,2026-03-28 05:58,There is something wrong with the light is not functioning properly. Please resolve this urgently.,Electrical,High,Resolved,Electrical
+TICK_1158,STU00013,2026-03-22 09:23,I noticed that the window is not functioning properly,Cleaning,Medium,Resolved,Carpentry
+TICK_1276,FAC007,2026-03-29 11:20,There is something wrong with the filter is not functioning properly in my hostel room. This is causing inconvenience.,HVAC,Medium,In Progress,HVAC
+TICK_1630,STU00007,2026-03-16 06:29,"There is something wrong with the garbage is not functioning properly in my hostel room, along with that the wifi is also not working",Cleaning,Medium,Resolved,Cleaning
+TICK_1849,STU00013,2026-03-24 05:24,there is something wrong with the odour is not functioning properly in the common area. this is causing inconvenience.,Cleaning,Low,Resolved,Cleaning
+TICK_1996,STU00013,2026-03-18 14:21,There seems to be a problem with the overflow is not functioning properly,Plumbing,High,Resolved,Plumbing
+TICK_1831,STU00020,2026-03-22 15:17,There is something wrong with the mopping is not functioning properly in the lab. Kindly look into this as soon as possible.,Cleaning,Medium,Resolved,Cleaning
+TICK_1517,STU00011,2026-03-22 02:20,There is something wrong with the flush is not functioning properly in the lab. Please resolve this urgently.,Plumbing,High,Resolved,Plumbing
+TICK_1878,FAC001,2026-03-31 11:41,"There is something wrong with the AC is not functioning properly, and also the sparking is also not working",HVAC,High,Resolved,HVAC
+TICK_1407,STU00012,2026-03-20 22:53,there seems to be a problem with the drain is not functioning properly,Carpentry,Low,Resolved,Plumbing
+TICK_1339,STU00006,2026-03-27 03:20,"There seems to be a problem with the cooling is not functioning properly in the corridor, on top of that the garbage is also not working. This needs immediate attention.",IT,Medium,Resolved,HVAC
+TICK_1972,STU00012,2026-04-01 02:55,I noticed that the light is not functioning properly in the lab. This is causing inconvenience.,Electrical,Low,Resolved,Electrical
+TICK_1994,OFF005,2026-03-21 21:19,I am facing an issue where the light is not functioning properly. Please resolve this urgently.,Electrical,High,Resolved,Electrical
+TICK_1251,FAC006,2026-03-31 23:43,i noticed that the drawer is not functioning properly in my hostel room,Carpentry,Medium,Resolved,Carpentry
+TICK_1369,STU00001,2026-03-26 09:01,Currently experiencing an issue with the mopping is not functioning properly in the corridor,Cleaning,Medium,Resolved,Cleaning
+TICK_1467,STU00002,2026-04-04 08:46,There seems to be a problem with the geyser is not functioning properly in the lab,Plumbing,Medium,Pending,Plumbing
+TICK_1682,FAC004,2026-03-31 06:43,wifi disconnecting frequently,IT,Medium,Resolved,Electrical
+TICK_1438,STU00011,2026-03-22 17:06,I noticed that the MCB is not functioning properly in the lab,Electrical,Medium,Resolved,Electrical
+TICK_1027,STU00014,2026-04-03 13:42,"There is something wrong with the fan is not functioning properly in my hostel room, on top of that the pipe is also not working",Electrical,Low,Resolved,Electrical
+TICK_1939,STU00020,2026-03-30 01:08,water leaking continuously from pipe,Plumbing,Medium,Resolved,Plumbing
+TICK_1701,STU00018,2026-03-30 15:12,I noticed that the airflow is not functioning properly in the common area,HVAC,Low,Resolved,HVAC
+TICK_1504,STU00020,2026-04-01 13:09,There seems to be a problem with the trash is not functioning properly in the corridor. This is causing inconvenience.,Cleaning,Medium,Resolved,Cleaning
+TICK_1422,STU00012,2026-04-14 00:47,door lock broken and unsafe,IT,Medium,Pending,IT
+TICK_1890,FAC008,2026-03-25 15:08,water leaking continuously from pipe,HVAC,Medium,Resolved,HVAC
+TICK_1472,STU00002,2026-03-22 04:26,there is something wrong with the wiring is not functioning properly in the lab. this is causing inconvenience.,Electrical,Medium,Resolved,Electrical
+TICK_1833,STU00002,2026-04-11 18:53,water leaking continuously from pipe,Carpentry,Low,Pending,HVAC
+TICK_1637,FAC002,2026-03-22 04:42,garbage not collected for days,Carpentry,Medium,Resolved,Carpentry
+TICK_1176,FAC006,2026-04-04 17:35,I am facing an issue where the pipe is not functioning properly in the lab. This needs immediate attention.,Plumbing,Medium,Pending,Plumbing
+TICK_1491,STU00013,2026-04-06 17:56,water leaking continuously from pipe,Plumbing,Medium,Pending,Plumbing
+TICK_1290,FAC004,2026-04-10 14:56,door lock broken and unsafe,IT,Medium,In Progress,IT
+TICK_1645,STU00008,2026-03-23 18:04,Currently experiencing an issue with the cooling is not functioning properly near the washroom. Please resolve this urgently.,HVAC,High,Resolved,HVAC
+TICK_1580,FAC008,2026-04-02 15:49,There is something wrong with the wifi is not functioning properly. This is causing inconvenience.,IT,Medium,Resolved,IT
+TICK_1962,STU00003,2026-03-28 06:59,There is something wrong with the MCB is not functioning properly near the washroom. This is causing inconvenience.,Electrical,Medium,Resolved,Electrical
+TICK_1043,STU00020,2026-04-09 00:25,Currently experiencing an issue with the switchboard is not functioning properly in the lab. This needs immediate attention.,Electrical,Medium,In Progress,Electrical
+TICK_1245,OFF002,2026-04-02 10:27,There is something wrong with the garbage is not functioning properly. Please resolve this urgently.,Cleaning,High,Resolved,Cleaning
+TICK_1662,STU00015,2026-03-29 15:06,Currently experiencing an issue with the pipe is not functioning properly in the corridor. Please resolve this urgently.,Plumbing,High,Resolved,Plumbing
+TICK_1153,STU00001,2026-03-17 04:34,There seems to be a problem with the overflow is not functioning properly in the lab,Plumbing,High,Resolved,Plumbing
+TICK_1941,OFF006,2026-03-16 23:14,fan not working and making noise,IT,Low,Resolved,Carpentry
+TICK_1798,STU00001,2026-03-21 13:36,I am facing an issue where the drawer is not functioning properly,Carpentry,Low,Resolved,Carpentry
+TICK_1149,FAC006,2026-03-27 11:28,wifi disconnecting frequently,HVAC,Medium,In Progress,HVAC
+TICK_1606,OFF001,2026-04-11 14:44,There is something wrong with the odour is not functioning properly in my hostel room,Cleaning,Medium,Pending,Cleaning
+TICK_1723,FAC002,2026-03-26 15:59,"I am facing an issue where the portal is not functioning properly in the corridor, additionally the window is also not working. This needs immediate attention.",IT,Low,Resolved,IT
+TICK_1837,OFF003,2026-04-05 07:30,"There is something wrong with the geyser is not functioning properly, and also the odour is also not working. This needs immediate attention.",Cleaning,Medium,Pending,Plumbing
+TICK_1069,OFF004,2026-03-31 23:37,There is something wrong with the fan is not functioning properly in my hostel room. Kindly look into this as soon as possible.,Electrical,Medium,Resolved,Electrical
+TICK_1294,STU00009,2026-04-09 17:32,fan not working and making noise,Electrical,Low,Pending,Electrical
+TICK_1532,STU00006,2026-03-27 12:14,I noticed that the geyser is not functioning properly in my hostel room. Please resolve this urgently.,Plumbing,High,Resolved,Plumbing
+TICK_1394,STU00014,2026-04-10 03:12,I am facing an issue where the light is not functioning properly in the corridor,Electrical,Medium,Pending,Electrical
+TICK_1685,STU00010,2026-04-04 16:42,Currently experiencing an issue with the tap is not functioning properly in my hostel room. Please resolve this urgently.,Carpentry,High,In Progress,Plumbing
+TICK_1217,STU00013,2026-03-20 00:49,I am facing an issue where the router is not functioning properly in my hostel room. Kindly look into this as soon as possible.,IT,Medium,Resolved,IT
+TICK_1907,STU00003,2026-04-14 07:01,water leaking continuously from pipe,Plumbing,Medium,Pending,Plumbing
+TICK_1202,STU00001,2026-03-25 19:08,I noticed that the overflow is not functioning properly in the corridor. Kindly look into this as soon as possible.,Plumbing,High,Resolved,Plumbing
+TICK_1375,OFF006,2026-04-03 06:40,I am facing an issue where the mopping is not functioning properly in my hostel room,Cleaning,Low,In Progress,Cleaning
+TICK_1194,OFF001,2026-03-21 01:42,There is something wrong with the drawer is not functioning properly in the common area. Please resolve this urgently.,HVAC,High,Resolved,Carpentry
+TICK_1768,STU00013,2026-04-03 17:32,door lock broken and unsafe,Carpentry,Medium,Resolved,Carpentry
+TICK_1201,FAC002,2026-03-18 07:52,There seems to be a problem with the cleanliness is not functioning properly. Kindly look into this as soon as possible.,Cleaning,Low,Resolved,Cleaning
+TICK_1134,ADMIN001,2026-04-06 04:09,There seems to be a problem with the ventilation is not functioning properly in the corridor. Please resolve this urgently.,HVAC,High,In Progress,HVAC
+TICK_1752,STU00020,2026-03-20 20:41,Currently experiencing an issue with the router is not functioning properly,IT,Low,Resolved,IT
+TICK_1602,STU00004,2026-03-20 06:52,There seems to be a problem with the cooling is not functioning properly near the washroom. Please resolve this urgently.,HVAC,High,Resolved,HVAC
+TICK_1129,STU00015,2026-03-28 05:07,"I noticed that the mopping is not functioning properly in the corridor, along with that the light is also not working",Cleaning,Medium,Resolved,Cleaning
+TICK_1776,ADMIN001,2026-03-26 06:47,There seems to be a problem with the socket is not functioning properly in the common area. This needs immediate attention.,Electrical,Low,In Progress,Electrical
+TICK_1961,STU00007,2026-04-02 03:36,I am facing an issue where the filter is not functioning properly in the corridor. This is causing inconvenience.,HVAC,Medium,Resolved,HVAC
+TICK_1974,STU00002,2026-04-06 22:16,I am facing an issue where the internet is not functioning properly in the corridor. Kindly look into this as soon as possible.,IT,Medium,Pending,IT
+TICK_1160,STU00011,2026-03-20 00:27,Currently experiencing an issue with the overflow is not functioning properly,Plumbing,High,Resolved,Plumbing
+TICK_1240,STU00004,2026-03-17 22:15,"I noticed that the MCB is not functioning properly in the lab, along with that the wifi is also not working. This needs immediate attention.",Electrical,Medium,In Progress,Electrical
+TICK_1127,STU00009,2026-03-16 13:27,water leaking continuously from pipe,Electrical,Low,Resolved,Electrical
+TICK_1982,STU00017,2026-03-19 22:48,wifi disconnecting frequently,Carpentry,Medium,Resolved,Carpentry
+TICK_1797,FAC007,2026-04-10 19:48,Currently experiencing an issue with the odour is not functioning properly in the common area,Cleaning,Medium,Pending,Cleaning
+TICK_1781,FAC005,2026-03-20 00:54,I am facing an issue where the hinge is not functioning properly in my hostel room. This needs immediate attention.,Carpentry,Low,In Progress,Carpentry
+TICK_1605,OFF001,2026-03-29 13:06,I noticed that the light is not functioning properly in the lab. This is causing inconvenience.,Electrical,Medium,Resolved,Electrical
+TICK_1477,FAC006,2026-03-28 06:39,Currently experiencing an issue with the door is not functioning properly. Kindly look into this as soon as possible.,Carpentry,Medium,Resolved,Carpentry
+TICK_1107,STU00009,2026-04-11 16:00,currently experiencing an issue with the pipe is not functioning properly near the washroom. this needs immediate attention.,Plumbing,Low,Pending,Plumbing
+TICK_1252,STU00002,2026-04-09 00:03,I am facing an issue where the flush is not functioning properly in the common area,Plumbing,Medium,Pending,Plumbing
+TICK_1051,FAC002,2026-04-09 22:02,I noticed that the portal is not functioning properly near the washroom,IT,Low,In Progress,IT
+TICK_1710,STU00012,2026-03-22 11:58,fan not working and making noise,Electrical,Medium,Resolved,Electrical
+TICK_1181,STU00011,2026-04-10 20:29,I am facing an issue where the mopping is not functioning properly in the corridor. This needs immediate attention.,IT,Low,Pending,Cleaning
+TICK_1632,STU00006,2026-03-16 10:28,There is something wrong with the MCB is not functioning properly in my hostel room. This is causing inconvenience.,Electrical,Medium,In Progress,Electrical
+TICK_1913,OFF001,2026-03-24 18:23,I noticed that the portal is not functioning properly near the washroom. Kindly look into this as soon as possible.,IT,Medium,Resolved,IT
+TICK_1648,STU00002,2026-03-21 02:07,Currently experiencing an issue with the cooling is not functioning properly near the washroom,HVAC,Medium,In Progress,HVAC
+TICK_1607,STU00020,2026-03-21 15:06,Currently experiencing an issue with the odour is not functioning properly in the lab,Cleaning,Low,Resolved,Cleaning
+TICK_1552,STU00004,2026-03-17 17:52,fan not working and making noise,Plumbing,Medium,Resolved,Plumbing
+TICK_1198,STU00007,2026-03-22 18:15,door lock broken and unsafe,Cleaning,Medium,In Progress,Cleaning
+TICK_1664,STU00013,2026-03-20 03:48,Currently experiencing an issue with the sparking is not functioning properly in the lab,Electrical,High,Resolved,Electrical
+TICK_1697,STU00013,2026-04-13 06:19,Currently experiencing an issue with the socket is not functioning properly,Plumbing,Medium,Pending,Electrical
+TICK_1742,STU00001,2026-03-28 21:52,"I am facing an issue where the overflow is not functioning properly, additionally the sparking is also not working. This is causing inconvenience.",Plumbing,High,Resolved,Plumbing
+TICK_1582,STU00017,2026-04-04 05:43,garbage not collected for days,IT,Medium,In Progress,IT
+TICK_1696,STU00001,2026-03-19 18:28,I am facing an issue where the drain is not functioning properly in the common area,Plumbing,Medium,Resolved,Plumbing
+TICK_1324,OFF002,2026-03-30 07:08,wifi disconnecting frequently,Electrical,Medium,In Progress,Electrical
+TICK_1686,STU00017,2026-04-13 02:43,garbage not collected for days,Electrical,Low,Pending,Electrical
+TICK_1988,FAC001,2026-04-04 07:38,"Currently experiencing an issue with the AC is not functioning properly near the washroom, additionally the internet is also not working",HVAC,Medium,In Progress,HVAC
+TICK_1615,STU00003,2026-03-30 10:00,wifi disconnecting frequently,Carpentry,Low,Resolved,Carpentry
+TICK_1156,STU00013,2026-04-10 14:23,I am facing an issue where the drawer is not functioning properly in the common area. Please resolve this urgently.,Carpentry,High,Pending,Carpentry
+TICK_1792,FAC004,2026-03-17 02:59,I am facing an issue where the sparking is not functioning properly,Cleaning,High,Resolved,Electrical
+TICK_1728,STU00014,2026-04-06 05:53,I noticed that the light is not functioning properly,Electrical,Medium,Pending,Electrical
+TICK_1428,STU00007,2026-04-01 15:22,Currently experiencing an issue with the trash is not functioning properly. Please resolve this urgently.,Cleaning,High,Resolved,Cleaning
+TICK_1576,STU00001,2026-03-19 19:14,I am facing an issue where the network is not functioning properly in the corridor. Please resolve this urgently.,IT,High,Resolved,IT
+TICK_1492,OFF001,2026-03-27 06:09,I noticed that the mopping is not functioning properly,Cleaning,Medium,In Progress,Cleaning
+TICK_1034,STU00007,2026-03-29 03:07,I am facing an issue where the light is not functioning properly. Please resolve this urgently.,Electrical,High,Resolved,Electrical
+TICK_1858,STU00007,2026-03-25 23:41,I am facing an issue where the light is not functioning properly near the washroom,Electrical,Low,Resolved,Electrical
+TICK_1801,FAC006,2026-03-19 06:31,"I am facing an issue where the cooling is not functioning properly in the common area, and also the tap is also not working. Kindly look into this as soon as possible.",IT,Medium,Resolved,HVAC
+TICK_1135,STU00020,2026-03-24 09:11,"there is something wrong with the sparking is not functioning properly in the lab, and also the flush is also not working. this is causing inconvenience.",Electrical,High,Resolved,Electrical
+TICK_1408,STU00010,2026-04-03 04:12,Currently experiencing an issue with the pipe is not functioning properly in the corridor. This is causing inconvenience.,Plumbing,Medium,Resolved,Plumbing
+TICK_1891,STU00009,2026-03-16 12:40,"There is something wrong with the window is not functioning properly in the lab, along with that the drain is also not working. This needs immediate attention.",Carpentry,Medium,In Progress,Carpentry
+TICK_1122,STU00010,2026-03-31 00:05,There is something wrong with the cooling is not functioning properly. Kindly look into this as soon as possible.,Cleaning,Medium,In Progress,HVAC
+TICK_1332,FAC007,2026-03-21 22:58,There is something wrong with the sparking is not functioning properly in my hostel room. Please resolve this urgently.,Electrical,High,Resolved,Electrical
+TICK_1247,STU00016,2026-04-05 12:47,I noticed that the lock is not functioning properly in my hostel room. Kindly look into this as soon as possible.,Carpentry,Medium,Pending,Carpentry
+TICK_1362,STU00008,2026-04-11 19:20,There seems to be a problem with the socket is not functioning properly in the corridor. This is causing inconvenience.,Electrical,Low,Pending,Electrical
+TICK_1916,STU00013,2026-04-07 11:13,I am facing an issue where the mopping is not functioning properly,Cleaning,Medium,Pending,Cleaning
+TICK_1072,STU00016,2026-04-11 23:36,"There seems to be a problem with the overflow is not functioning properly in the corridor, additionally the fan is also not working. Kindly look into this as soon as possible.",Plumbing,High,Pending,Plumbing
+TICK_1150,OFF006,2026-03-26 05:39,There is something wrong with the wifi is not functioning properly in my hostel room. Please resolve this urgently.,IT,High,Resolved,IT
+TICK_1186,STU00008,2026-03-28 02:43,I noticed that the odour is not functioning properly in the common area. Please resolve this urgently.,Cleaning,High,Resolved,Cleaning
+TICK_1460,FAC008,2026-04-08 08:54,I noticed that the airflow is not functioning properly,HVAC,Low,In Progress,HVAC
+TICK_1783,FAC007,2026-04-03 20:40,There is something wrong with the geyser is not functioning properly,Plumbing,Medium,In Progress,Plumbing
+TICK_1933,OFF002,2026-03-25 15:41,There seems to be a problem with the garbage is not functioning properly near the washroom. This needs immediate attention.,Cleaning,Medium,Resolved,Cleaning
+TICK_1224,STU00016,2026-04-02 13:56,"There seems to be a problem with the wifi is not functioning properly in my hostel room, additionally the cooling is also not working",IT,Low,Resolved,IT
+TICK_1848,OFF003,2026-04-07 23:46,There is something wrong with the trash is not functioning properly near the washroom,Cleaning,Medium,In Progress,Cleaning
+TICK_1625,FAC008,2026-04-07 06:26,Currently experiencing an issue with the internet is not functioning properly in the lab,IT,Medium,Pending,IT
+TICK_1910,STU00019,2026-04-14 04:22,There is something wrong with the trash is not functioning properly in the lab,Cleaning,Medium,Pending,Cleaning
+TICK_1168,STU00003,2026-03-21 05:09,There seems to be a problem with the switchboard is not functioning properly,Electrical,Medium,Resolved,Electrical
+TICK_1434,FAC007,2026-04-05 23:55,I am facing an issue where the lock is not functioning properly near the washroom,Carpentry,Medium,In Progress,Carpentry
+TICK_1620,STU00009,2026-03-29 18:45,I noticed that the portal is not functioning properly in my hostel room,IT,Low,In Progress,IT
+TICK_1659,FAC002,2026-03-25 05:34,"There seems to be a problem with the network is not functioning properly in the lab, along with that the AC is also not working",IT,Medium,Resolved,IT
+TICK_1263,OFF001,2026-03-17 18:43,Currently experiencing an issue with the geyser is not functioning properly near the washroom. This needs immediate attention.,Plumbing,Medium,Resolved,Plumbing
+TICK_1352,OFF004,2026-03-30 23:57,"there seems to be a problem with the drawer is not functioning properly in the corridor, on top of that the filter is also not working. this needs immediate attention.",Carpentry,Low,In Progress,Carpentry
+TICK_1703,FAC008,2026-03-17 01:52,There is something wrong with the pipe is not functioning properly in the lab. This needs immediate attention.,Plumbing,Medium,Resolved,Plumbing
+TICK_1531,STU00007,2026-03-30 00:04,garbage not collected for days,Carpentry,Medium,Resolved,Carpentry
+TICK_1356,STU00020,2026-04-02 01:38,Currently experiencing an issue with the drain is not functioning properly near the washroom,Plumbing,Medium,Resolved,Plumbing
+TICK_1795,ADMIN001,2026-03-31 10:38,Currently experiencing an issue with the AC is not functioning properly near the washroom. This is causing inconvenience.,HVAC,Medium,In Progress,HVAC
+TICK_1050,FAC004,2026-04-01 22:59,Currently experiencing an issue with the tap is not functioning properly. Kindly look into this as soon as possible.,Plumbing,Medium,Resolved,Plumbing
+TICK_1906,FAC005,2026-03-25 21:06,I am facing an issue where the cupboard is not functioning properly. This needs immediate attention.,Carpentry,Medium,Resolved,Carpentry
+TICK_1693,STU00009,2026-03-22 06:30,I am facing an issue where the odour is not functioning properly. This needs immediate attention.,Cleaning,Medium,Resolved,Cleaning
+TICK_1586,FAC007,2026-03-20 22:17,There seems to be a problem with the airflow is not functioning properly,HVAC,Medium,Resolved,HVAC
+TICK_1306,STU00014,2026-03-19 07:53,I noticed that the cleanliness is not functioning properly near the washroom. Kindly look into this as soon as possible.,Cleaning,Medium,Resolved,Cleaning
+TICK_1568,STU00017,2026-03-16 13:02,I noticed that the tap is not functioning properly in the common area. Please resolve this urgently.,Plumbing,High,In Progress,Plumbing
+TICK_1353,STU00003,2026-03-23 05:29,I am facing an issue where the cleanliness is not functioning properly in my hostel room,Cleaning,Medium,Resolved,Cleaning
+TICK_1489,FAC004,2026-04-06 21:42,"Currently experiencing an issue with the socket is not functioning properly in the lab, along with that the network is also not working",IT,Medium,In Progress,Electrical
+TICK_1221,STU00002,2026-03-16 13:10,Currently experiencing an issue with the dustbin is not functioning properly in the common area. Kindly look into this as soon as possible.,Carpentry,Medium,Resolved,Cleaning
+TICK_1739,STU00003,2026-04-05 16:49,I noticed that the cleanliness is not functioning properly. Kindly look into this as soon as possible.,Cleaning,Medium,In Progress,Cleaning
+TICK_1649,STU00012,2026-04-08 20:51,"There is something wrong with the cleanliness is not functioning properly, and also the hinge is also not working. Kindly look into this as soon as possible.",Cleaning,Medium,Pending,Cleaning
+TICK_1429,STU00020,2026-03-18 05:32,There is something wrong with the cooling is not functioning properly near the washroom,HVAC,Medium,Resolved,HVAC
+TICK_1600,ADMIN001,2026-04-01 14:37,There seems to be a problem with the pipe is not functioning properly in the common area. This needs immediate attention.,Plumbing,Low,In Progress,Plumbing
+TICK_1936,FAC003,2026-04-04 05:18,i am facing an issue where the ac is not functioning properly in the corridor. this needs immediate attention.,HVAC,Low,In Progress,HVAC
+TICK_1730,OFF003,2026-04-10 11:27,there seems to be a problem with the window is not functioning properly in the common area,Carpentry,Low,In Progress,Carpentry
+TICK_1757,STU00010,2026-04-07 18:09,i noticed that the filter is not functioning properly in my hostel room. this needs immediate attention.,HVAC,Medium,Pending,HVAC
+TICK_1871,FAC006,2026-04-03 22:02,There seems to be a problem with the trash is not functioning properly in my hostel room. This is causing inconvenience.,Cleaning,Medium,In Progress,Cleaning
+TICK_1667,STU00014,2026-04-12 02:56,"There seems to be a problem with the flush is not functioning properly in the common area, and also the trash is also not working. This needs immediate attention.",Plumbing,Low,Pending,Plumbing
+TICK_1067,STU00019,2026-03-30 07:45,"There seems to be a problem with the tap is not functioning properly in the common area, additionally the network is also not working. Kindly look into this as soon as possible.",Plumbing,Medium,In Progress,Plumbing
+TICK_1834,STU00018,2026-03-22 16:01,Currently experiencing an issue with the socket is not functioning properly. This needs immediate attention.,Electrical,Medium,In Progress,Electrical
+TICK_1448,STU00009,2026-04-12 21:22,fan not working and making noise,Plumbing,Medium,Pending,Plumbing
+TICK_1557,STU00020,2026-04-08 07:43,Currently experiencing an issue with the wiring is not functioning properly in my hostel room,Electrical,Medium,In Progress,Electrical
+TICK_1592,STU00002,2026-04-12 21:50,I am facing an issue where the wiring is not functioning properly near the washroom. This needs immediate attention.,Electrical,Medium,Pending,Electrical
+TICK_1794,STU00009,2026-03-31 10:04,"there is something wrong with the geyser is not functioning properly, and also the odour is also not working. please resolve this urgently.",Plumbing,High,Resolved,Plumbing
+TICK_1260,STU00012,2026-03-30 01:33,There is something wrong with the light is not functioning properly near the washroom,Electrical,Medium,Resolved,Electrical
+TICK_1675,STU00009,2026-04-11 16:17,There is something wrong with the MCB is not functioning properly in the common area. Kindly look into this as soon as possible.,Electrical,Low,Pending,Electrical
+TICK_1441,STU00020,2026-04-10 20:47,I noticed that the tap is not functioning properly in the corridor,Plumbing,Medium,Pending,Plumbing
+TICK_1093,FAC001,2026-03-29 14:52,I noticed that the pipe is not functioning properly in the corridor. This needs immediate attention.,Plumbing,Medium,Resolved,Plumbing
+TICK_1298,FAC002,2026-04-07 13:00,I am facing an issue where the airflow is not functioning properly in the common area. Please resolve this urgently.,HVAC,High,In Progress,HVAC
+TICK_1585,STU00004,2026-03-31 16:10,water leaking continuously from pipe,HVAC,Low,Resolved,HVAC
+TICK_1090,FAC001,2026-03-25 20:17,Currently experiencing an issue with the login is not functioning properly near the washroom. This is causing inconvenience.,IT,Medium,In Progress,IT
+TICK_1209,STU00012,2026-03-26 01:42,I noticed that the pipe is not functioning properly in the common area. Please resolve this urgently.,HVAC,High,In Progress,Plumbing
+TICK_1770,STU00016,2026-04-02 07:56,there is something wrong with the switchboard is not functioning properly in the lab. this needs immediate attention.,IT,Medium,Resolved,Electrical
+TICK_1367,STU00013,2026-03-19 09:27,There seems to be a problem with the window is not functioning properly in the lab. This is causing inconvenience.,Carpentry,Low,In Progress,Carpentry
+TICK_1729,OFF001,2026-03-31 15:32,I am facing an issue where the dustbin is not functioning properly near the washroom,Cleaning,Medium,Resolved,Cleaning
+TICK_1558,STU00006,2026-03-16 13:02,I noticed that the door is not functioning properly in the corridor. This needs immediate attention.,Carpentry,Low,In Progress,Carpentry
+TICK_1902,STU00005,2026-04-07 22:06,I am facing an issue where the socket is not functioning properly in the lab,Electrical,Medium,Pending,Electrical
+TICK_1905,STU00010,2026-04-10 22:56,I noticed that the sparking is not functioning properly near the washroom,HVAC,High,Pending,Electrical
+TICK_1530,STU00015,2026-03-20 05:12,"I noticed that the flush is not functioning properly in the corridor, and also the lock is also not working",Plumbing,Medium,Resolved,Plumbing
+TICK_1275,STU00009,2026-04-07 04:27,There seems to be a problem with the MCB is not functioning properly,Electrical,Medium,In Progress,Electrical
+TICK_1350,FAC003,2026-03-22 19:38,Currently experiencing an issue with the router is not functioning properly in the lab. This needs immediate attention.,IT,Low,Resolved,IT
+TICK_1705,STU00015,2026-03-17 11:42,I am facing an issue where the login is not functioning properly in my hostel room,IT,Medium,Resolved,IT
+TICK_1904,OFF004,2026-03-28 03:49,"there seems to be a problem with the internet is not functioning properly, additionally the ac is also not working. this needs immediate attention.",IT,Medium,Resolved,IT
+TICK_1932,FAC003,2026-04-07 18:41,There is something wrong with the wifi is not functioning properly,IT,Medium,In Progress,IT
+TICK_1986,OFF002,2026-04-08 19:35,There is something wrong with the wifi is not functioning properly. Kindly look into this as soon as possible.,IT,Medium,Pending,IT
+TICK_1391,STU00003,2026-03-17 04:24,"There seems to be a problem with the window is not functioning properly, on top of that the network is also not working",Carpentry,Medium,Resolved,Carpentry
+TICK_1253,STU00009,2026-04-12 11:25,I noticed that the router is not functioning properly in the corridor. This needs immediate attention.,IT,Low,Pending,IT
+TICK_1812,STU00002,2026-03-25 10:52,Currently experiencing an issue with the mopping is not functioning properly. This needs immediate attention.,Cleaning,Medium,Resolved,Cleaning
+TICK_1610,FAC003,2026-03-22 21:47,"There is something wrong with the internet is not functioning properly, on top of that the filter is also not working",IT,Medium,Resolved,IT
+TICK_1175,OFF002,2026-04-13 04:27,There is something wrong with the MCB is not functioning properly in my hostel room. Please resolve this urgently.,Electrical,High,Pending,Electrical
+TICK_1937,FAC003,2026-03-22 21:26,door lock broken and unsafe,IT,Medium,In Progress,IT
+TICK_1046,STU00017,2026-03-19 23:39,door lock broken and unsafe,Plumbing,Low,Resolved,Plumbing
+TICK_1058,STU00002,2026-03-20 20:06,I am facing an issue where the wiring is not functioning properly in the corridor,Electrical,Medium,Resolved,Electrical
+TICK_1940,STU00017,2026-03-15 23:59,wifi disconnecting frequently,Cleaning,Medium,In Progress,Cleaning
+TICK_1727,STU00006,2026-03-22 01:58,Currently experiencing an issue with the garbage is not functioning properly in the lab,Cleaning,Medium,Resolved,Cleaning
+TICK_1787,FAC001,2026-04-05 10:44,"I am facing an issue where the network is not functioning properly in the corridor, along with that the filter is also not working",IT,Medium,In Progress,IT
+TICK_1873,STU00001,2026-04-10 01:39,door lock broken and unsafe,Electrical,Medium,Pending,Electrical
+TICK_1094,STU00015,2026-04-06 16:10,"There is something wrong with the wiring is not functioning properly, on top of that the pipe is also not working. Please resolve this urgently.",Electrical,High,Pending,Electrical
+TICK_1811,STU00006,2026-03-27 05:56,Currently experiencing an issue with the flush is not functioning properly near the washroom. Please resolve this urgently.,Plumbing,High,In Progress,Plumbing
+TICK_1629,FAC001,2026-04-10 11:53,I am facing an issue where the network is not functioning properly in the corridor. Please resolve this urgently.,IT,High,In Progress,IT
+TICK_1311,STU00017,2026-04-12 17:16,There is something wrong with the MCB is not functioning properly,Electrical,Low,Pending,Electrical
+TICK_1449,STU00008,2026-03-30 18:03,garbage not collected for days,IT,Low,Resolved,IT
+TICK_1380,STU00019,2026-04-03 22:21,There seems to be a problem with the flush is not functioning properly,Plumbing,Medium,In Progress,Plumbing
+TICK_1355,FAC005,2026-03-24 02:37,There seems to be a problem with the sparking is not functioning properly near the washroom,Electrical,High,Resolved,Electrical
+TICK_1214,STU00006,2026-04-03 00:40,There is something wrong with the fan is not functioning properly. This needs immediate attention.,Electrical,Medium,Resolved,Electrical
+TICK_1618,STU00014,2026-03-27 00:49,I am facing an issue where the light is not functioning properly in my hostel room,Electrical,Medium,In Progress,Electrical
+TICK_1233,STU00001,2026-03-17 21:47,I am facing an issue where the light is not functioning properly near the washroom,Electrical,Medium,Resolved,Electrical
+TICK_1840,STU00005,2026-04-11 20:41,There seems to be a problem with the flush is not functioning properly near the washroom. Kindly look into this as soon as possible.,Plumbing,Medium,Pending,Plumbing
+TICK_1436,STU00010,2026-03-17 23:35,door lock broken and unsafe,Plumbing,Medium,Resolved,Plumbing
+TICK_1866,STU00017,2026-03-16 07:55,There seems to be a problem with the pipe is not functioning properly in the lab,HVAC,Medium,Resolved,Plumbing
+TICK_1447,FAC001,2026-03-27 17:16,Currently experiencing an issue with the socket is not functioning properly near the washroom,Electrical,Medium,In Progress,Electrical
+TICK_1265,STU00002,2026-04-03 05:22,Currently experiencing an issue with the login is not functioning properly. This needs immediate attention.,IT,Medium,Resolved,IT
+TICK_1665,STU00015,2026-03-25 01:00,I noticed that the internet is not functioning properly,IT,Medium,In Progress,IT
+TICK_1868,STU00015,2026-03-16 04:07,There seems to be a problem with the MCB is not functioning properly. This needs immediate attention.,Carpentry,Low,Resolved,Electrical
+TICK_1790,STU00004,2026-03-17 01:50,"I am facing an issue where the flush is not functioning properly in my hostel room, along with that the airflow is also not working. This needs immediate attention.",Plumbing,Medium,Resolved,Plumbing
+TICK_1676,STU00016,2026-03-24 11:29,I noticed that the drain is not functioning properly. This is causing inconvenience.,Plumbing,Medium,Resolved,Plumbing
+TICK_1091,STU00020,2026-03-30 13:40,There seems to be a problem with the trash is not functioning properly. This needs immediate attention.,IT,Low,Resolved,Cleaning
+TICK_1300,STU00017,2026-03-29 13:41,I am facing an issue where the sparking is not functioning properly in my hostel room. Please resolve this urgently.,Electrical,High,Resolved,Electrical
+TICK_1760,STU00007,2026-03-24 17:48,There is something wrong with the switchboard is not functioning properly in the lab. This is causing inconvenience.,Electrical,Medium,In Progress,Electrical
+TICK_1692,STU00018,2026-04-13 18:14,wifi disconnecting frequently,Plumbing,Medium,Pending,Plumbing
+TICK_1086,OFF001,2026-04-13 04:58,water leaking continuously from pipe,Cleaning,Medium,Pending,Cleaning
+TICK_1104,FAC007,2026-04-02 11:11,Currently experiencing an issue with the wifi is not functioning properly,IT,Medium,Resolved,IT
+TICK_1810,STU00001,2026-03-21 03:59,Currently experiencing an issue with the cooling is not functioning properly in the common area. This needs immediate attention.,HVAC,Medium,Resolved,HVAC
+TICK_1598,FAC001,2026-04-12 04:17,Currently experiencing an issue with the cooling is not functioning properly,HVAC,Low,Pending,HVAC
+TICK_1658,STU00010,2026-03-28 11:33,I noticed that the leak is not functioning properly in the lab. This needs immediate attention.,Plumbing,Medium,Resolved,Plumbing
+TICK_1815,FAC002,2026-03-21 21:02,I noticed that the socket is not functioning properly in the lab. This needs immediate attention.,Electrical,Low,Resolved,Electrical
+TICK_1212,STU00003,2026-03-20 01:20,garbage not collected for days,Electrical,Medium,In Progress,Electrical
+TICK_1513,STU00010,2026-04-10 10:32,I noticed that the overflow is not functioning properly. Please resolve this urgently.,Plumbing,High,Pending,Plumbing
+TICK_1012,STU00020,2026-03-21 08:25,I am facing an issue where the MCB is not functioning properly. Kindly look into this as soon as possible.,Electrical,Medium,Resolved,Electrical
+TICK_1011,STU00014,2026-03-24 19:38,There is something wrong with the light is not functioning properly in the corridor. This needs immediate attention.,Electrical,Medium,Resolved,Electrical
+TICK_1747,FAC003,2026-03-30 03:06,There is something wrong with the flush is not functioning properly near the washroom,Plumbing,Low,Resolved,Plumbing
+TICK_1958,STU00007,2026-04-06 05:37,I noticed that the MCB is not functioning properly near the washroom. This is causing inconvenience.,Electrical,Medium,Pending,Electrical
+TICK_1419,FAC006,2026-04-13 07:17,I am facing an issue where the wiring is not functioning properly in my hostel room,Electrical,Low,Pending,Electrical
+TICK_1427,FAC008,2026-03-28 17:10,garbage not collected for days,IT,Medium,Resolved,IT
+TICK_1387,OFF006,2026-04-07 21:33,I am facing an issue where the switchboard is not functioning properly in the lab. This is causing inconvenience.,Electrical,Medium,Pending,Electrical
+TICK_1112,FAC002,2026-03-19 19:10,garbage not collected for days,HVAC,Low,Resolved,HVAC
+TICK_1512,FAC001,2026-04-07 18:52,There is something wrong with the portal is not functioning properly in my hostel room. This needs immediate attention.,IT,Low,In Progress,IT
+TICK_1980,STU00019,2026-03-31 19:33,i am facing an issue where the garbage is not functioning properly in the lab,Cleaning,Low,Resolved,Cleaning
+TICK_1204,STU00005,2026-03-30 13:53,I noticed that the login is not functioning properly. This is causing inconvenience.,IT,Medium,Resolved,IT
+TICK_1999,FAC003,2026-04-07 07:56,There seems to be a problem with the switchboard is not functioning properly in the common area. This is causing inconvenience.,Electrical,Medium,In Progress,Electrical
+TICK_1796,STU00005,2026-04-05 20:14,door lock broken and unsafe,Plumbing,Medium,In Progress,Plumbing
+TICK_1019,FAC002,2026-04-03 18:31,"There is something wrong with the portal is not functioning properly in the lab, and also the window is also not working. This needs immediate attention.",IT,Medium,Resolved,IT
+TICK_1361,FAC008,2026-04-05 02:17,There seems to be a problem with the light is not functioning properly. Kindly look into this as soon as possible.,Electrical,Medium,Pending,Electrical
+TICK_1033,STU00004,2026-04-06 09:04,There seems to be a problem with the leak is not functioning properly in the corridor. This is causing inconvenience.,Plumbing,Low,In Progress,Plumbing
+TICK_1211,FAC004,2026-03-17 02:24,Currently experiencing an issue with the drain is not functioning properly in the corridor,Plumbing,Medium,Resolved,Plumbing
+TICK_1635,FAC003,2026-03-26 20:08,Currently experiencing an issue with the cleanliness is not functioning properly. Please resolve this urgently.,Cleaning,High,Resolved,Cleaning
+TICK_1724,OFF006,2026-04-09 10:03,water leaking continuously from pipe,Carpentry,Low,In Progress,Carpentry
+TICK_1178,OFF004,2026-04-03 10:34,Currently experiencing an issue with the drawer is not functioning properly in the lab,Carpentry,Low,Resolved,Carpentry
+TICK_1566,OFF001,2026-03-26 22:58,There seems to be a problem with the door is not functioning properly near the washroom. This needs immediate attention.,Carpentry,Medium,Resolved,Carpentry
+TICK_1578,STU00006,2026-03-30 07:38,fan not working and making noise,HVAC,Medium,Resolved,HVAC
+TICK_1860,STU00007,2026-03-18 07:48,I am facing an issue where the drawer is not functioning properly. Please resolve this urgently.,Carpentry,High,Resolved,Carpentry
+TICK_1238,STU00010,2026-03-23 08:28,Currently experiencing an issue with the drain is not functioning properly in the corridor. Please resolve this urgently.,Plumbing,High,In Progress,Plumbing
+TICK_1022,FAC002,2026-04-07 18:10,There seems to be a problem with the cooling is not functioning properly in the corridor. Please resolve this urgently.,HVAC,High,In Progress,HVAC
+TICK_1108,FAC004,2026-04-10 07:24,"Currently experiencing an issue with the wiring is not functioning properly, and also the cupboard is also not working. This is causing inconvenience.",Electrical,Medium,In Progress,Electrical
+TICK_1925,FAC007,2026-03-27 20:35,I am facing an issue where the airflow is not functioning properly,Carpentry,Low,Resolved,HVAC
+TICK_1808,STU00004,2026-03-27 23:59,I noticed that the cleanliness is not functioning properly in the lab. This is causing inconvenience.,Cleaning,Medium,Resolved,Cleaning
+TICK_1608,STU00012,2026-03-27 13:18,Currently experiencing an issue with the network is not functioning properly,IT,Medium,Resolved,IT
+TICK_1349,OFF003,2026-04-01 00:31,Currently experiencing an issue with the filter is not functioning properly in the corridor. Please resolve this urgently.,HVAC,High,Resolved,HVAC
+TICK_1351,STU00006,2026-04-09 15:41,i noticed that the garbage is not functioning properly near the washroom. please resolve this urgently.,Cleaning,High,In Progress,Cleaning
+TICK_1720,STU00005,2026-03-16 00:28,"I noticed that the overflow is not functioning properly in the lab, and also the sparking is also not working. Kindly look into this as soon as possible.",Plumbing,High,Resolved,Plumbing
+TICK_1956,FAC001,2026-04-12 12:49,There seems to be a problem with the geyser is not functioning properly in the common area. Kindly look into this as soon as possible.,Plumbing,Medium,Pending,Plumbing
+TICK_1636,STU00003,2026-04-08 18:03,There seems to be a problem with the tap is not functioning properly near the washroom,Plumbing,Medium,Pending,Plumbing
+TICK_1273,STU00003,2026-04-02 06:28,water leaking continuously from pipe,Cleaning,Medium,In Progress,Cleaning
+TICK_1713,FAC004,2026-03-17 12:20,Currently experiencing an issue with the sparking is not functioning properly,Electrical,High,Resolved,Electrical
+TICK_1219,STU00006,2026-03-17 22:52,There is something wrong with the cupboard is not functioning properly. Please resolve this urgently.,Carpentry,High,In Progress,Carpentry
+TICK_1668,STU00016,2026-03-15 23:10,fan not working and making noise,HVAC,Low,Resolved,HVAC
+TICK_1444,STU00009,2026-03-26 07:23,I noticed that the leak is not functioning properly,Plumbing,Medium,Resolved,Plumbing
+TICK_1009,STU00003,2026-03-24 05:00,door lock broken and unsafe,Electrical,Medium,Resolved,Electrical
+TICK_1485,STU00010,2026-03-21 03:36,Currently experiencing an issue with the MCB is not functioning properly. Kindly look into this as soon as possible.,Electrical,Low,In Progress,Electrical
+TICK_1838,STU00013,2026-04-06 22:05,There seems to be a problem with the odour is not functioning properly,Cleaning,Medium,Pending,Cleaning
+TICK_1468,STU00013,2026-03-17 07:52,There is something wrong with the cooling is not functioning properly in the lab. This needs immediate attention.,HVAC,Medium,Resolved,HVAC
+TICK_1171,FAC006,2026-04-12 06:41,There seems to be a problem with the mopping is not functioning properly in the corridor. Kindly look into this as soon as possible.,Cleaning,Low,Pending,Cleaning
+TICK_1918,STU00008,2026-04-09 08:36,wifi disconnecting frequently,Electrical,Medium,Pending,Electrical
+TICK_1344,FAC003,2026-03-18 21:49,I am facing an issue where the network is not functioning properly,IT,Low,In Progress,IT
+TICK_1898,FAC003,2026-04-01 17:44,door lock broken and unsafe,Carpentry,Low,Resolved,Carpentry
+TICK_1148,STU00013,2026-03-29 08:23,I am facing an issue where the cooling is not functioning properly in the common area. Please resolve this urgently.,HVAC,High,Resolved,HVAC
+TICK_1001,STU00018,2026-03-28 22:42,I am facing an issue where the overflow is not functioning properly. Please resolve this urgently.,Plumbing,High,Resolved,Plumbing
+TICK_1029,OFF004,2026-04-09 04:31,i am facing an issue where the lock is not functioning properly in the lab. please resolve this urgently.,Carpentry,High,In Progress,Carpentry
+TICK_1426,FAC005,2026-04-06 21:51,"There is something wrong with the network is not functioning properly, additionally the cupboard is also not working. This needs immediate attention.",Plumbing,Low,In Progress,IT
+TICK_1590,FAC001,2026-03-29 04:50,"Currently experiencing an issue with the filter is not functioning properly near the washroom, along with that the window is also not working. Please resolve this urgently.",HVAC,High,In Progress,HVAC
+TICK_1165,FAC001,2026-03-18 12:21,There is something wrong with the portal is not functioning properly in the corridor,IT,Medium,Resolved,IT
+TICK_1039,STU00003,2026-03-20 03:13,I noticed that the ventilation is not functioning properly. Kindly look into this as soon as possible.,HVAC,Medium,Resolved,HVAC
+TICK_1139,FAC007,2026-03-20 07:08,wifi disconnecting frequently,Plumbing,Medium,In Progress,Plumbing
+TICK_1451,STU00017,2026-03-28 23:53,Currently experiencing an issue with the hinge is not functioning properly in my hostel room. This is causing inconvenience.,Carpentry,Low,In Progress,Carpentry
+TICK_1130,OFF002,2026-03-18 06:20,There is something wrong with the pipe is not functioning properly in my hostel room. This is causing inconvenience.,HVAC,Low,Resolved,Plumbing
+TICK_1520,STU00013,2026-03-29 10:24,I am facing an issue where the network is not functioning properly,IT,Low,Resolved,IT
+TICK_1789,STU00012,2026-04-11 01:26,"I noticed that the light is not functioning properly in the common area, and also the window is also not working. Kindly look into this as soon as possible.",Electrical,Low,Pending,Electrical
+TICK_1695,STU00012,2026-03-22 08:17,I am facing an issue where the socket is not functioning properly. This is causing inconvenience.,IT,Low,In Progress,Electrical
+TICK_1333,OFF001,2026-04-14 00:38,I am facing an issue where the cupboard is not functioning properly in the corridor. This is causing inconvenience.,Carpentry,Medium,Pending,Carpentry
+TICK_1101,STU00005,2026-04-04 16:59,There seems to be a problem with the drawer is not functioning properly in the lab,Carpentry,Medium,In Progress,Carpentry
+TICK_1969,STU00011,2026-03-19 23:10,There is something wrong with the lock is not functioning properly in the corridor,Carpentry,Medium,Resolved,Carpentry
+TICK_1384,FAC001,2026-03-23 01:21,wifi disconnecting frequently,Electrical,Low,Resolved,Electrical
+TICK_1758,STU00002,2026-04-04 03:41,There is something wrong with the garbage is not functioning properly in the common area,Cleaning,Medium,In Progress,Cleaning
+TICK_1099,STU00005,2026-04-06 05:52,There seems to be a problem with the odour is not functioning properly in my hostel room. This is causing inconvenience.,HVAC,Medium,Pending,Cleaning
+TICK_1389,OFF001,2026-04-05 03:07,I noticed that the socket is not functioning properly in the common area,Electrical,Low,In Progress,Electrical
+TICK_1244,STU00002,2026-04-01 06:55,I noticed that the door is not functioning properly near the washroom,Carpentry,Medium,In Progress,Carpentry
+TICK_1642,STU00020,2026-03-18 12:25,There is something wrong with the dustbin is not functioning properly in my hostel room. This is causing inconvenience.,Cleaning,Medium,Resolved,Cleaning
+TICK_1463,FAC008,2026-04-13 12:08,I noticed that the overflow is not functioning properly,Plumbing,High,Pending,Plumbing
+TICK_1689,STU00020,2026-04-14 02:22,Currently experiencing an issue with the door is not functioning properly in the lab. This needs immediate attention.,Carpentry,Medium,Pending,Carpentry
+TICK_1584,STU00008,2026-03-31 22:39,Currently experiencing an issue with the light is not functioning properly. Please resolve this urgently.,Electrical,High,In Progress,Electrical
+TICK_1699,STU00019,2026-04-05 15:30,"I noticed that the dustbin is not functioning properly in the lab, along with that the wiring is also not working. This is causing inconvenience.",Cleaning,Medium,Pending,Cleaning
+TICK_1079,FAC004,2026-03-26 10:16,"There is something wrong with the portal is not functioning properly near the washroom, additionally the dustbin is also not working",IT,Low,Resolved,IT
+TICK_1010,STU00019,2026-04-07 20:13,"Currently experiencing an issue with the tap is not functioning properly in the corridor, additionally the wiring is also not working. This needs immediate attention.",Plumbing,Low,In Progress,Plumbing
+TICK_1911,STU00018,2026-03-23 18:38,Currently experiencing an issue with the login is not functioning properly in the common area,IT,Medium,Resolved,IT
+TICK_1470,STU00016,2026-03-22 06:58,fan not working and making noise,Cleaning,Medium,Resolved,Cleaning
+TICK_1957,FAC005,2026-03-17 17:56,There is something wrong with the socket is not functioning properly in the lab,Carpentry,Medium,In Progress,Electrical
+TICK_1828,STU00001,2026-04-05 20:21,Currently experiencing an issue with the switchboard is not functioning properly,Electrical,Medium,Pending,Electrical
+TICK_1400,FAC003,2026-03-28 00:20,Currently experiencing an issue with the trash is not functioning properly in the common area. Please resolve this urgently.,Cleaning,High,Resolved,Cleaning
+TICK_1225,STU00016,2026-04-09 10:21,I noticed that the leak is not functioning properly. Kindly look into this as soon as possible.,Plumbing,Medium,In Progress,Plumbing
+TICK_1006,STU00015,2026-04-10 13:07,Currently experiencing an issue with the leak is not functioning properly in my hostel room,Plumbing,Low,In Progress,Plumbing
+TICK_1497,STU00012,2026-04-03 12:33,I noticed that the ventilation is not functioning properly near the washroom. Please resolve this urgently.,HVAC,High,Resolved,HVAC
+TICK_1554,STU00011,2026-04-12 03:50,"Currently experiencing an issue with the window is not functioning properly, additionally the filter is also not working. This needs immediate attention.",Carpentry,Medium,Pending,Carpentry
+TICK_1947,STU00014,2026-04-07 18:46,"Currently experiencing an issue with the trash is not functioning properly in the lab, on top of that the portal is also not working",Cleaning,Low,Pending,Cleaning
+TICK_1983,STU00013,2026-03-21 12:23,Currently experiencing an issue with the tap is not functioning properly in my hostel room. This needs immediate attention.,Plumbing,Medium,Resolved,Plumbing
+TICK_1652,OFF004,2026-03-29 13:57,water leaking continuously from pipe,IT,Medium,Resolved,IT
+TICK_1341,FAC007,2026-03-19 19:54,fan not working and making noise,Electrical,Medium,Resolved,Electrical
+TICK_1733,STU00014,2026-03-30 05:17,There is something wrong with the drawer is not functioning properly in my hostel room. Please resolve this urgently.,Carpentry,High,In Progress,Carpentry
+TICK_1539,STU00017,2026-04-04 22:42,Currently experiencing an issue with the geyser is not functioning properly,Plumbing,Medium,Pending,Plumbing
+TICK_1297,STU00016,2026-04-10 10:47,"Currently experiencing an issue with the airflow is not functioning properly, and also the mopping is also not working",HVAC,Medium,In Progress,HVAC
+TICK_1678,STU00010,2026-03-19 20:38,I am facing an issue where the sparking is not functioning properly in the corridor,Electrical,High,In Progress,Electrical
+TICK_1018,FAC005,2026-04-12 12:31,Currently experiencing an issue with the internet is not functioning properly in the lab. This is causing inconvenience.,IT,Medium,Pending,IT
+TICK_1782,STU00008,2026-03-22 18:17,I noticed that the cleanliness is not functioning properly. Kindly look into this as soon as possible.,Cleaning,Low,Resolved,Cleaning
+TICK_1330,STU00015,2026-04-05 17:01,door lock broken and unsafe,Electrical,Low,Pending,Electrical
+TICK_1943,STU00011,2026-03-26 18:24,Currently experiencing an issue with the wifi is not functioning properly in my hostel room,IT,Medium,Resolved,IT
+TICK_1239,FAC002,2026-04-03 12:58,"I noticed that the portal is not functioning properly, and also the dustbin is also not working",IT,Low,Resolved,IT
+TICK_1673,STU00009,2026-03-27 03:38,Currently experiencing an issue with the AC is not functioning properly,HVAC,Medium,In Progress,HVAC
+TICK_1563,STU00017,2026-04-12 01:08,"I am facing an issue where the pipe is not functioning properly in the lab, and also the MCB is also not working. Kindly look into this as soon as possible.",Plumbing,Low,Pending,Plumbing
+TICK_1832,STU00002,2026-04-04 11:51,"I am facing an issue where the wiring is not functioning properly, along with that the leak is also not working",Electrical,Low,Pending,Electrical
+TICK_1523,STU00010,2026-04-12 08:35,"i am facing an issue where the router is not functioning properly in the lab, and also the overflow is also not working",IT,High,Pending,IT
+TICK_1473,FAC008,2026-03-28 06:58,there is something wrong with the filter is not functioning properly in the common area. please resolve this urgently.,HVAC,High,Resolved,HVAC
+TICK_1579,FAC008,2026-04-07 18:34,Currently experiencing an issue with the door is not functioning properly,Carpentry,Medium,Pending,Carpentry
+TICK_1338,STU00020,2026-04-09 20:45,"There is something wrong with the airflow is not functioning properly in my hostel room, additionally the socket is also not working. Please resolve this urgently.",HVAC,High,In Progress,HVAC
+TICK_1399,FAC006,2026-04-13 22:56,There seems to be a problem with the trash is not functioning properly in the common area,Cleaning,Low,Pending,Cleaning
+TICK_1111,STU00020,2026-03-16 09:56,I noticed that the cooling is not functioning properly. This is causing inconvenience.,HVAC,Medium,Resolved,HVAC
+TICK_1551,STU00019,2026-03-16 00:50,I noticed that the portal is not functioning properly in the lab. Please resolve this urgently.,IT,High,Resolved,IT
+TICK_1872,STU00008,2026-03-20 21:36,i noticed that the light is not functioning properly in the common area. kindly look into this as soon as possible.,IT,Medium,Resolved,Electrical
+TICK_1751,FAC007,2026-03-20 04:22,I am facing an issue where the wifi is not functioning properly in the lab. This is causing inconvenience.,IT,Low,Resolved,IT
+TICK_1746,STU00015,2026-03-30 14:29,There seems to be a problem with the drain is not functioning properly in the common area. Please resolve this urgently.,Plumbing,High,In Progress,Plumbing
+TICK_1526,FAC002,2026-03-27 17:43,Currently experiencing an issue with the AC is not functioning properly. This needs immediate attention.,HVAC,Low,Resolved,HVAC
+TICK_1511,STU00013,2026-03-17 03:33,There is something wrong with the lock is not functioning properly in my hostel room. Kindly look into this as soon as possible.,IT,Low,In Progress,Carpentry
+TICK_1374,STU00008,2026-03-29 15:43,Currently experiencing an issue with the light is not functioning properly in the lab. Kindly look into this as soon as possible.,Electrical,Low,Resolved,Electrical
+TICK_1041,STU00014,2026-03-22 15:33,There seems to be a problem with the sparking is not functioning properly near the washroom,Electrical,High,Resolved,Electrical
+TICK_1562,FAC008,2026-04-08 03:32,Currently experiencing an issue with the sparking is not functioning properly near the washroom,Electrical,High,In Progress,Electrical
+TICK_1953,FAC003,2026-03-18 00:18,There is something wrong with the door is not functioning properly. Please resolve this urgently.,Carpentry,High,Resolved,Carpentry
+TICK_1785,STU00019,2026-04-05 03:53,"There seems to be a problem with the ventilation is not functioning properly in my hostel room, along with that the trash is also not working",HVAC,Medium,Pending,HVAC
+TICK_1365,STU00005,2026-03-19 15:59,There is something wrong with the dustbin is not functioning properly in the common area. This is causing inconvenience.,Cleaning,Medium,In Progress,Cleaning
+TICK_1690,STU00007,2026-04-14 09:51,fan not working and making noise,HVAC,Low,Pending,HVAC
+TICK_1266,STU00002,2026-04-02 04:03,i noticed that the door is not functioning properly in the lab,Carpentry,Medium,Resolved,Carpentry
+TICK_1305,FAC004,2026-03-20 21:22,There seems to be a problem with the cupboard is not functioning properly. Please resolve this urgently.,HVAC,High,In Progress,Carpentry
+TICK_1450,STU00005,2026-03-25 13:19,I noticed that the geyser is not functioning properly in the common area. This needs immediate attention.,Plumbing,Low,Resolved,Plumbing
+TICK_1761,OFF006,2026-03-30 23:04,"there is something wrong with the mcb is not functioning properly, along with that the filter is also not working. kindly look into this as soon as possible.",Electrical,Low,Resolved,Electrical
+TICK_1522,STU00011,2026-04-09 00:10,I am facing an issue where the trash is not functioning properly. Please resolve this urgently.,Cleaning,High,Pending,Cleaning
+TICK_1358,STU00012,2026-04-01 11:49,"Currently experiencing an issue with the sparking is not functioning properly in the lab, along with that the portal is also not working",Electrical,High,Resolved,Electrical
+TICK_1616,STU00010,2026-04-09 09:40,There seems to be a problem with the garbage is not functioning properly,Cleaning,Medium,Pending,Cleaning
+TICK_1317,STU00004,2026-03-17 04:38,"I noticed that the ventilation is not functioning properly near the washroom, and also the door is also not working. Please resolve this urgently.",HVAC,High,Resolved,HVAC
+TICK_1390,FAC006,2026-03-26 06:42,I noticed that the fan is not functioning properly in the common area,Electrical,Low,Resolved,Electrical
+TICK_1354,STU00003,2026-04-14 00:32,There seems to be a problem with the pipe is not functioning properly. This needs immediate attention.,Plumbing,Medium,Pending,Plumbing
+TICK_1215,OFF004,2026-04-02 04:49,garbage not collected for days,Cleaning,Low,Resolved,Carpentry
+TICK_1990,STU00012,2026-03-29 01:23,I am facing an issue where the trash is not functioning properly in the common area. Kindly look into this as soon as possible.,Cleaning,Medium,Resolved,Cleaning
+TICK_1259,FAC003,2026-03-25 12:13,door lock broken and unsafe,Plumbing,Low,Resolved,Plumbing
+TICK_1813,STU00008,2026-04-13 03:17,garbage not collected for days,Electrical,Medium,Pending,Electrical
+TICK_1791,FAC001,2026-04-08 01:36,There seems to be a problem with the switchboard is not functioning properly,Electrical,Medium,In Progress,Electrical
+TICK_1816,STU00008,2026-03-21 08:33,There is something wrong with the MCB is not functioning properly in the common area,Electrical,Low,In Progress,Electrical
+TICK_1103,STU00004,2026-04-01 15:11,"I noticed that the cleanliness is not functioning properly in the lab, and also the overflow is also not working",Cleaning,High,Resolved,Cleaning
+TICK_1015,STU00014,2026-04-11 12:56,I noticed that the window is not functioning properly in the corridor,Carpentry,Medium,Pending,Carpentry
+TICK_1623,STU00010,2026-03-16 02:48,There is something wrong with the odour is not functioning properly. This needs immediate attention.,Cleaning,Low,Resolved,Cleaning
+TICK_1869,FAC008,2026-03-25 06:50,There seems to be a problem with the ventilation is not functioning properly. This needs immediate attention.,HVAC,Low,Resolved,HVAC
+TICK_1700,STU00011,2026-04-07 11:29,I noticed that the ventilation is not functioning properly. Please resolve this urgently.,HVAC,High,Pending,HVAC
+TICK_1026,FAC001,2026-03-28 13:11,There is something wrong with the flush is not functioning properly,Plumbing,Low,Resolved,Plumbing
+TICK_1421,STU00003,2026-04-04 15:23,There is something wrong with the cleanliness is not functioning properly in the lab. This is causing inconvenience.,Cleaning,Low,Pending,Cleaning
+TICK_1981,FAC002,2026-04-08 01:43,Currently experiencing an issue with the dustbin is not functioning properly near the washroom. Kindly look into this as soon as possible.,Cleaning,Low,In Progress,Cleaning
+TICK_1076,FAC003,2026-03-17 12:52,Currently experiencing an issue with the airflow is not functioning properly in my hostel room. This is causing inconvenience.,HVAC,Medium,Resolved,HVAC
+TICK_1271,FAC006,2026-04-14 14:59,garbage not collected for days,Electrical,Medium,Pending,Electrical
+TICK_1987,STU00011,2026-03-29 09:59,Currently experiencing an issue with the tap is not functioning properly in my hostel room. This is causing inconvenience.,Plumbing,Medium,Resolved,Plumbing
+TICK_1588,FAC006,2026-03-17 16:11,"Currently experiencing an issue with the cupboard is not functioning properly in my hostel room, additionally the odour is also not working. This needs immediate attention.",Carpentry,Low,Resolved,Carpentry
+TICK_1646,FAC005,2026-03-27 04:31,"I noticed that the switchboard is not functioning properly, and also the AC is also not working",Electrical,Medium,Resolved,Electrical
+TICK_1077,OFF006,2026-04-10 22:14,There seems to be a problem with the sparking is not functioning properly in the lab,Electrical,High,Pending,Electrical
+TICK_1340,ADMIN001,2026-03-28 07:25,There seems to be a problem with the cooling is not functioning properly. This needs immediate attention.,HVAC,Medium,Resolved,HVAC
+TICK_1535,STU00013,2026-04-13 07:38,There is something wrong with the socket is not functioning properly in the lab,Electrical,Low,Pending,Electrical
+TICK_1824,STU00001,2026-03-28 16:50,I am facing an issue where the dustbin is not functioning properly in my hostel room,Cleaning,Medium,Resolved,Cleaning
+TICK_1237,FAC001,2026-03-16 08:31,garbage not collected for days,IT,Medium,Resolved,IT
+TICK_1993,STU00006,2026-03-16 19:21,"Currently experiencing an issue with the wiring is not functioning properly in the corridor, along with that the pipe is also not working. This is causing inconvenience.",Electrical,Medium,Resolved,Electrical
+TICK_1593,OFF006,2026-03-31 11:30,I am facing an issue where the login is not functioning properly in the common area. This needs immediate attention.,IT,Medium,Resolved,IT
+TICK_1230,FAC003,2026-04-11 16:05,"There seems to be a problem with the wifi is not functioning properly in the corridor, additionally the flush is also not working. Please resolve this urgently.",IT,High,Pending,IT
+TICK_1268,STU00017,2026-03-16 07:32,"Currently experiencing an issue with the geyser is not functioning properly, and also the router is also not working",Plumbing,Medium,Resolved,Plumbing
+TICK_1347,STU00003,2026-03-17 05:29,I noticed that the trash is not functioning properly. Kindly look into this as soon as possible.,Cleaning,Medium,Resolved,Cleaning
+TICK_1967,STU00020,2026-03-16 20:37,Currently experiencing an issue with the cooling is not functioning properly near the washroom. This is causing inconvenience.,HVAC,Medium,Resolved,HVAC
+TICK_1227,FAC002,2026-04-07 10:31,I am facing an issue where the drawer is not functioning properly,Carpentry,Low,Pending,Carpentry
+TICK_1823,STU00001,2026-03-22 18:27,I am facing an issue where the lock is not functioning properly in my hostel room. Kindly look into this as soon as possible.,Carpentry,Medium,Resolved,Carpentry
+TICK_1464,STU00003,2026-04-13 17:30,"There is something wrong with the fan is not functioning properly in the common area, along with that the dustbin is also not working. This needs immediate attention.",Electrical,Medium,Pending,Electrical
+TICK_1120,STU00016,2026-04-01 12:26,There is something wrong with the sparking is not functioning properly in the common area,Electrical,High,Resolved,Electrical
+TICK_1346,STU00009,2026-03-25 00:17,There seems to be a problem with the door is not functioning properly in the common area. Please resolve this urgently.,Carpentry,High,Resolved,Carpentry
+TICK_1164,FAC007,2026-03-19 14:32,"I noticed that the internet is not functioning properly near the washroom, along with that the light is also not working. This is causing inconvenience.",IT,Medium,Resolved,IT
+TICK_1500,STU00006,2026-04-05 04:29,Currently experiencing an issue with the cleanliness is not functioning properly in the common area. This needs immediate attention.,Carpentry,Medium,Pending,Cleaning
+TICK_1719,STU00002,2026-03-16 22:40,garbage not collected for days,Plumbing,Medium,Resolved,Plumbing
+TICK_1092,FAC007,2026-03-29 07:45,I am facing an issue where the internet is not functioning properly in the common area. Kindly look into this as soon as possible.,IT,Low,Resolved,IT
+TICK_1679,STU00003,2026-03-30 13:18,there seems to be a problem with the wifi is not functioning properly in my hostel room,IT,Medium,Resolved,IT
+TICK_1206,STU00002,2026-03-24 14:31,Currently experiencing an issue with the drain is not functioning properly in the common area,Plumbing,Medium,Resolved,Plumbing
+TICK_1857,STU00015,2026-04-07 23:12,"There seems to be a problem with the filter is not functioning properly, additionally the mopping is also not working. Please resolve this urgently.",HVAC,High,In Progress,HVAC
+TICK_1740,STU00009,2026-03-22 08:55,Currently experiencing an issue with the router is not functioning properly. This is causing inconvenience.,IT,Medium,Resolved,IT
+TICK_1222,STU00002,2026-03-17 21:18,"there is something wrong with the network is not functioning properly in the lab, additionally the mopping is also not working. kindly look into this as soon as possible.",Electrical,Medium,Resolved,IT
+TICK_1855,FAC008,2026-04-11 04:40,"There is something wrong with the sparking is not functioning properly in the common area, along with that the filter is also not working. This needs immediate attention.",Electrical,High,Pending,Electrical
+TICK_1876,FAC001,2026-03-26 00:33,There seems to be a problem with the tap is not functioning properly near the washroom. Please resolve this urgently.,Plumbing,High,In Progress,Plumbing
+TICK_1056,STU00012,2026-04-09 00:46,There is something wrong with the mopping is not functioning properly near the washroom. Please resolve this urgently.,Cleaning,High,In Progress,Cleaning
+TICK_1850,STU00018,2026-04-10 16:16,door lock broken and unsafe,Plumbing,Medium,In Progress,Plumbing
+TICK_1060,OFF005,2026-03-22 19:15,"There is something wrong with the light is not functioning properly near the washroom, and also the window is also not working",Electrical,Low,Resolved,Electrical
+TICK_1660,FAC005,2026-03-19 03:56,There seems to be a problem with the pipe is not functioning properly in my hostel room,Plumbing,Low,In Progress,Plumbing
+TICK_1121,STU00007,2026-03-26 14:58,"There is something wrong with the MCB is not functioning properly in my hostel room, along with that the cupboard is also not working. Please resolve this urgently.",Electrical,High,Resolved,Electrical
+TICK_1655,STU00020,2026-03-24 19:08,There is something wrong with the overflow is not functioning properly in the lab,Plumbing,High,Resolved,Plumbing
+TICK_1959,STU00007,2026-03-26 05:29,"There seems to be a problem with the hinge is not functioning properly, on top of that the socket is also not working. Please resolve this urgently.",Carpentry,High,Resolved,Carpentry
+TICK_1179,STU00009,2026-03-18 17:26,There seems to be a problem with the sparking is not functioning properly in the corridor,Electrical,High,Resolved,Electrical
+TICK_1843,STU00019,2026-04-03 12:18,Currently experiencing an issue with the pipe is not functioning properly near the washroom,Plumbing,Medium,In Progress,Plumbing
+TICK_1817,OFF004,2026-03-22 11:19,I noticed that the network is not functioning properly. This needs immediate attention.,IT,Medium,Resolved,IT
+TICK_1716,STU00013,2026-03-17 22:50,I am facing an issue where the filter is not functioning properly in the corridor. Kindly look into this as soon as possible.,HVAC,Medium,Resolved,HVAC
+TICK_1200,STU00012,2026-03-23 10:06,There is something wrong with the internet is not functioning properly. This needs immediate attention.,IT,Medium,Resolved,IT
+TICK_1379,STU00017,2026-03-21 12:54,Currently experiencing an issue with the dustbin is not functioning properly in the common area,Plumbing,Medium,Resolved,Cleaning
+TICK_1418,STU00011,2026-03-28 21:40,"there is something wrong with the ac is not functioning properly, on top of that the odour is also not working. this is causing inconvenience.",HVAC,Medium,Resolved,HVAC
+TICK_1627,ADMIN001,2026-03-17 00:16,There is something wrong with the tap is not functioning properly in my hostel room,Plumbing,Medium,Resolved,Plumbing
+TICK_1310,STU00019,2026-03-16 10:19,There is something wrong with the mopping is not functioning properly in the lab. This is causing inconvenience.,Cleaning,Medium,Resolved,Cleaning
+TICK_1188,FAC002,2026-03-16 01:06,wifi disconnecting frequently,IT,Medium,In Progress,IT
+TICK_1589,STU00014,2026-03-29 10:08,I am facing an issue where the cooling is not functioning properly. Kindly look into this as soon as possible.,HVAC,Medium,Resolved,HVAC
+TICK_1172,STU00005,2026-04-06 01:12,"There is something wrong with the sparking is not functioning properly near the washroom, and also the flush is also not working. Please resolve this urgently.",Electrical,High,In Progress,Electrical
+TICK_1666,STU00015,2026-04-11 18:39,I noticed that the geyser is not functioning properly in my hostel room. Please resolve this urgently.,Plumbing,High,Pending,Plumbing
+TICK_1505,OFF004,2026-03-20 16:06,I noticed that the pipe is not functioning properly in my hostel room. Kindly look into this as soon as possible.,Plumbing,Low,In Progress,Plumbing
+TICK_1070,STU00015,2026-04-13 07:44,There seems to be a problem with the wiring is not functioning properly in the lab,Electrical,Low,Pending,Electrical
+TICK_1901,STU00009,2026-04-06 08:14,"There is something wrong with the cleanliness is not functioning properly, along with that the socket is also not working",Cleaning,Medium,In Progress,Cleaning
+TICK_1234,STU00004,2026-03-22 09:33,Currently experiencing an issue with the switchboard is not functioning properly in my hostel room. This needs immediate attention.,Electrical,Medium,Resolved,Electrical
+TICK_1543,STU00002,2026-03-29 06:58,I am facing an issue where the sparking is not functioning properly in the corridor. This is causing inconvenience.,Electrical,High,Resolved,Electrical
+TICK_1885,STU00002,2026-04-05 17:10,I noticed that the cooling is not functioning properly in the lab. Kindly look into this as soon as possible.,HVAC,Medium,In Progress,HVAC
+TICK_1775,FAC008,2026-03-28 06:10,"Currently experiencing an issue with the portal is not functioning properly in the corridor, and also the lock is also not working. Kindly look into this as soon as possible.",IT,Medium,Resolved,IT
+TICK_1360,STU00008,2026-04-09 20:41,There seems to be a problem with the odour is not functioning properly,Cleaning,Medium,Pending,Cleaning
+TICK_1647,STU00020,2026-03-21 06:50,There is something wrong with the overflow is not functioning properly,Plumbing,High,Resolved,Plumbing
+TICK_1577,STU00002,2026-03-30 12:20,I noticed that the ventilation is not functioning properly,HVAC,Medium,In Progress,HVAC
+TICK_1320,OFF005,2026-04-01 02:44,There is something wrong with the portal is not functioning properly in the corridor,IT,Medium,Resolved,IT
+TICK_1920,STU00008,2026-03-27 22:31,I am facing an issue where the trash is not functioning properly,Cleaning,Medium,Resolved,Cleaning
+TICK_1376,STU00001,2026-04-05 10:04,I noticed that the internet is not functioning properly near the washroom. Kindly look into this as soon as possible.,IT,Medium,Pending,IT
+TICK_1404,STU00002,2026-04-02 07:21,water leaking continuously from pipe,IT,Low,Resolved,HVAC
+TICK_1415,OFF006,2026-04-03 09:30,There seems to be a problem with the cleanliness is not functioning properly in the common area. Please resolve this urgently.,Cleaning,High,Resolved,Cleaning
+TICK_1656,STU00006,2026-04-14 00:23,currently experiencing an issue with the overflow is not functioning properly in my hostel room. please resolve this urgently.,Plumbing,High,Pending,Plumbing
+TICK_1373,STU00004,2026-03-31 01:16,I am facing an issue where the mopping is not functioning properly in the corridor,Carpentry,Medium,Resolved,Cleaning
+TICK_1657,STU00010,2026-03-16 18:22,Currently experiencing an issue with the socket is not functioning properly in the lab,Electrical,Medium,Resolved,Electrical
+TICK_1653,FAC002,2026-04-09 21:42,"Currently experiencing an issue with the drawer is not functioning properly in the lab, along with that the leak is also not working",Cleaning,Medium,In Progress,Carpentry
+TICK_1182,FAC005,2026-03-16 07:05,door lock broken and unsafe,IT,Medium,Resolved,IT
+TICK_1100,STU00015,2026-04-02 12:11,water leaking continuously from pipe,Plumbing,Medium,Resolved,Plumbing
+TICK_1879,STU00014,2026-03-24 18:09,Currently experiencing an issue with the switchboard is not functioning properly in the lab. This needs immediate attention.,Electrical,Medium,Resolved,Electrical
+TICK_1289,STU00010,2026-03-28 21:50,There seems to be a problem with the cleanliness is not functioning properly in the lab. Kindly look into this as soon as possible.,Cleaning,Medium,Resolved,Cleaning
+TICK_1425,STU00017,2026-04-05 16:01,There is something wrong with the fan is not functioning properly. Kindly look into this as soon as possible.,Electrical,Low,In Progress,Electrical
+TICK_1514,STU00013,2026-03-21 04:33,garbage not collected for days,Electrical,Low,In Progress,Electrical
+TICK_1621,STU00008,2026-04-05 07:48,There seems to be a problem with the login is not functioning properly in my hostel room. This is causing inconvenience.,IT,Medium,In Progress,IT
+TICK_1525,FAC002,2026-03-28 04:35,Currently experiencing an issue with the router is not functioning properly in the lab. Kindly look into this as soon as possible.,IT,Medium,Resolved,IT
+TICK_1963,STU00020,2026-04-07 05:39,I noticed that the overflow is not functioning properly,Plumbing,High,In Progress,Plumbing
+TICK_1042,FAC007,2026-03-23 08:28,"Currently experiencing an issue with the sparking is not functioning properly in my hostel room, along with that the cupboard is also not working",Electrical,High,Resolved,Electrical
+TICK_1270,OFF003,2026-03-23 15:45,I noticed that the garbage is not functioning properly in the common area. Kindly look into this as soon as possible.,Cleaning,Low,Resolved,Cleaning
+TICK_1406,STU00007,2026-04-14 16:28,"there seems to be a problem with the wifi is not functioning properly near the washroom, and also the drawer is also not working. kindly look into this as soon as possible.",IT,Medium,Pending,IT
+TICK_1479,FAC007,2026-03-22 13:35,I noticed that the garbage is not functioning properly in the corridor. This needs immediate attention.,Cleaning,Medium,In Progress,Cleaning
+TICK_1807,STU00008,2026-03-21 00:33,there is something wrong with the airflow is not functioning properly. this is causing inconvenience.,HVAC,Low,Resolved,HVAC
+TICK_1800,STU00016,2026-04-02 22:46,"I am facing an issue where the dustbin is not functioning properly, along with that the cupboard is also not working",Cleaning,Medium,Resolved,Cleaning
+TICK_1574,FAC002,2026-04-01 14:03,I noticed that the trash is not functioning properly in the lab. This is causing inconvenience.,Cleaning,Medium,Resolved,Cleaning
+TICK_1281,FAC007,2026-03-18 16:12,There is something wrong with the overflow is not functioning properly. Kindly look into this as soon as possible.,Plumbing,High,Resolved,Plumbing
+TICK_1595,STU00013,2026-03-28 15:21,"There seems to be a problem with the network is not functioning properly, and also the drain is also not working. This is causing inconvenience.",IT,Medium,Resolved,IT
+TICK_1670,STU00016,2026-04-14 02:37,I am facing an issue where the internet is not functioning properly in the lab. This needs immediate attention.,IT,Medium,Pending,IT
+TICK_1288,FAC008,2026-03-24 10:53,I noticed that the odour is not functioning properly in my hostel room. Please resolve this urgently.,Cleaning,High,Resolved,Cleaning
+TICK_1516,STU00020,2026-03-26 19:05,There seems to be a problem with the odour is not functioning properly,IT,Medium,Resolved,Cleaning
+TICK_1534,STU00014,2026-03-29 12:17,There seems to be a problem with the drain is not functioning properly near the washroom,Plumbing,Medium,Resolved,Plumbing
+TICK_1125,STU00001,2026-04-07 22:58,"There is something wrong with the socket is not functioning properly in the corridor, on top of that the leak is also not working. This is causing inconvenience.",Electrical,Low,In Progress,Electrical
+TICK_1677,OFF005,2026-03-28 01:15,garbage not collected for days,Plumbing,Medium,Resolved,HVAC
+TICK_1035,OFF003,2026-03-25 01:07,There is something wrong with the cooling is not functioning properly in my hostel room. Kindly look into this as soon as possible.,HVAC,Medium,Resolved,HVAC
+TICK_1722,FAC002,2026-03-16 17:06,There seems to be a problem with the AC is not functioning properly. Please resolve this urgently.,Cleaning,High,In Progress,HVAC
+TICK_1533,STU00013,2026-04-11 12:33,There seems to be a problem with the drain is not functioning properly near the washroom. Please resolve this urgently.,Plumbing,High,Pending,Plumbing
+TICK_1964,STU00017,2026-03-26 22:21,"Currently experiencing an issue with the internet is not functioning properly near the washroom, on top of that the geyser is also not working. Please resolve this urgently.",IT,High,Resolved,IT
+TICK_1731,FAC005,2026-04-10 20:08,"there is something wrong with the lock is not functioning properly in the lab, additionally the fan is also not working",Carpentry,Medium,Pending,Carpentry
+TICK_1059,STU00009,2026-04-08 14:28,There is something wrong with the sparking is not functioning properly in my hostel room. This needs immediate attention.,Electrical,High,Pending,Electrical
+TICK_1169,FAC008,2026-03-30 23:36,There is something wrong with the router is not functioning properly near the washroom. This needs immediate attention.,IT,Low,Resolved,IT
+TICK_1191,STU00011,2026-03-19 14:23,I am facing an issue where the network is not functioning properly in the corridor,IT,Medium,In Progress,IT
+TICK_1457,STU00002,2026-04-06 13:46,I noticed that the cleanliness is not functioning properly in my hostel room,Cleaning,Medium,In Progress,Cleaning
+TICK_1454,FAC008,2026-03-19 16:34,Currently experiencing an issue with the sparking is not functioning properly near the washroom. This is causing inconvenience.,Electrical,High,Resolved,Electrical
+TICK_1736,STU00007,2026-04-11 14:07,door lock broken and unsafe,Cleaning,Medium,Pending,Cleaning
+TICK_1806,STU00005,2026-03-19 09:07,I am facing an issue where the drain is not functioning properly in the common area. This needs immediate attention.,Plumbing,Medium,Resolved,Plumbing
+TICK_1862,STU00010,2026-04-11 03:51,There is something wrong with the overflow is not functioning properly near the washroom. This is causing inconvenience.,IT,High,Pending,Plumbing
+TICK_1859,STU00018,2026-03-18 14:30,"There seems to be a problem with the filter is not functioning properly near the washroom, on top of that the flush is also not working",HVAC,Medium,In Progress,HVAC
+TICK_1131,FAC008,2026-03-30 10:19,"There is something wrong with the light is not functioning properly, along with that the pipe is also not working. This is causing inconvenience.",Electrical,Medium,Resolved,Electrical
+TICK_1846,FAC003,2026-04-13 05:24,there seems to be a problem with the ac is not functioning properly in the corridor. please resolve this urgently.,HVAC,High,Pending,HVAC
+TICK_1822,STU00012,2026-03-20 02:25,"There seems to be a problem with the flush is not functioning properly, along with that the network is also not working",Plumbing,Low,Resolved,Plumbing
+TICK_1445,STU00011,2026-04-04 03:56,water leaking continuously from pipe,Cleaning,Medium,Pending,Cleaning
+TICK_1741,FAC005,2026-03-29 11:41,Currently experiencing an issue with the hinge is not functioning properly in my hostel room,Carpentry,Medium,Resolved,Carpentry
+TICK_1226,STU00013,2026-04-06 07:46,"I noticed that the hinge is not functioning properly in the lab, along with that the MCB is also not working. This is causing inconvenience.",Carpentry,Medium,In Progress,Carpentry
+TICK_1370,FAC007,2026-03-22 00:13,"I noticed that the airflow is not functioning properly in my hostel room, additionally the flush is also not working",HVAC,Medium,Resolved,HVAC
+TICK_1895,STU00014,2026-04-06 22:27,I am facing an issue where the hinge is not functioning properly in the corridor,Cleaning,Medium,In Progress,Carpentry
+TICK_1435,STU00017,2026-03-28 13:38,I noticed that the trash is not functioning properly. Kindly look into this as soon as possible.,Cleaning,Medium,Resolved,Cleaning
+TICK_1919,STU00002,2026-03-23 17:12,Currently experiencing an issue with the lock is not functioning properly in the corridor,Carpentry,Medium,Resolved,Carpentry
+TICK_1946,FAC006,2026-03-22 13:51,fan not working and making noise,Electrical,Low,Resolved,Electrical
+TICK_1836,STU00001,2026-04-02 00:14,door lock broken and unsafe,Cleaning,Low,Resolved,Cleaning
+TICK_1835,STU00005,2026-03-19 08:52,"Currently experiencing an issue with the drawer is not functioning properly, along with that the flush is also not working",Carpentry,Medium,Resolved,Carpentry
+TICK_1633,STU00016,2026-04-01 19:58,Currently experiencing an issue with the overflow is not functioning properly in the common area. This needs immediate attention.,Plumbing,High,In Progress,Plumbing
+TICK_1293,STU00013,2026-03-28 01:03,I noticed that the AC is not functioning properly,HVAC,Low,Resolved,HVAC
+TICK_1193,STU00008,2026-04-09 12:08,"Currently experiencing an issue with the wiring is not functioning properly in my hostel room, additionally the door is also not working",Cleaning,Low,Pending,Electrical
+TICK_1614,STU00009,2026-04-12 00:57,I am facing an issue where the overflow is not functioning properly in the common area,Carpentry,High,Pending,Plumbing
+TICK_1715,FAC006,2026-03-19 07:05,Currently experiencing an issue with the door is not functioning properly,Carpentry,Medium,Resolved,Carpentry
+TICK_1572,FAC008,2026-04-12 18:22,There is something wrong with the cooling is not functioning properly near the washroom. Please resolve this urgently.,HVAC,High,Pending,HVAC
+TICK_1250,FAC006,2026-03-19 00:44,"There is something wrong with the router is not functioning properly, along with that the geyser is also not working. This is causing inconvenience.",IT,Medium,Resolved,IT
+TICK_1465,STU00019,2026-03-25 07:20,fan not working and making noise,Carpentry,Medium,Resolved,HVAC
+TICK_1617,STU00006,2026-04-12 22:35,water leaking continuously from pipe,Plumbing,Medium,Pending,Plumbing
+TICK_1926,STU00017,2026-04-06 16:49,"there seems to be a problem with the internet is not functioning properly in the common area, additionally the overflow is also not working. please resolve this urgently.",IT,High,Pending,IT
+TICK_1965,FAC002,2026-03-24 16:47,There is something wrong with the router is not functioning properly. This needs immediate attention.,IT,Medium,Resolved,IT
+TICK_1254,FAC008,2026-03-20 00:30,"There is something wrong with the light is not functioning properly in the corridor, additionally the window is also not working",Electrical,Medium,In Progress,Electrical
+TICK_1037,STU00020,2026-04-04 23:35,There seems to be a problem with the leak is not functioning properly in the lab. Please resolve this urgently.,Plumbing,High,In Progress,Plumbing
+TICK_1886,STU00014,2026-04-07 19:21,"I am facing an issue where the sparking is not functioning properly in my hostel room, along with that the mopping is also not working",Electrical,High,In Progress,Electrical
+TICK_1613,STU00017,2026-04-02 07:16,water leaking continuously from pipe,HVAC,Medium,Resolved,HVAC
+TICK_1337,STU00016,2026-03-25 08:25,garbage not collected for days,Plumbing,Medium,Resolved,Plumbing
+TICK_1197,STU00020,2026-04-12 11:46,There seems to be a problem with the trash is not functioning properly near the washroom,Cleaning,Medium,Pending,Cleaning
+TICK_1155,STU00011,2026-04-13 13:47,wifi disconnecting frequently,Plumbing,Low,Pending,Plumbing
+TICK_1256,OFF001,2026-04-12 08:33,There seems to be a problem with the internet is not functioning properly,IT,Low,Pending,IT
+TICK_1506,STU00018,2026-04-01 07:25,"There is something wrong with the light is not functioning properly in my hostel room, along with that the odour is also not working. This needs immediate attention.",Electrical,Low,Resolved,Electrical
+TICK_1814,STU00002,2026-03-28 21:11,I am facing an issue where the ventilation is not functioning properly in my hostel room. Kindly look into this as soon as possible.,HVAC,Medium,Resolved,HVAC
+TICK_1930,STU00013,2026-04-14 03:18,"currently experiencing an issue with the wifi is not functioning properly in the lab, and also the ventilation is also not working",IT,Medium,Pending,IT
+TICK_1466,STU00016,2026-03-24 09:59,There is something wrong with the leak is not functioning properly in my hostel room. Kindly look into this as soon as possible.,Plumbing,Medium,Resolved,Plumbing
+TICK_1599,STU00004,2026-03-26 16:24,"There is something wrong with the sparking is not functioning properly near the washroom, additionally the trash is also not working",Electrical,High,Resolved,Electrical
+TICK_1877,FAC005,2026-03-19 20:29,I noticed that the cooling is not functioning properly near the washroom. Kindly look into this as soon as possible.,HVAC,Medium,In Progress,HVAC
+TICK_1604,FAC002,2026-04-13 03:55,I noticed that the drawer is not functioning properly in my hostel room. This needs immediate attention.,Carpentry,Medium,Pending,Carpentry
+TICK_1267,OFF002,2026-03-26 18:27,I noticed that the wiring is not functioning properly. This needs immediate attention.,Plumbing,Medium,Resolved,Electrical
+TICK_1345,STU00009,2026-04-04 17:43,door lock broken and unsafe,Electrical,Medium,Pending,Electrical
+TICK_1609,FAC006,2026-03-22 10:01,"Currently experiencing an issue with the trash is not functioning properly in my hostel room, along with that the internet is also not working. Please resolve this urgently.",Cleaning,High,In Progress,Cleaning
+TICK_1774,STU00015,2026-04-01 16:32,I noticed that the light is not functioning properly. Please resolve this urgently.,Electrical,High,In Progress,Electrical
+TICK_1881,STU00007,2026-03-16 15:26,"I noticed that the portal is not functioning properly in the common area, on top of that the tap is also not working",Cleaning,Medium,Resolved,IT
+TICK_1499,FAC002,2026-03-16 12:44,There seems to be a problem with the portal is not functioning properly in the common area,IT,Medium,Resolved,IT
+TICK_1085,STU00018,2026-03-19 10:28,i am facing an issue where the router is not functioning properly. this is causing inconvenience.,IT,Medium,Resolved,IT
+TICK_1680,STU00010,2026-03-21 08:26,There is something wrong with the wiring is not functioning properly in my hostel room,Electrical,Medium,In Progress,Electrical
+TICK_1538,STU00005,2026-03-21 19:57,"there is something wrong with the overflow is not functioning properly in the common area, and also the cooling is also not working. kindly look into this as soon as possible.",Plumbing,High,Resolved,Plumbing
+TICK_1639,STU00011,2026-04-09 08:27,door lock broken and unsafe,Electrical,Medium,In Progress,Electrical
+TICK_1542,FAC002,2026-04-05 17:20,There seems to be a problem with the router is not functioning properly. Kindly look into this as soon as possible.,IT,Low,In Progress,IT
+TICK_1493,OFF001,2026-03-26 18:20,there seems to be a problem with the light is not functioning properly in the common area. kindly look into this as soon as possible.,Electrical,Low,Resolved,Electrical
+TICK_1671,STU00015,2026-04-08 06:46,I noticed that the wifi is not functioning properly in my hostel room. Kindly look into this as soon as possible.,IT,Low,In Progress,IT
+TICK_1694,FAC007,2026-04-01 21:54,fan not working and making noise,Electrical,Low,Resolved,Electrical
+TICK_1631,STU00007,2026-03-27 18:28,wifi disconnecting frequently,Carpentry,Medium,Resolved,Carpentry
+TICK_1163,OFF001,2026-04-11 02:45,water leaking continuously from pipe,Electrical,Low,Pending,Electrical
+TICK_1142,FAC007,2026-03-22 20:48,"I am facing an issue where the portal is not functioning properly near the washroom, on top of that the hinge is also not working",IT,Medium,Resolved,IT
+TICK_1264,STU00016,2026-04-03 03:11,There is something wrong with the wifi is not functioning properly near the washroom. Please resolve this urgently.,IT,High,Resolved,IT
+TICK_1173,FAC001,2026-04-10 22:13,I am facing an issue where the router is not functioning properly in the lab. This is causing inconvenience.,IT,Medium,Pending,IT
+TICK_1213,STU00018,2026-03-22 20:26,Currently experiencing an issue with the filter is not functioning properly near the washroom,HVAC,Medium,Resolved,HVAC
+TICK_1187,STU00020,2026-03-20 02:31,"Currently experiencing an issue with the wiring is not functioning properly in the common area, on top of that the cooling is also not working",Electrical,Medium,In Progress,Electrical
+TICK_1133,FAC005,2026-03-20 22:15,There is something wrong with the sparking is not functioning properly in the lab. This is causing inconvenience.,Electrical,High,Resolved,Electrical
+TICK_1975,FAC005,2026-03-26 22:55,There is something wrong with the internet is not functioning properly in the lab. Kindly look into this as soon as possible.,IT,Low,Resolved,IT
+TICK_1573,STU00009,2026-03-27 01:38,I am facing an issue where the fan is not functioning properly. This is causing inconvenience.,Electrical,Medium,In Progress,Electrical
+TICK_1424,STU00010,2026-04-04 22:07,There is something wrong with the socket is not functioning properly in the common area. This is causing inconvenience.,Electrical,Low,In Progress,Electrical
+TICK_1995,STU00002,2026-04-02 01:39,I noticed that the filter is not functioning properly,HVAC,Low,Resolved,HVAC
+TICK_1528,STU00005,2026-04-14 14:28,"I noticed that the leak is not functioning properly in the corridor, on top of that the sparking is also not working",Plumbing,High,Pending,Plumbing
+TICK_1279,ADMIN001,2026-04-14 06:16,garbage not collected for days,HVAC,Medium,Pending,HVAC
+TICK_1167,STU00013,2026-03-26 12:35,I am facing an issue where the pipe is not functioning properly,Plumbing,Medium,In Progress,Plumbing
+TICK_1030,FAC002,2026-03-25 15:13,I am facing an issue where the router is not functioning properly in the lab. Kindly look into this as soon as possible.,Plumbing,Medium,Resolved,IT
+TICK_1359,STU00002,2026-04-04 07:24,"Currently experiencing an issue with the door is not functioning properly in the lab, on top of that the trash is also not working",Cleaning,Medium,Pending,Carpentry
+TICK_1190,OFF005,2026-04-11 09:47,Currently experiencing an issue with the geyser is not functioning properly in the corridor,HVAC,Medium,Pending,Plumbing
+TICK_1900,STU00018,2026-03-26 19:32,water leaking continuously from pipe,Plumbing,Medium,Resolved,Plumbing
+TICK_1455,OFF001,2026-03-20 05:01,I noticed that the sparking is not functioning properly in the common area. Please resolve this urgently.,Electrical,High,Resolved,Electrical
+TICK_1766,STU00008,2026-03-19 20:27,I am facing an issue where the garbage is not functioning properly,Cleaning,Low,In Progress,Cleaning
+TICK_1555,FAC002,2026-04-10 14:32,I am facing an issue where the portal is not functioning properly in the corridor. This needs immediate attention.,IT,Low,In Progress,IT
+TICK_1743,STU00010,2026-04-10 21:17,I noticed that the dustbin is not functioning properly in the common area. This is causing inconvenience.,Cleaning,Medium,Pending,Cleaning
+TICK_1132,STU00009,2026-04-01 11:59,I am facing an issue where the sparking is not functioning properly near the washroom. This needs immediate attention.,Electrical,High,Resolved,Electrical
+TICK_1231,FAC004,2026-04-10 20:54,water leaking continuously from pipe,IT,Medium,Pending,IT
+TICK_1323,STU00016,2026-03-19 03:16,Currently experiencing an issue with the dustbin is not functioning properly. Kindly look into this as soon as possible.,Cleaning,Low,Resolved,Cleaning
+TICK_1753,STU00004,2026-04-08 17:12,"I noticed that the overflow is not functioning properly in the corridor, on top of that the internet is also not working",Plumbing,High,In Progress,Plumbing
+TICK_1802,STU00017,2026-04-01 17:11,I am facing an issue where the router is not functioning properly in the lab. This needs immediate attention.,IT,Low,Resolved,IT
+TICK_1856,FAC006,2026-04-14 07:56,wifi disconnecting frequently,Carpentry,Low,Pending,Carpentry
+TICK_1423,STU00014,2026-04-03 03:11,There is something wrong with the dustbin is not functioning properly. Please resolve this urgently.,Cleaning,High,Resolved,Cleaning
+TICK_1119,STU00013,2026-04-12 12:47,Currently experiencing an issue with the cooling is not functioning properly in my hostel room,HVAC,Low,Pending,HVAC
+TICK_1432,STU00010,2026-04-14 14:39,"I am facing an issue where the internet is not functioning properly in my hostel room, along with that the socket is also not working. This is causing inconvenience.",IT,Medium,Pending,IT
+TICK_1772,STU00013,2026-03-26 00:21,There is something wrong with the airflow is not functioning properly in the corridor. This is causing inconvenience.,HVAC,Low,Resolved,HVAC
+TICK_1331,FAC001,2026-04-05 15:11,i am facing an issue where the geyser is not functioning properly in the corridor. this is causing inconvenience.,Plumbing,Low,In Progress,Plumbing
+TICK_1128,FAC004,2026-03-22 20:20,I am facing an issue where the internet is not functioning properly near the washroom. This needs immediate attention.,IT,Low,Resolved,IT
+TICK_1717,OFF003,2026-03-19 16:40,currently experiencing an issue with the odour is not functioning properly in my hostel room,Cleaning,Medium,Resolved,Cleaning
+TICK_1469,STU00012,2026-04-07 12:49,There is something wrong with the drawer is not functioning properly near the washroom. Please resolve this urgently.,Carpentry,High,In Progress,Carpentry
+TICK_1559,STU00017,2026-04-13 17:07,Currently experiencing an issue with the wifi is not functioning properly in my hostel room. Kindly look into this as soon as possible.,IT,Medium,Pending,IT
+TICK_1157,FAC007,2026-04-10 21:43,wifi disconnecting frequently,IT,Medium,Pending,IT
+TICK_1442,OFF002,2026-03-17 08:42,There seems to be a problem with the lock is not functioning properly. This is causing inconvenience.,Carpentry,Medium,Resolved,Carpentry
+TICK_1745,STU00012,2026-03-22 04:02,There is something wrong with the fan is not functioning properly in the corridor. Please resolve this urgently.,IT,High,Resolved,Electrical
+TICK_1805,FAC007,2026-03-27 02:12,there is something wrong with the network is not functioning properly in the corridor,IT,Medium,In Progress,IT
+TICK_1597,STU00008,2026-04-06 06:04,"I noticed that the socket is not functioning properly in my hostel room, additionally the cupboard is also not working. This is causing inconvenience.",Electrical,Medium,In Progress,Electrical
+TICK_1439,FAC005,2026-04-08 20:57,I am facing an issue where the portal is not functioning properly. Kindly look into this as soon as possible.,Plumbing,Low,Pending,IT
+TICK_1115,FAC003,2026-04-13 01:26,garbage not collected for days,Cleaning,Medium,Pending,Carpentry
+TICK_1003,STU00012,2026-03-27 10:19,There is something wrong with the garbage is not functioning properly in the lab,Cleaning,Medium,In Progress,Cleaning
+TICK_1754,FAC004,2026-03-19 14:26,There seems to be a problem with the cupboard is not functioning properly. This is causing inconvenience.,Electrical,Medium,In Progress,Carpentry
+TICK_1138,STU00013,2026-03-16 06:32,Currently experiencing an issue with the light is not functioning properly near the washroom. This needs immediate attention.,Electrical,Medium,Resolved,Electrical
+TICK_1286,STU00017,2026-03-24 08:49,"I am facing an issue where the overflow is not functioning properly in the common area, on top of that the trash is also not working. This needs immediate attention.",Plumbing,High,In Progress,Plumbing
+TICK_1654,STU00017,2026-03-28 01:53,I noticed that the pipe is not functioning properly in my hostel room,Plumbing,Low,Resolved,Plumbing
+TICK_1014,STU00019,2026-03-24 15:59,"I am facing an issue where the overflow is not functioning properly in my hostel room, and also the switchboard is also not working. This needs immediate attention.",Plumbing,High,Resolved,Plumbing
+TICK_1061,STU00015,2026-04-10 13:19,I noticed that the router is not functioning properly near the washroom. Please resolve this urgently.,IT,High,In Progress,IT
+TICK_1378,STU00013,2026-03-24 09:56,I am facing an issue where the sparking is not functioning properly in my hostel room,Electrical,High,Resolved,Electrical
+TICK_1088,FAC004,2026-03-28 05:11,There seems to be a problem with the odour is not functioning properly in the lab,Cleaning,Medium,Resolved,Cleaning
+TICK_1553,STU00016,2026-03-27 06:57,There is something wrong with the window is not functioning properly in the lab. Please resolve this urgently.,Carpentry,High,Resolved,Carpentry
+TICK_1287,STU00018,2026-03-30 02:25,There seems to be a problem with the drain is not functioning properly in the lab. This is causing inconvenience.,Plumbing,Medium,Resolved,Plumbing
+TICK_1865,STU00006,2026-03-16 03:30,I noticed that the door is not functioning properly. Kindly look into this as soon as possible.,Carpentry,Medium,Resolved,Carpentry
+TICK_1976,STU00008,2026-03-23 06:33,I am facing an issue where the fan is not functioning properly in the corridor,Electrical,Medium,In Progress,Electrical
+TICK_1917,STU00010,2026-04-02 03:13,I noticed that the switchboard is not functioning properly near the washroom,IT,Medium,Resolved,Electrical
+TICK_1508,STU00005,2026-04-13 11:01,Currently experiencing an issue with the overflow is not functioning properly in the common area. Please resolve this urgently.,Plumbing,High,Pending,Plumbing
+TICK_1934,FAC008,2026-03-21 18:46,"I noticed that the window is not functioning properly, on top of that the portal is also not working. Please resolve this urgently.",Cleaning,High,Resolved,Carpentry
+TICK_1567,STU00004,2026-04-01 23:26,"There is something wrong with the drawer is not functioning properly in my hostel room, on top of that the login is also not working",Carpentry,Low,Resolved,Carpentry
+TICK_1218,OFF006,2026-04-02 20:04,I noticed that the network is not functioning properly in the lab. Please resolve this urgently.,IT,High,Resolved,IT
+TICK_1097,FAC007,2026-04-03 17:35,wifi disconnecting frequently,HVAC,Low,Resolved,HVAC
+TICK_1622,OFF005,2026-03-31 04:35,water leaking continuously from pipe,Carpentry,Medium,Resolved,Carpentry
+TICK_1089,FAC005,2026-03-16 08:06,"I am facing an issue where the sparking is not functioning properly, and also the internet is also not working. This needs immediate attention.",Carpentry,High,In Progress,Electrical
+TICK_1296,FAC007,2026-04-04 01:30,I noticed that the wiring is not functioning properly near the washroom,Electrical,Low,In Progress,Electrical
+TICK_1414,STU00011,2026-03-31 01:54,Currently experiencing an issue with the wifi is not functioning properly in the lab. This needs immediate attention.,IT,Low,Resolved,IT
+TICK_1210,STU00006,2026-04-08 03:32,wifi disconnecting frequently,Cleaning,Medium,Pending,Cleaning
+TICK_1401,FAC004,2026-03-28 11:54,"There seems to be a problem with the leak is not functioning properly, and also the odour is also not working. This needs immediate attention.",Plumbing,Medium,Resolved,Plumbing
+TICK_1080,STU00012,2026-03-20 00:19,wifi disconnecting frequently,IT,Medium,In Progress,IT
+TICK_1998,OFF005,2026-04-09 18:29,"I noticed that the mopping is not functioning properly near the washroom, on top of that the cooling is also not working. Kindly look into this as soon as possible.",Cleaning,Medium,In Progress,Cleaning
+TICK_1706,FAC004,2026-04-11 04:49,"Currently experiencing an issue with the switchboard is not functioning properly in the lab, additionally the drain is also not working",Electrical,Medium,Pending,Electrical
+TICK_1510,STU00008,2026-04-02 02:28,water leaking continuously from pipe,HVAC,Medium,Resolved,HVAC
+TICK_1284,STU00001,2026-03-26 15:26,I am facing an issue where the hinge is not functioning properly in the common area. Please resolve this urgently.,Cleaning,High,In Progress,Carpentry
+TICK_1624,FAC008,2026-03-26 22:30,I am facing an issue where the wiring is not functioning properly in the corridor,Electrical,Low,Resolved,Electrical
+TICK_1203,STU00010,2026-03-27 06:46,I am facing an issue where the sparking is not functioning properly in my hostel room. Kindly look into this as soon as possible.,Electrical,High,In Progress,Electrical
+TICK_1055,STU00008,2026-03-25 16:55,"Currently experiencing an issue with the tap is not functioning properly near the washroom, and also the fan is also not working",Plumbing,Medium,In Progress,Plumbing
+TICK_1644,STU00014,2026-03-23 17:18,"I am facing an issue where the odour is not functioning properly, and also the cooling is also not working",Cleaning,Low,Resolved,Cleaning
+TICK_1008,STU00018,2026-03-29 05:06,There is something wrong with the network is not functioning properly in my hostel room. This is causing inconvenience.,IT,Medium,Resolved,IT
+TICK_1396,STU00013,2026-04-07 13:33,"I noticed that the switchboard is not functioning properly in the common area, on top of that the mopping is also not working. This is causing inconvenience.",Electrical,Medium,In Progress,Electrical
+TICK_1643,STU00005,2026-03-29 03:35,I am facing an issue where the AC is not functioning properly. Kindly look into this as soon as possible.,HVAC,Medium,Resolved,HVAC
+TICK_1141,FAC008,2026-04-11 20:30,"Currently experiencing an issue with the internet is not functioning properly in the lab, along with that the filter is also not working",IT,Medium,Pending,IT
+TICK_1021,STU00016,2026-04-04 13:45,I noticed that the trash is not functioning properly,Cleaning,Medium,In Progress,Cleaning
+TICK_1195,STU00005,2026-04-13 17:17,There is something wrong with the portal is not functioning properly in my hostel room,IT,Low,Pending,IT
+TICK_1315,STU00018,2026-04-01 07:06,Currently experiencing an issue with the trash is not functioning properly in my hostel room,Cleaning,Low,Resolved,Cleaning
+TICK_1951,FAC006,2026-04-09 12:43,wifi disconnecting frequently,HVAC,Medium,Pending,HVAC
+TICK_1583,STU00012,2026-04-14 16:37,I noticed that the flush is not functioning properly. Kindly look into this as soon as possible.,Plumbing,Medium,Pending,Plumbing
+TICK_1960,STU00004,2026-04-03 15:25,"I am facing an issue where the garbage is not functioning properly in the lab, along with that the wifi is also not working",Cleaning,Medium,Resolved,Cleaning
+TICK_1909,STU00006,2026-03-31 07:06,"There seems to be a problem with the AC is not functioning properly in the common area, along with that the drawer is also not working. Kindly look into this as soon as possible.",HVAC,Medium,Resolved,HVAC
+TICK_1040,FAC007,2026-03-31 13:51,Currently experiencing an issue with the lock is not functioning properly in my hostel room. This is causing inconvenience.,Carpentry,Medium,Resolved,Carpentry
+TICK_1459,STU00008,2026-03-22 15:06,I am facing an issue where the AC is not functioning properly in my hostel room. Please resolve this urgently.,HVAC,High,Resolved,HVAC
+TICK_1162,STU00014,2026-03-24 00:33,Currently experiencing an issue with the AC is not functioning properly near the washroom. This needs immediate attention.,HVAC,Medium,Resolved,HVAC
+TICK_1799,STU00019,2026-03-19 13:35,"I noticed that the switchboard is not functioning properly in the common area, and also the overflow is also not working",Electrical,High,Resolved,Electrical
+TICK_1316,FAC003,2026-03-30 10:02,"There seems to be a problem with the ventilation is not functioning properly in the common area, additionally the login is also not working. Please resolve this urgently.",HVAC,High,Resolved,HVAC
+TICK_1372,FAC006,2026-03-21 04:37,there is something wrong with the pipe is not functioning properly. this is causing inconvenience.,Plumbing,Medium,Resolved,Plumbing
+TICK_1017,STU00017,2026-04-14 14:50,I am facing an issue where the door is not functioning properly in my hostel room. This needs immediate attention.,Electrical,Medium,Pending,Carpentry
+TICK_1882,STU00010,2026-03-18 23:53,water leaking continuously from pipe,Cleaning,Low,Resolved,Cleaning
+TICK_1274,STU00020,2026-04-12 14:25,"I am facing an issue where the overflow is not functioning properly near the washroom, along with that the wiring is also not working. This needs immediate attention.",Carpentry,High,Pending,Plumbing
+TICK_1948,STU00018,2026-03-20 00:59,There seems to be a problem with the pipe is not functioning properly in the common area,Plumbing,Medium,In Progress,Plumbing
+TICK_1556,STU00009,2026-04-10 18:04,fan not working and making noise,Cleaning,Low,In Progress,Cleaning
+TICK_1285,OFF004,2026-04-13 15:19,There seems to be a problem with the mopping is not functioning properly near the washroom,Cleaning,Medium,Pending,Cleaning
+TICK_1842,STU00001,2026-04-10 16:15,there is something wrong with the mopping is not functioning properly in the lab. this is causing inconvenience.,Cleaning,Medium,Pending,Cleaning
+TICK_1116,FAC002,2026-03-20 18:38,"I noticed that the wifi is not functioning properly near the washroom, additionally the socket is also not working",IT,Low,In Progress,IT
+TICK_1732,STU00006,2026-03-27 18:27,Currently experiencing an issue with the wiring is not functioning properly in my hostel room. This needs immediate attention.,Electrical,Medium,Resolved,Electrical
+TICK_1082,FAC005,2026-03-24 15:45,"I noticed that the sparking is not functioning properly, additionally the odour is also not working",Electrical,High,Resolved,Electrical
+TICK_1830,FAC008,2026-04-10 15:14,"There seems to be a problem with the wifi is not functioning properly in the corridor, along with that the geyser is also not working. Please resolve this urgently.",Cleaning,High,Pending,IT
+TICK_1875,FAC002,2026-03-16 19:54,currently experiencing an issue with the cooling is not functioning properly in the corridor. this needs immediate attention.,HVAC,Medium,Resolved,HVAC
+TICK_1377,FAC003,2026-04-04 18:39,I noticed that the wifi is not functioning properly in my hostel room. Kindly look into this as soon as possible.,Electrical,Low,In Progress,IT
+TICK_1416,STU00004,2026-03-31 09:11,There is something wrong with the tap is not functioning properly in the common area,Plumbing,Medium,Resolved,Plumbing
+TICK_1177,OFF006,2026-03-15 23:52,I am facing an issue where the light is not functioning properly. Please resolve this urgently.,Plumbing,High,Resolved,Electrical
+TICK_1303,STU00007,2026-03-26 20:24,"There seems to be a problem with the wifi is not functioning properly near the washroom, additionally the window is also not working",IT,Medium,In Progress,IT
+TICK_1301,FAC003,2026-04-01 09:29,"currently experiencing an issue with the cleanliness is not functioning properly near the washroom, additionally the login is also not working. this needs immediate attention.",Cleaning,Medium,Resolved,Cleaning
+TICK_1867,STU00009,2026-03-18 10:09,I am facing an issue where the filter is not functioning properly in my hostel room,HVAC,Low,Resolved,HVAC
+TICK_1087,STU00019,2026-04-13 13:12,door lock broken and unsafe,Electrical,Medium,Pending,Electrical
+TICK_1978,STU00017,2026-04-07 16:39,water leaking continuously from pipe,Carpentry,Medium,In Progress,Carpentry
+TICK_1912,STU00016,2026-03-31 11:48,there is something wrong with the garbage is not functioning properly in the common area,HVAC,Medium,Resolved,Cleaning

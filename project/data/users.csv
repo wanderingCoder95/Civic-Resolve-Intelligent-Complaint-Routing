@@ -1,0 +1,46 @@
+user_id,password,name,phone,role,wing
+STU00001,Pass483,Rohan Mehta,9563285469,student,
+STU00002,Login358,Sanya Nair,9620283634,student,
+STU00003,Login661,Rohan Gupta,9255140635,student,
+STU00004,Login632,Vivaan Gupta,9244742751,student,
+STU00005,Login750,Meera Sharma,9977185663,student,
+STU00006,Login179,Aarav Kumar,9499206507,student,
+STU00007,Secure217,Ananya Nair,9649278814,student,
+STU00008,User534,Vivaan Sharma,9666729021,student,
+STU00009,Secure274,Ishaan Reddy,9250238563,student,
+STU00010,Login659,Reyansh Gupta,9428242438,student,
+STU00011,Secure883,Diya Nair,9563552853,student,
+STU00012,Secure650,Riya Nair,9281351957,student,
+STU00013,Login972,Riya Nair,9204502106,student,
+STU00014,Login473,Diya Gupta,9282242629,student,
+STU00015,Pass883,Ishaan Nair,9130151726,student,
+STU00016,Secure978,Rohan Kumar,9716899421,student,
+STU00017,Login116,Vihaan Patel,9685307347,student,
+STU00018,Secure100,Sanya Singh,9398772172,student,
+STU00019,User953,Aditya Kumar,9632155247,student,
+STU00020,Secure172,Rohan Mehta,9106768673,student,
+FAC001,User719,Dr. Sai Gupta,9889224679,faculty,
+FAC002,Pass984,Dr. Arjun Patel,9387575541,faculty,
+FAC003,Secure633,Dr. Aarav Patel,9973728363,faculty,
+FAC004,User402,Dr. Rohan Mehta,9742482410,faculty,
+FAC005,Login396,Dr. Vivaan Mehta,9748714924,faculty,
+FAC006,Secure129,Dr. Sanya Agarwal,9977003073,faculty,
+FAC007,Pass893,Dr. Aditya Mehta,9840573513,faculty,
+FAC008,User213,Dr. Sai Reddy,9785596171,faculty,
+OFF001,Login342,Vivaan Nair,9827032097,staff,
+OFF002,Login820,Sanya Mehta,9882482559,staff,
+OFF003,User361,Aarav Jain,9736308553,staff,
+OFF004,Secure163,Diya Patel,9747939703,staff,
+OFF005,Secure394,Meera Jain,9855277371,staff,
+OFF006,User145,Arjun Sharma,9660937866,staff,
+MNT001,fixit56,Aarav Jain,9216188488,maintenance,Plumbing
+MNT002,fixit19,Ira Jain,9775149043,maintenance,Plumbing
+MNT003,fixit88,Reyansh Gupta,9422523866,maintenance,Electrical
+MNT004,fixit79,Aditya Jain,9607147787,maintenance,Electrical
+MNT005,fixit53,Ishaan Nair,9426444812,maintenance,IT
+MNT006,fixit36,Reyansh Mehta,9720472084,maintenance,IT
+MNT007,fixit32,Neha Verma,9748152059,maintenance,Carpentry
+MNT008,fixit52,Sai Iyer,9280894043,maintenance,Carpentry
+MNT009,fixit29,Arjun Singh,9750765290,maintenance,Cleaning
+MNT010,fixit56,Vivaan Singh,9667208065,maintenance,Cleaning
+ADMIN001,Root@123,System Administrator,9683071756,superadmin,All
