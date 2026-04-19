@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Civic Resolve</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/auth-pages.css') }}">
+</head>
+<body class="login-page">
+    <canvas id="bg-canvas"></canvas>
+    <main class="login-shell">
+        <section class="left">
+            <div class="left-wrap">
+                <img src="{{ url_for('static', filename='assets/images/sau-white-logo.png') }}" alt="SAU Logo">
+                <h2 class="name">Civic Resolve</h2>
+                <p class="sub">Issue Resolution Portal</p>
+            </div>
+        </section>
+        <section class="right">
+            <h1>Welcome</h1>
+            <p>Select your role to continue</p>
+            <div class="actions">
+                <a href="{{ url_for('user_login') }}" class="role-btn">Users (Students &amp; Staffs)</a>
+                <a href="{{ url_for('maintenance_login') }}" class="role-btn">Maintenance Staff</a>
+            </div>
+        </section>
+    </main>
+    <script src="{{ url_for('static', filename='assets/js/auth-waves.js') }}"></script>
+</body>
+</html>

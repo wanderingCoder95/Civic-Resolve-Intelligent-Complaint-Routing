@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Civic Resolve</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/auth-pages.css') }}">
+</head>
+<body class="login-page">
+    <canvas id="bg-canvas"></canvas>
+
+    <main class="login-shell" aria-label="Role Selection">
+        <section class="left" aria-label="Brand Panel">
+            <div class="left-wrap">
+                <img src="{{ url_for('static', filename='assets/images/sau-white-logo.png') }}" alt="SAU Logo">
+                <p class="name">SOUTH ASIAN UNIVERSITY</p>
+                <p class="sub">A University Established by SAARC Nations</p>
+            </div>
+        </section>
+
+        <section class="right" aria-label="Login Actions">
+            <h1>Civic Resolve</h1>
+            <p>Please select your role to proceed.</p>
+
+            <div class="actions">
+                <a class="role-btn" href="{{ url_for('user_login') }}">Users (Students &amp; Staffs)</a>
+                <a class="role-btn" href="{{ url_for('maintenance_login') }}">Maintenance Staff</a>
+            </div>
+        </section>
+    </main>
+
+<script src="{{ url_for('static', filename='assets/js/auth-waves.js') }}"></script>
+</body>
+</html>

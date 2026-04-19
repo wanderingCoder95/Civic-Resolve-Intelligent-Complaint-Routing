@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access Denied</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/auth-pages.css') }}">
+</head>
+<body class="invalid-page">
+    <canvas id="bg-canvas"></canvas>
+
+    <main class="error-shell" aria-label="Invalid Login Message">
+        <div class="badge" aria-hidden="true">!</div>
+        <h1>Invalid Credentials</h1>
+        <p>
+            The user ID or password you entered does not match our records.
+            Please check your details and try again.
+        </p>
+        <a href="{{ login_link }}" class="try-btn" role="button" aria-label="Try Again">Try Again</a>
+        <p class="helper">Need help? Contact the system administrator.</p>
+    </main>
+
+    <script src="{{ url_for('static', filename='assets/js/auth-waves.js') }}"></script>
+</body>
+</html>
