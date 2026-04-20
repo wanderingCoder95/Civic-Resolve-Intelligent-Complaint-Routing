@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Users Login - Civic Resolve</title>
+    <title>Maintenance Login - Civic Resolve</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/auth-pages.css') }}">
 </head>
 <body class="login-page">
@@ -13,24 +13,25 @@
             <div class="left-wrap">
                 <img src="{{ url_for('static', filename='assets/images/sau-white-logo.png') }}" alt="SAU Logo">
                 <h2 class="name">Civic Resolve</h2>
-                <p class="sub">User Portal</p>
+                <p class="sub">Maintenance Portal</p>
             </div>
         </section>
         <section class="right">
-            <h1>Users Login</h1>
-            <p>Students, Faculty & Staff</p>
+            <h1>Maintenance Login</h1>
+            <p>Maintenance Staff & Admin</p>
             <form method="POST" class="login-form">
                 <div class="form-group">
-                    <input type="text" name="username" placeholder="User ID" required>
+                    <input type="text" name="username" placeholder="Staff ID" required>
                 </div>
                 <div class="form-group">
                     <input type="password" name="password" placeholder="Password" required>
                 </div>
                 <button type="submit" class="role-btn">Login</button>
-                <a href="{{ url_for('login') }}" class="back-link">← Back to Role Selection</a>
+                <a href="{{ url_for('home') }}" class="back-link">← Back to Role Selection</a>
             </form>
         </section>
     </main>
+    <script src="{{ url_for('static', filename='assets/js/cache-guard.js') }}"></script>
     <script src="{{ url_for('static', filename='assets/js/auth-waves.js') }}"></script>
     <style>
         .login-form {

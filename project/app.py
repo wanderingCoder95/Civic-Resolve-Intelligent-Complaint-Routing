@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect, url_for, session, request
+from flask import Flask, render_template, redirect, url_for, session, request, make_response
 import pandas as pd
 
 app = Flask(__name__)
@@ -6,15 +6,35 @@ app.secret_key = "your-secret-key" # Session Keys are to be randomly generated l
 
 users_df = pd.read_csv("data/users.csv")
 
+
+@app.after_request
+def add_no_cache_headers(response):
+    # Prevent browser/proxy caching so back button cannot show stale protected pages.
+    response.headers["Cache-Control"] = "no-store, no-cache, must-revalidate, max-age=0"
+    response.headers["Pragma"] = "no-cache"
+    response.headers["Expires"] = "0"
+    return response
+
 # Load model
 # model = pickle.load(open("model.pkl", "rb"))
 # vectorizer = pickle.load(open("vectorizer.pkl", "rb"))
 
 # ===== AUTH ROUTES =====
 @app.route('/')
+def root():
+    return redirect(url_for('home'))
+
+
+@app.route('/home')
+def home():
+    if 'user_id' in session:
+        session.clear()
+    return render_template('login/index.html')
+
+
 @app.route('/login')
 def login():
-    return render_template('home/index.html')
+    return redirect(url_for('home'))
 
 @app.route('/invalid-login')
 def invalid_login():
@@ -27,6 +47,9 @@ def invalid_login():
 
 @app.route('/user', methods=['GET', 'POST'])
 def user_login():
+    if request.method == 'GET' and 'user_id' in session:
+        session.clear()
+
     if request.method == 'POST':
         user_id = request.form.get('username')
         password = request.form.get('password')
@@ -45,10 +68,13 @@ def user_login():
             return redirect(url_for('invalid_login', type='user'))
     
     # GET: Show user login form
-    return render_template('login/users.html')
+    return render_template('login/users/index.html')
 
 @app.route('/maintenance', methods=['GET', 'POST'])
 def maintenance_login():
+    if request.method == 'GET' and 'user_id' in session:
+        session.clear()
+
     if request.method == 'POST':
         user_id = request.form.get('username')
         password = request.form.get('password')
@@ -70,26 +96,34 @@ def maintenance_login():
             return redirect(url_for('invalid_login', type='maintenance'))
     
     # GET: Show maintenance login form
-    return render_template('login/maintenance.html')
+    return render_template('login/maintenance/index.html')
 
 # ===== DASHBOARD ROUTES =====
 @app.route('/users/dashboard')
 def users_dashboard():
-    # TODO: Check if user is logged in
-    # if 'user_id' not in session: return redirect(url_for('login'))
+    if 'user_id' not in session:
+        return redirect(url_for('home'))
     return render_template('dashboard/users/index.html')
 
 @app.route('/staff/dashboard')
 def staff_dashboard():
-    # TODO: Check if user is logged in
-    # if 'user_id' not in session: return redirect(url_for('login'))
+    if 'user_id' not in session:
+        return redirect(url_for('home'))
     return render_template('dashboard/staff/index.html')
 
 @app.route('/admin/dashboard')
 def admin_dashboard():
-    # TODO: Check if user is logged in
-    # if 'user_id' not in session: return redirect(url_for('login'))
+    if 'user_id' not in session:
+        return redirect(url_for('home'))
     return render_template('dashboard/admin/index.html')
+
+
+@app.route('/logout')
+def logout():
+    session.clear()
+    response = make_response(redirect(url_for('home')))
+    response.headers["Clear-Site-Data"] = '"cache", "storage"'
+    return response
 
 # ===== OLD ML CODE (COMMENTED OUT) =====
 # #karthik try using this while building the frontend

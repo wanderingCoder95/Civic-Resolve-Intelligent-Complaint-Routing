@@ -8,27 +8,24 @@
 </head>
 <body class="login-page">
     <canvas id="bg-canvas"></canvas>
-
-    <main class="login-shell" aria-label="Role Selection">
-        <section class="left" aria-label="Brand Panel">
+    <main class="login-shell">
+        <section class="left">
             <div class="left-wrap">
                 <img src="{{ url_for('static', filename='assets/images/sau-white-logo.png') }}" alt="SAU Logo">
-                <p class="name">SOUTH ASIAN UNIVERSITY</p>
-                <p class="sub">A University Established by SAARC Nations</p>
+                <h2 class="name">Civic Resolve</h2>
+                <p class="sub">Issue Resolution Portal</p>
             </div>
         </section>
-
-        <section class="right" aria-label="Login Actions">
-            <h1>Civic Resolve</h1>
-            <p>Please select your role to proceed.</p>
-
+        <section class="right">
+            <h1>Welcome</h1>
+            <p>Select your role to continue</p>
             <div class="actions">
-                <a class="role-btn" href="{{ url_for('user_login') }}">Users (Students &amp; Staffs)</a>
-                <a class="role-btn" href="{{ url_for('maintenance_login') }}">Maintenance Staff</a>
+                <a href="{{ url_for('user_login') }}" class="role-btn">Users (Students &amp; Staffs)</a>
+                <a href="{{ url_for('maintenance_login') }}" class="role-btn">Maintenance Staff</a>
             </div>
         </section>
     </main>
-
-<script src="{{ url_for('static', filename='assets/js/auth-waves.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/cache-guard.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/auth-waves.js') }}"></script>
 </body>
 </html>

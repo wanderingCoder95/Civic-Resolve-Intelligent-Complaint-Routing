@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from flask import Flask, render_template
+from flask import Flask, render_template, redirect, url_for
 
 
 BASE_DIR = Path(__file__).resolve().parents[2]
@@ -13,9 +13,18 @@ app = Flask(
 
 
 @app.route("/")
+def home_page():
+    return redirect(url_for("home"))
+
+
+@app.route("/home")
+def home():
+    return render_template("login/index.html")
+
+
 @app.route("/login")
 def login_page():
-    return render_template("login/index.html")
+    return redirect(url_for("home"))
 
 
 @app.route("/invalid-login")
