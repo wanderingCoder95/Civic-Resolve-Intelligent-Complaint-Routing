@@ -60,7 +60,15 @@ def predict():
         "status": "Pending"
     })
 
+@app.route('/submit', methods=['POST'])
+def submit():
+    text = request.form['description']   # from frontend
+    
+    result = handle_ticket(text)         # 👈 YOUR CODE USED HERE
+    
+    return {"department": result}
+
 if __name__ == "__main__":
     app.run(debug=True)
 
-#use the model.pkl to load the model and vectorizer.pkl to use the vectorizer
+#use the model.pkl to load the model and vectorizer.pkl to use the vectorizer   
