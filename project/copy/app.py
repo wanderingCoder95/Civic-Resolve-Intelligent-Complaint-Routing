@@ -8,6 +8,35 @@ app = Flask(__name__)
 model = pickle.load(open("model.pkl", "rb"))
 vectorizer = pickle.load(open("vectorizer.pkl", "rb"))
 
+
+def is_valid(text):
+    text = text.strip()
+    return len(text) >= 5 and len(text.split()) >= 2
+
+def keyword_rule(text):
+    text = text.lower()
+    if "water" in text or "leak" in text:
+        return "Plumbing"
+    if "wifi" in text or "network" in text:
+        return "IT"
+    return None
+
+def handle_ticket(text):
+    if not is_valid(text):
+        return "Invalid input"
+    
+    rule = keyword_rule(text)
+    if rule:
+        return rule
+    
+    vec = vectorizer.transform([text])
+    probs = model.predict_proba(vec)[0]
+    
+    if max(probs) < 0.5:
+        return "Uncertain"
+    
+    return model.classes_[probs.argmax()]
+
 # Prediction function
 def predict_issue(text):
     vec = vectorizer.transform([text])
