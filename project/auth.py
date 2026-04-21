@@ -90,7 +90,11 @@ def maintenance_login():
             wing = user.get('wing')
             if wing is not None and wing != '':
                 session['wing'] = wing
-            return redirect(url_for('admin_dashboard'))
+            
+            if user['role'] == 'superadmin':
+                return redirect(url_for('admin_dashboard'))
+            else:
+                return redirect(url_for('staff_dashboard'))
         else:
             return redirect(url_for('auth.invalid_login', type='maintenance'))
     
