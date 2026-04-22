@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Dashboard{% endblock %} - Civic Resolve</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/dashboard.css') }}">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-brand">Civic Resolve</div>
+        <div class="nav-center">
+            Welcome, <strong>{{ session.get('name', 'User') }}</strong> |
+            <span class="role-badge">
+                Role : {{ session.get('role', 'Unknown').capitalize() }}
+                {% if session.get('wing') %} | Wing : {{ session.get('wing') }}{% endif %}
+            </span>
+        </div>
+        <div class="nav-right">
+            <div id="datetime-display"></div>
+            <a href="{{ url_for('auth.logout') }}" class="btn-logout">Logout</a>
+        </div>
+    </nav>
+
+    <!-- Main Content Wrapper -->
+    <main class="dashboard-container">
+
+        <!-- Hero Header Area -->
+        <header class="dashboard-header">
+            <h1>{% block hero_title %}{% endblock %}</h1>
+            <p>{% block hero_subtitle %}{% endblock %}</p>
+        </header>
+
+        <!-- Block Content from Child Templates -->
+        {% block content %}{% endblock %}
+
+    </main>
+
+    <!-- External Scripts -->
+    <script src="{{ url_for('static', filename='assets/js/cache-guard.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/dashboard.js') }}"></script>
+</body>
+
+</html>

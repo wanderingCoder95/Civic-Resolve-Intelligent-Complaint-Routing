@@ -1,0 +1,218 @@
+{% extends "dashboard/base_dashboard.html" %}
+
+{% block title %}Staff Dashboard{% endblock %}
+
+{% block hero_title %}Maintenance Operations{% endblock %}
+{% block hero_subtitle %}Manage assigned tickets, track aging issues, and update resolution statuses.{% endblock %}
+
+{% block content %}
+<!-- Aging Complaints Section -->
+<div class="card" style="margin-bottom: 2rem; border-top: 4px solid #e74c3c;">
+    <h2><span style="color: #e74c3c;">⚠️ Action Required:</span> Aging Complaints (> 3 Days Old)</h2>
+    <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>Ticket ID</th>
+                    <th>Description </th>
+                    <th>Time of Complaint</th>
+                    <th>Priority</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for ticket in aging_tickets %}
+                <tr class="aging-row">
+                    <td>#{{ ticket.ticket_id }}</td>
+                    <td>
+                        {% if ticket.description|length > 40 %}
+                        <details style="position: relative;">
+                            <summary style="cursor: pointer; color: #2c3e50; outline: none; font-weight: 500;">
+                                {{ ticket.description[:40] }}...
+                            </summary>
+                            <div
+                                style="position: absolute; z-index: 50; top: 100%; left: 0; min-width: 300px; max-width: 400px; margin-top: 0.2rem; padding: 1rem; background: #fff; border: 1px solid #ddd; border-left: 4px solid var(--primary-color); border-radius: 6px; box-shadow: 0 10px 25px rgba(0,0,0,0.15); font-size: 0.95em; white-space: pre-wrap; line-height: 1.5; color: #333;">
+                                {{ ticket.description }}</div>
+                        </details>
+                        {% else %}
+                        {{ ticket.description }}
+                        {% endif %}
+                    </td>
+                    <td>{{ ticket.created_at }}</td>
+                    <td>
+                        <span class="priority-{{ ticket.priority.lower() if ticket.priority else 'none' }}"
+                            data-id="{{ ticket.ticket_id }}" data-val="{{ ticket.priority }}"
+                            onclick="togglePriority(this)" style="cursor: pointer;" title="Click to toggle priority">
+                            {{ ticket.priority }}
+                        </span>
+                    </td>
+                    <td>
+                        <span class="badge badge-{{ 'pending' if ticket.status == 'Pending' else 'inprogress' }}"
+                            data-id="{{ ticket.ticket_id }}" data-val="{{ ticket.status }}" onclick="toggleStatus(this)"
+                            style="cursor: pointer;" title="Click to toggle status">
+                            {{ ticket.status }}
+                        </span>
+                    </td>
+                    <td>
+                        <button class="btn-action"
+                            onclick="markResolved('{{ ticket.ticket_id }}', this)">Resolve</button>
+                        <button class="btn-action refer"
+                            onclick="markReferred('{{ ticket.ticket_id }}', this)">Refer</button>
+                    </td>
+                </tr>
+                {% else %}
+                <tr>
+                    <td colspan="6" style="text-align: center; color: #999;">No aging complaints!</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- All Complaints Section -->
+<div class="card">
+    <h2>All Active Complaints</h2>
+    <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>Ticket ID</th>
+                    <th>Description </th>
+                    <th>Time of Complaint</th>
+                    <th>Priority</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for ticket in active_tickets %}
+                <tr>
+                    <td>#{{ ticket.ticket_id }}</td>
+                    <td>
+                        {% if ticket.description|length > 40 %}
+                        <details style="position: relative;">
+                            <summary style="cursor: pointer; color: #2c3e50; outline: none; font-weight: 500;">
+                                {{ ticket.description[:40] }}...
+                            </summary>
+                            <div
+                                style="position: absolute; z-index: 50; top: 100%; left: 0; min-width: 300px; max-width: 400px; margin-top: 0.2rem; padding: 1rem; background: #fff; border: 1px solid #ddd; border-left: 4px solid var(--primary-color); border-radius: 6px; box-shadow: 0 10px 25px rgba(0,0,0,0.15); font-size: 0.95em; white-space: pre-wrap; line-height: 1.5; color: #333;">
+                                {{ ticket.description }}</div>
+                        </details>
+                        {% else %}
+                        {{ ticket.description }}
+                        {% endif %}
+                    </td>
+                    <td>{{ ticket.created_at }}</td>
+                    <td>
+                        <span class="priority-{{ ticket.priority.lower() if ticket.priority else 'none' }}"
+                            data-id="{{ ticket.ticket_id }}" data-val="{{ ticket.priority }}"
+                            onclick="togglePriority(this)" style="cursor: pointer;" title="Click to toggle priority">
+                            {{ ticket.priority }}
+                        </span>
+                    </td>
+                    <td>
+                        <span class="badge badge-{{ 'pending' if ticket.status == 'Pending' else 'inprogress' }}"
+                            data-id="{{ ticket.ticket_id }}" data-val="{{ ticket.status }}" onclick="toggleStatus(this)"
+                            style="cursor: pointer;" title="Click to toggle status">
+                            {{ ticket.status }}
+                        </span>
+                    </td>
+                    <td>
+                        <button class="btn-action"
+                            onclick="markResolved('{{ ticket.ticket_id }}', this)">Resolve</button>
+                        <button class="btn-action refer"
+                            onclick="markReferred('{{ ticket.ticket_id }}', this)">Refer</button>
+                    </td>
+                </tr>
+                {% else %}
+                <tr>
+                    <td colspan="6" style="text-align: center; color: #999;">No active complaints found.</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+<script>
+    async function updateTicket(ticket_id, field, value) {
+        try {
+            const res = await fetch('/api/update_ticket', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ ticket_id, field, value })
+            });
+            return await res.json();
+        } catch (e) {
+            console.error(e);
+            return { success: false };
+        }
+    }
+
+    async function togglePriority(el) {
+        const id = el.getAttribute('data-id');
+        const current = el.getAttribute('data-val');
+        const nextMap = { 'None': 'Low', 'Low': 'Medium', 'Medium': 'High', 'High': 'None' };
+        const next = nextMap[current] || 'None';
+
+        el.style.opacity = '0.5';
+        const res = await updateTicket(id, 'priority', next);
+        el.style.opacity = '1';
+
+        if (res && res.success) {
+            el.setAttribute('data-val', next);
+            el.textContent = next;
+            el.className = `priority-${next.toLowerCase()}`;
+        } else {
+            alert("Failed to update priority.");
+        }
+    }
+
+    async function toggleStatus(el) {
+        const id = el.getAttribute('data-id');
+        const current = el.getAttribute('data-val');
+
+        if (current === 'Resolved' || current === 'Referred') return;
+        const next = current === 'Pending' ? 'In Progress' : 'Pending';
+
+        el.style.opacity = '0.5';
+        const res = await updateTicket(id, 'status', next);
+        el.style.opacity = '1';
+
+        if (res && res.success) {
+            el.setAttribute('data-val', next);
+            el.textContent = next;
+            el.className = `badge badge-${next === 'Pending' ? 'pending' : 'inprogress'}`;
+        } else {
+            alert("Failed to update status.");
+        }
+    }
+
+    async function markResolved(id, btn) {
+        if (confirm("Are you sure you want to resolve this ticket? It will be removed from your dashboard.")) {
+            btn.disabled = true;
+            const res = await updateTicket(id, 'status', 'Resolved');
+            if (res && res.success) {
+                btn.closest('tr').remove();
+            } else {
+                alert("Failed to mark as resolved.");
+                btn.disabled = false;
+            }
+        }
+    }
+
+    async function markReferred(id, btn) {
+        if (confirm("Are you sure you want to refer this ticket to the admin?")) {
+            btn.disabled = true;
+            const res = await updateTicket(id, 'status', 'Referred');
+            if (res && res.success) {
+                btn.closest('tr').remove();
+            } else {
+                alert("Failed to refer ticket.");
+                btn.disabled = false;
+            }
+        }
+    }
+</script>
+{% endblock %}

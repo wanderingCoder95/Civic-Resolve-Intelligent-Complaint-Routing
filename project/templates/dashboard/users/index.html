@@ -1,0 +1,221 @@
+{% extends "dashboard/base_dashboard.html" %}
+
+{% block title %}User Dashboard{% endblock %}
+
+{% block hero_title %}My Service Requests{% endblock %}
+{% block hero_subtitle %}Submit new maintenance requests and track the status of your existing complaints.{% endblock %}
+
+{% block content %}
+<div class="grid">
+    <!-- Submit New Complaint Card -->
+    <div class="card">
+        <h2>Submit New Complaint</h2>
+        <form id="complaintForm">
+            <div class="form-group">
+                <label for="location">Location (Building/Room No.)</label>
+                <input type="text" id="location" name="location" placeholder="e.g. Block A, Room 302" required>
+            </div>
+            <div class="form-group">
+                <label for="description">Issue Description</label>
+                <textarea id="description" name="description" rows="4"
+                    placeholder="Describe the maintenance issue in detail..." required></textarea>
+            </div>
+            <button type="submit" class="btn-submit" id="submitBtn" style="width: 100%;">Submit Complaint</button>
+        </form>
+        <div id="formMessage" style="margin-top: 1rem; font-weight: 500; display: none;"></div>
+    </div>
+    <!-- Feedback Card (Functional Form) -->
+    <div class="card">
+        <h2>Submit Feedback</h2>
+        <form id="feedbackForm">
+            <div class="form-group">
+                <label>Rating</label>
+                <div class="star-rating"
+                    style="display: flex; gap: 0.5rem; font-size: 1.5rem; cursor: pointer; color: #ddd;">
+                    <span class="star" data-value="1">★</span>
+                    <span class="star" data-value="2">★</span>
+                    <span class="star" data-value="3">★</span>
+                    <span class="star" data-value="4">★</span>
+                    <span class="star" data-value="5">★</span>
+                </div>
+                <input type="hidden" id="ratingInput" name="rating" value="0">
+            </div>
+            <div class="form-group">
+                <label for="feedbackComment">Comment</label>
+                <textarea id="feedbackComment" name="comment" rows="2" placeholder="Tell us about your experience..."
+                    required></textarea>
+            </div>
+            <button type="submit" class="btn-submit" id="feedbackSubmitBtn"
+                style="width: 100%; background-color: var(--secondary-color);">Submit Feedback</button>
+        </form>
+        <div id="feedbackMsg" style="margin-top: 1rem; font-size: 0.9rem; display: none;"></div>
+    </div>
+</div>
+
+<style>
+    .star.active {
+        color: #f1c40f;
+    }
+</style>
+
+<!-- Complaints Card -->
+<div class="card" style="grid-column: span 2; margin-top: 2rem;">
+    <h2>My Complaints</h2>
+    <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>Ticket ID</th>
+                    <th>Description</th>
+                    <th>Location</th>
+                    <th>Status</th>
+                    <th>Created At</th>
+                </tr>
+            </thead>
+            <tbody id="ticketsBody">
+                {% for ticket in tickets %}
+                <tr>
+                    <td style="font-weight: 600;">#{{ ticket.ticket_id }}</td>
+                    <td>
+                        {% if ticket.description|length > 40 %}
+                        <details style="position: relative;">
+                            <summary
+                                style="cursor: pointer; color: var(--primary-color); outline: none; font-weight: 500;">
+                                {{ ticket.description[:40] }}...
+                            </summary>
+                            <div
+                                style="position: absolute; z-index: 50; top: 100%; left: 0; min-width: 250px; padding: 1rem; background: #fff; border: 1px solid #ddd; border-left: 4px solid var(--primary-color); border-radius: 8px; box-shadow: var(--box-shadow); font-size: 0.9em; white-space: pre-wrap; line-height: 1.5;">
+                                {{ ticket.description }}
+                            </div>
+                        </details>
+                        {% else %}
+                        {{ ticket.description }}
+                        {% endif %}
+                    </td>
+                    <td>{{ ticket.location }}</td>
+                    <td>
+                        <span
+                            class="badge badge-{{ 'pending' if ticket.status == 'Pending' else 'inprogress' if ticket.status == 'In Progress' else 'resolved' if ticket.status == 'Resolved' else 'referred' }}">
+                            {{ ticket.status }}
+                        </span>
+                    </td>
+                    <td style="color: #666; font-size: 0.85rem;">{{ ticket.created_at }}</td>
+                </tr>
+                {% else %}
+                <tr>
+                    <td colspan="5" style="text-align: center; color: #999; padding: 2rem;">You haven't filed any
+                        complaints yet.</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script>
+    document.getElementById('complaintForm').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const btn = document.getElementById('submitBtn');
+        const msg = document.getElementById('formMessage');
+
+        const data = {
+            location: document.getElementById('location').value,
+            description: document.getElementById('description').value
+        };
+
+        btn.disabled = true;
+        btn.innerText = 'Submitting...';
+
+        try {
+            const res = await fetch('/api/submit_ticket', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+            });
+            const result = await res.json();
+
+            if (result.success) {
+                msg.style.color = 'var(--success)';
+                msg.innerText = `Success! Ticket #${result.ticket_id} has been logged.`;
+                msg.style.display = 'block';
+                setTimeout(() => location.reload(), 2000);
+            } else {
+                msg.style.color = 'var(--danger)';
+                msg.innerText = 'Error: ' + result.error;
+                msg.style.display = 'block';
+                btn.disabled = false;
+                btn.innerText = 'Submit Complaint';
+            }
+        } catch (err) {
+            console.error(err);
+            msg.style.color = 'var(--danger)';
+            msg.innerText = 'Failed to connect to server.';
+            msg.style.display = 'block';
+            btn.disabled = false;
+            btn.innerText = 'Submit Complaint';
+        }
+    });
+
+    // Star Rating Logic
+    const stars = document.querySelectorAll('.star');
+    const ratingInput = document.getElementById('ratingInput');
+
+    stars.forEach(star => {
+        star.addEventListener('click', () => {
+            const val = star.getAttribute('data-value');
+            ratingInput.value = val;
+            stars.forEach(s => {
+                s.classList.toggle('active', s.getAttribute('data-value') <= val);
+            });
+        });
+    });
+
+    // Feedback Submission Logic
+    document.getElementById('feedbackForm').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const btn = document.getElementById('feedbackSubmitBtn');
+        const msg = document.getElementById('feedbackMsg');
+        const rating = ratingInput.value;
+        const comment = document.getElementById('feedbackComment').value;
+
+        if (rating === "0") {
+            msg.style.color = 'var(--danger)';
+            msg.innerText = 'Please select a star rating.';
+            msg.style.display = 'block';
+            return;
+        }
+
+        btn.disabled = true;
+        btn.innerText = 'Submitting...';
+
+        try {
+            const res = await fetch('/api/submit_feedback', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ rating, comment })
+            });
+            const result = await res.json();
+
+            if (result.success) {
+                msg.style.color = 'var(--success)';
+                msg.innerText = 'Thank you for your feedback!';
+                msg.style.display = 'block';
+                document.getElementById('feedbackForm').reset();
+                stars.forEach(s => s.classList.remove('active'));
+                ratingInput.value = "0";
+            } else {
+                msg.style.color = 'var(--danger)';
+                msg.innerText = 'Error: ' + result.error;
+                msg.style.display = 'block';
+            }
+        } catch (err) {
+            msg.style.color = 'var(--danger)';
+            msg.innerText = 'Failed to submit feedback.';
+            msg.style.display = 'block';
+        } finally {
+            btn.disabled = false;
+            btn.innerText = 'Submit Feedback';
+        }
+    });
+</script>
+{% endblock %}

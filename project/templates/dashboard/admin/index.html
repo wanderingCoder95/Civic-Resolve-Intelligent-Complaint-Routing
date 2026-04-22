@@ -1,0 +1,148 @@
+{% extends "dashboard/base_dashboard.html" %}
+
+{% block title %}Admin Dashboard{% endblock %}
+
+{% block hero_title %}System Administration{% endblock %}
+{% block hero_subtitle %}Monitor system health, manage users, and handle escalated tickets.{% endblock %}
+
+{% block content %}
+<div class="grid" style="margin-bottom: 2rem;">
+    <!-- STATS -->
+    <div class="card" style="text-align: center;">
+        <h2 style="font-size: 2.5rem; margin-bottom: 0.5rem; color: var(--primary-color); border: none; padding: 0;">{{
+            total_active }}</h2>
+        <p style="font-weight: 600; color: #666; margin: 0;">Total Active</p>
+    </div>
+
+    <div class="card" style="text-align: center;">
+        <h2 style="font-size: 2.5rem; margin-bottom: 0.5rem; color: var(--secondary-color); border: none; padding: 0;">
+            {{ resolution_rate }}%</h2>
+        <p style="font-weight: 600; color: #666; margin: 0;">Resolution Rate</p>
+    </div>
+</div>
+
+<div class="grid">
+    <!-- USER MANAGEMENT -->
+    <div class="card">
+        <h2>User Management</h2>
+        <p style="margin-bottom: 1.5rem; color: #555;">Manage roles, access, and staff assignments.</p>
+
+        <div style="display: flex; gap: 1rem;">
+            <button class="btn-submit">+ Add New User</button>
+            <button class="btn-action refer">Review User Roles</button>
+        </div>
+    </div>
+
+    <!-- SYSTEM LOGS -->
+    <div class="card">
+        <h2>System Logs</h2>
+
+        <div class="logs"
+            style="background: #f9fbfd; padding: 1rem; border-radius: 8px; font-family: monospace; font-size: 0.9rem; max-height: 200px; overflow-y: auto;">
+            {% if logs %}
+            {% for log in logs %}
+            <p style="margin: 0.5rem 0; color: #333;">
+                <span style="color: #888;">[{{ log.timestamp }}]</span> {{ log.action }}
+            </p>
+            {% endfor %}
+            {% else %}
+            <p style="color: #888; margin: 0;">No logs available</p>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+<!-- ESCALATED -->
+<div class="card" style="margin-top: 2rem;">
+    <h2>Escalated / Referred Tickets</h2>
+
+    <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>TID</th>
+                    <th>Issue</th>
+                    <th>Assigned To</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% if escalated %}
+                {% for ticket in escalated %}
+                <tr id="ticket-row-{{ ticket.ticket_id }}">
+                    <td style="font-weight: 600;">#{{ ticket.ticket_id }}</td>
+                    <td>
+                        {% if ticket.description and ticket.description|length > 40 %}
+                        <details style="position: relative;">
+                            <summary style="cursor: pointer; color: #2c3e50; outline: none; font-weight: 500;">
+                                {{ ticket.description[:40] }}...
+                            </summary>
+                            <div
+                                style="position: absolute; z-index: 50; top: 100%; left: 0; min-width: 300px; max-width: 400px; margin-top: 0.2rem; padding: 1rem; background: #fff; border: 1px solid #ddd; border-left: 4px solid var(--primary-color); border-radius: 6px; box-shadow: 0 10px 25px rgba(0,0,0,0.15); font-size: 0.95em; white-space: pre-wrap; line-height: 1.5; color: #333;">
+                                {{ ticket.description }}</div>
+                        </details>
+                        {% else %}
+                        {{ ticket.description if ticket.description else "N/A" }}
+                        {% endif %}
+                    </td>
+                    <td>
+                        <select class="wing-select" data-ticket-id="{{ ticket.ticket_id }}"
+                            style="padding: 0.3rem; border-radius: 4px; border: 1px solid #ccc;">
+                            {% for wing in wings %}
+                            <option value="{{ wing }}" {% if ticket.true_wing==wing %}selected{% endif %}>{{ wing }}
+                            </option>
+                            {% endfor %}
+                        </select>
+                    </td>
+                    <td><button class="btn-action assign-btn" data-ticket-id="{{ ticket.ticket_id }}">Assign</button>
+                    </td>
+                </tr>
+                {% endfor %}
+                {% else %}
+                <tr>
+                    <td colspan="4" style="text-align: center; color: #888; padding: 2rem;">No escalated tickets
+                        currently.</td>
+                </tr>
+                {% endif %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('.assign-btn').forEach(btn => {
+            btn.addEventListener('click', async (e) => {
+                const ticketId = e.target.getAttribute('data-ticket-id');
+                const select = document.querySelector(`.wing-select[data-ticket-id="${ticketId}"]`);
+                const wing = select.value;
+
+                e.target.disabled = true;
+                e.target.innerText = 'Assigning...';
+
+                try {
+                    const res = await fetch('/api/assign_ticket', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ ticket_id: ticketId, wing: wing })
+                    });
+                    const data = await res.json();
+                    if (data.success) {
+                        // Remove row on success
+                        document.getElementById(`ticket-row-${ticketId}`).remove();
+                    } else {
+                        alert('Error: ' + data.error);
+                        e.target.disabled = false;
+                        e.target.innerText = 'Assign';
+                    }
+                } catch (err) {
+                    console.error(err);
+                    alert('Failed to reassign ticket.');
+                    e.target.disabled = false;
+                    e.target.innerText = 'Assign';
+                }
+            });
+        });
+    });
+</script>
+{% endblock %}
