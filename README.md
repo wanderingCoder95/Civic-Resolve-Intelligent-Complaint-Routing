@@ -7,11 +7,10 @@ Civic Resolve is a state-of-the-art maintenance complaint management system that
 
 ## 🚀 Key Features
 
-- **Intelligent Routing**: ML-powered auto-categorization of maintenance tickets.
-- **Multi-Role Access**: Dedicated portals for Students, Faculty, Maintenance Staff, and Admins.
-- **Dynamic Dashboards**: Real-time status tracking and wing-specific filtering.
-- **Premium UI**: Modern design featuring glassmorphism, fluid animations, and a responsive layout.
-- **Data-Driven Insights**: Automated persistence of maintenance data for administrative review.
+- **Intelligent Routing**: Multinomial Naive Bayes model for automated ticket categorization.
+- **Spam & Uncertainty Detection**: Automated triage for gibberish or ambiguous complaints, routing them to general staff for manual review.
+- **Multi-Role Dashboards**: Specialized views for Students, Faculty, and Maintenance Staff with real-time status tracking.
+- **Enhanced Visibility**: Ticket locations and categories are now visible at a glance across all dashboards.
 
 ## 📁 Documentation
 
@@ -25,10 +24,10 @@ For detailed information, please refer to the following guides:
 
 ```bash
 # Clone the repository
-git clone https://github.com/wanderingCoder95/Case-Study-Mini-Project.git
+git clone https://github.com/wanderingCoder95/Civic-Resolve-Intelligent-Complaint-Routing.git
 
 # Navigate to project directory
-cd Case-Study-Mini-Project/project
+cd Civic-Resolve-Intelligent-Complaint-Routing/project
 
 # Install dependencies
 pip install -r requirements.txt

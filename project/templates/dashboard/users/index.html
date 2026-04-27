@@ -67,6 +67,7 @@
                 <tr>
                     <th>Ticket ID</th>
                     <th>Description</th>
+                    <th>Category</th>
                     <th>Location</th>
                     <th>Status</th>
                     <th>Created At</th>
@@ -92,6 +93,11 @@
                         {{ ticket.description }}
                         {% endif %}
                     </td>
+                    <td>
+                        <span class="badge" style="background: {% if ticket.true_wing == 'General' %}#f39c12{% else %}#3498db{% endif %}; color: white; padding: 2px 8px; border-radius: 12px; font-size: 0.8em;">
+                            {{ ticket.wing }}
+                        </span>
+                    </td>
                     <td>{{ ticket.location }}</td>
                     <td>
                         <span
@@ -103,7 +109,7 @@
                 </tr>
                 {% else %}
                 <tr>
-                    <td colspan="5" style="text-align: center; color: #999; padding: 2rem;">You haven't filed any
+                    <td colspan="6" style="text-align: center; color: #999; padding: 2rem;">You haven't filed any
                         complaints yet.</td>
                 </tr>
                 {% endfor %}

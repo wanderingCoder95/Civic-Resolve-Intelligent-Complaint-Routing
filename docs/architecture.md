@@ -1,53 +1,51 @@
 # Project Architecture
 
-Civic Resolve is built with a focus on intelligent maintenance complaint routing. This document outlines the technical structure and data flow of the application.
+Civic Resolve is an intelligent maintenance complaint management system featuring automated routing and role-based tracking.
 
 ## Tech Stack
 
 - **Backend**: Flask (Python)
 - **Frontend**: HTML5, Vanilla CSS, JavaScript
-- **Data Persistence**: CSV files (Pandas for processing)
-- **Machine Learning**: Scikit-learn (Naive Bayes) for complaint categorization
-- **Styling**: Modern CSS with glassmorphism and wave animations
+- **Database**: MySQL (for live ticket persistence and user authentication)
+- **Machine Learning**: Scikit-learn (**Multinomial Naive Bayes**) for complaint categorization
+- **Styling**: Premium Modern CSS with glassmorphism and micro-animations
 
 ## Project Structure
 
 ```text
 project/
-├── app.py                  # Main application entry point and routing
-├── auth.py                 # Authentication logic and RBAC
-├── model.ipynb             # Jupyter notebook for ML model training
-├── model.pkl               # Serialized ML model for real-time predictions
-├── vectorizer.pkl          # TF-IDF vectorizer for text processing
+├── app.py                  # Main application & ML inference logic
+├── auth.py                 # MySQL-backed authentication & RBAC
+├── model.ipynb             # Model training & data analysis
+├── model.pkl               # Serialized Multinomial Naive Bayes model
+├── vectorizer.pkl          # TF-IDF vectorizer (1-2 ngrams)
 ├── data/
-│   ├── complaints.csv      # Main complaints database
-│   ├── users.csv           # User credentials and role definitions
-│   └── code/               # Data synthesis and utility scripts
+│   ├── complaints.csv      # Historical training dataset
+│   ├── users.csv           # Seed data for users
+│   └── sql/                # SQL initialization scripts
 ├── static/
-│   └── assets/
-│       ├── css/            # UI styling and theme definitions
-│       ├── js/             # Interactive elements and animations
-│       └── images/         # Project logos and assets
+│   └── assets/             # CSS themes, animations, and icons
 └── templates/
-    ├── home/               # Landing and role selection pages
-    ├── login/              # Multi-role login forms
-    ├── dashboard/          # User, Staff, and Admin portals
-    └── invalid-login/      # Error and feedback pages
+    ├── home/               # Landing & role selection
+    ├── login/              # Multi-role login portals
+    ├── dashboard/          # Student & Staff operations
+    └── invalid-login/      # Error & triage feedback
 ```
 
-## Data Flow
+## Intelligent Data Flow
 
-1. **Complaint Submission**: Users submit complaints via the dashboard.
-2. **Auto-Categorization**: The backend uses the pre-trained `model.pkl` to predict the maintenance wing (e.g., Electrical, Plumbing) based on the complaint description.
-3. **Storage**: The complaint, along with its predicted wing and user metadata, is appended to `complaints.csv`.
-4. **Staff View**: Maintenance staff log in and see a filtered view of complaints assigned to their specific wing.
-5. **Admin Oversight**: Superadmins have a holistic view of all complaints and can manage the system state.
+1. **Complaint Submission**: Users submit text-based complaints through the dashboard.
+2. **Predictive Triage**: 
+   - Descriptions are processed through the **Multinomial Naive Bayes** model.
+   - If confidence is high (>50%), the ticket is routed to a specific wing (e.g., Electrical).
+   - If confidence is low or input is junk, the ticket is flagged as **Spam** or **Uncertain** and routed to **General**.
+3. **Database Persistence**: Tickets are saved to MySQL with dual labels: `wing` (display label) and `true_wing` (routing key).
+4. **Staff Filtering**: Staff dashboards fetch tickets where `true_wing` matches their assigned wing **OR** is set to `General`. This ensures that ambiguous issues are triaged by the entire team.
 
-## Security & RBAC
+## Role-Based Access Control (RBAC)
 
-The system implements Role-Based Access Control (RBAC) with the following roles:
-- **Student/Faculty/Staff**: Can file complaints and view their own history.
-- **Maintenance**: Can view and manage complaints within their assigned wing.
-- **Superadmin**: Full system access, including cross-wing visibility.
+- **Users (Student/Faculty)**: Can file complaints and track the model-predicted category and status.
+- **Maintenance Staff**: Access wing-specific tickets and universal triage (General) tickets. Can update priority and status.
+- **Superadmin**: Full system control and cross-wing oversight.
 
-Session-based authentication ensures that users can only access routes authorized for their specific role.
+Authentication is managed via MySQL-backed sessions, ensuring strict isolation between user types.

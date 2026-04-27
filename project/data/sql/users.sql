@@ -18,3 +18,5 @@ ENCLOSED BY '"'
 LINES TERMINATED BY '\r\n'
 IGNORE 1 ROWS
 (user_id, password, name, phone, role, wing);
+
+-- # stale code , used for initial dataset generation

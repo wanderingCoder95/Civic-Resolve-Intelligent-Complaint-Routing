@@ -14,7 +14,9 @@
             <thead>
                 <tr>
                     <th>Ticket ID</th>
-                    <th>Description </th>
+                    <th>Description</th>
+                    <th>Category</th>
+                    <th>Location</th>
                     <th>Time of Complaint</th>
                     <th>Priority</th>
                     <th>Status</th>
@@ -39,6 +41,12 @@
                         {{ ticket.description }}
                         {% endif %}
                     </td>
+                    <td>
+                        <span class="badge" style="background: {% if ticket.true_wing == 'General' %}#f39c12{% else %}#3498db{% endif %}; color: white; padding: 2px 8px; border-radius: 12px; font-size: 0.8em;">
+                            {{ ticket.wing }}
+                        </span>
+                    </td>
+                    <td>{{ ticket.location }}</td>
                     <td>{{ ticket.created_at }}</td>
                     <td>
                         <span class="priority-{{ ticket.priority.lower() if ticket.priority else 'none' }}"
@@ -63,7 +71,7 @@
                 </tr>
                 {% else %}
                 <tr>
-                    <td colspan="6" style="text-align: center; color: #999;">No aging complaints!</td>
+                    <td colspan="8" style="text-align: center; color: #999;">No aging complaints!</td>
                 </tr>
                 {% endfor %}
             </tbody>
@@ -79,7 +87,9 @@
             <thead>
                 <tr>
                     <th>Ticket ID</th>
-                    <th>Description </th>
+                    <th>Description</th>
+                    <th>Category</th>
+                    <th>Location</th>
                     <th>Time of Complaint</th>
                     <th>Priority</th>
                     <th>Status</th>
@@ -104,6 +114,12 @@
                         {{ ticket.description }}
                         {% endif %}
                     </td>
+                    <td>
+                        <span class="badge" style="background: {% if ticket.true_wing == 'General' %}#f39c12{% else %}#3498db{% endif %}; color: white; padding: 2px 8px; border-radius: 12px; font-size: 0.8em;">
+                            {{ ticket.wing }}
+                        </span>
+                    </td>
+                    <td>{{ ticket.location }}</td>
                     <td>{{ ticket.created_at }}</td>
                     <td>
                         <span class="priority-{{ ticket.priority.lower() if ticket.priority else 'none' }}"
@@ -128,91 +144,71 @@
                 </tr>
                 {% else %}
                 <tr>
-                    <td colspan="6" style="text-align: center; color: #999;">No active complaints found.</td>
+                    <td colspan="8" style="text-align: center; color: #999; padding: 2rem;">No active complaints in your
+                        wing.</td>
                 </tr>
                 {% endfor %}
             </tbody>
         </table>
     </div>
 </div>
+
 <script>
-    async function updateTicket(ticket_id, field, value) {
+    async function markResolved(ticketId, btn) {
+        if (!confirm('Mark this ticket as Resolved?')) return;
+        btn.disabled = true;
         try {
             const res = await fetch('/api/update_ticket', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ ticket_id, field, value })
+                body: JSON.stringify({ ticket_id: ticketId, status: 'Resolved' })
             });
-            return await res.json();
-        } catch (e) {
-            console.error(e);
-            return { success: false };
-        }
+            if (res.ok) location.reload();
+        } catch (e) { console.error(e); btn.disabled = false; }
+    }
+
+    async function markReferred(ticketId, btn) {
+        if (!confirm('Refer this ticket to a higher authority?')) return;
+        btn.disabled = true;
+        try {
+            const res = await fetch('/api/update_ticket', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ ticket_id: ticketId, status: 'Referred' })
+            });
+            if (res.ok) location.reload();
+        } catch (e) { console.error(e); btn.disabled = false; }
     }
 
     async function togglePriority(el) {
-        const id = el.getAttribute('data-id');
+        const ticketId = el.getAttribute('data-id');
         const current = el.getAttribute('data-val');
-        const nextMap = { 'None': 'Low', 'Low': 'Medium', 'Medium': 'High', 'High': 'None' };
-        const next = nextMap[current] || 'None';
+        const order = ['None', 'Low', 'Medium', 'High'];
+        const next = order[(order.indexOf(current) + 1) % order.length];
 
-        el.style.opacity = '0.5';
-        const res = await updateTicket(id, 'priority', next);
-        el.style.opacity = '1';
-
-        if (res && res.success) {
-            el.setAttribute('data-val', next);
-            el.textContent = next;
-            el.className = `priority-${next.toLowerCase()}`;
-        } else {
-            alert("Failed to update priority.");
-        }
+        try {
+            const res = await fetch('/api/update_ticket', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ ticket_id: ticketId, priority: next })
+            });
+            if (res.ok) location.reload();
+        } catch (e) { console.error(e); }
     }
 
     async function toggleStatus(el) {
-        const id = el.getAttribute('data-id');
+        const ticketId = el.getAttribute('data-id');
         const current = el.getAttribute('data-val');
+        const next = (current === 'Pending') ? 'In Progress' : 'Pending';
 
-        if (current === 'Resolved' || current === 'Referred') return;
-        const next = current === 'Pending' ? 'In Progress' : 'Pending';
-
-        el.style.opacity = '0.5';
-        const res = await updateTicket(id, 'status', next);
-        el.style.opacity = '1';
-
-        if (res && res.success) {
-            el.setAttribute('data-val', next);
-            el.textContent = next;
-            el.className = `badge badge-${next === 'Pending' ? 'pending' : 'inprogress'}`;
-        } else {
-            alert("Failed to update status.");
-        }
-    }
-
-    async function markResolved(id, btn) {
-        if (confirm("Are you sure you want to resolve this ticket? It will be removed from your dashboard.")) {
-            btn.disabled = true;
-            const res = await updateTicket(id, 'status', 'Resolved');
-            if (res && res.success) {
-                btn.closest('tr').remove();
-            } else {
-                alert("Failed to mark as resolved.");
-                btn.disabled = false;
-            }
-        }
-    }
-
-    async function markReferred(id, btn) {
-        if (confirm("Are you sure you want to refer this ticket to the admin?")) {
-            btn.disabled = true;
-            const res = await updateTicket(id, 'status', 'Referred');
-            if (res && res.success) {
-                btn.closest('tr').remove();
-            } else {
-                alert("Failed to refer ticket.");
-                btn.disabled = false;
-            }
-        }
+        try {
+            const res = await fetch('/api/update_ticket', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ ticket_id: ticketId, status: next })
+            });
+            if (res.ok) location.reload();
+        } catch (e) { console.error(e); }
     }
 </script>
 {% endblock %}

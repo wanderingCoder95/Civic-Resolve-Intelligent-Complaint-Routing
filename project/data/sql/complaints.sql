@@ -26,3 +26,5 @@ SET
     created_at = STR_TO_DATE(@timestamp_var, '%Y-%m-%d %H:%i:%s'),
     scheduled_timestamp = NULLIF(@scheduled_var, ''),
     calibration_timestamp = NULLIF(@calibration_var, '');
+
+-- # stale code , used for initial dataset generation

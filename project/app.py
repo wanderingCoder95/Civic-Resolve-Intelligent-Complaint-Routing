@@ -16,7 +16,7 @@ def get_db_connection():
     return mysql.connector.connect(**dbconfig)
 
 app = Flask(__name__)
-app.secret_key = "your-secret-key" # Session Keys are to be randomly generated later
+app.secret_key = "your-secret-key"
 
 app.get_db_connection = get_db_connection
 
@@ -40,14 +40,29 @@ except Exception as e:
 
 def predict_wing(description):
     if not model or not vectorizer:
-        return "Unassigned"
+        return "Unassigned", False, True
     try:
-        # Preprocess and predict
+        # Preprocess
         vec = vectorizer.transform([description])
-        prediction = model.predict(vec)[0]
-        return prediction
-    except:
-        return "Unassigned"
+        
+        # Heuristic Spam Check: Too short
+        if len(description.strip()) < 10:
+            return "Spam", True, False
+            
+        # Get prediction and confidence
+        probs = model.predict_proba(vec)[0]
+        max_prob = np.max(probs)
+        prediction = model.classes_[np.argmax(probs)]
+        
+        # Uncertainty threshold (e.g., 50%)
+        is_uncertain = max_prob < 0.5
+        # Extreme uncertainty or noise threshold (e.g., 30%)
+        is_spam = max_prob < 0.3
+        
+        return prediction, is_spam, is_uncertain
+    except Exception as e:
+        print(f"Prediction error: {e}")
+        return "Unassigned", False, True
 
 
 @app.before_request
@@ -134,12 +149,21 @@ def staff_dashboard():
     staff_wing = session.get('wing')
     
     if staff_wing:
-        # Aging complaints for the staff's specific wing (simulated as older than 3 days from 2026-04-21)
-        cursor.execute("SELECT * FROM complaints WHERE status != 'Resolved' AND true_wing = %s AND created_at <= DATE_SUB('2026-04-21', INTERVAL 3 DAY) ORDER BY created_at ASC LIMIT 10", (staff_wing,))
+        # Aging complaints for the staff's specific wing OR 'General' (for spam/uncertain)
+        cursor.execute("""
+            SELECT * FROM complaints 
+            WHERE status != 'Resolved' AND (true_wing = %s OR true_wing = 'General') 
+            AND created_at <= DATE_SUB('2026-04-21', INTERVAL 3 DAY) 
+            ORDER BY created_at ASC LIMIT 10
+        """, (staff_wing,))
         aging_tickets = cursor.fetchall()
         
-        # All active complaints for the staff's specific wing
-        cursor.execute("SELECT * FROM complaints WHERE status != 'Resolved' AND true_wing = %s ORDER BY created_at DESC LIMIT 20", (staff_wing,))
+        # All active complaints for the staff's specific wing OR 'General'
+        cursor.execute("""
+            SELECT * FROM complaints 
+            WHERE status != 'Resolved' AND (true_wing = %s OR true_wing = 'General') 
+            ORDER BY created_at DESC LIMIT 20
+        """, (staff_wing,))
         active_tickets = cursor.fetchall()
     else:
         # Fallback: show all aging complaints
@@ -228,27 +252,37 @@ def submit_ticket():
     user_id = session.get('user_id')
     ticket_id = f"TICK_{uuid.uuid4().hex[:6].upper()}"
     
-    # ML Prediction for auto-assignment
-    predicted_wing = predict_wing(description)
+    # ML Prediction for auto-assignment with spam/uncertainty check
+    predicted_wing, is_spam, is_uncertain = predict_wing(description)
     
+    # If spam or uncertain, mark as 'General' so it shows to all staff
+    final_wing = predicted_wing
+    if is_spam:
+        final_wing = "Spam/General"
+    elif is_uncertain:
+        final_wing = "Uncertain/General"
+    
+    # We use 'General' as the internal true_wing for universal visibility
+    db_wing = "General" if (is_spam or is_uncertain) else predicted_wing
+
     conn = get_db_connection()
     cursor = conn.cursor()
     
-    # Insert ticket with predicted wing (filling both wing and true_wing for consistency)
+    # Insert ticket with predicted wing
     cursor.execute("""
         INSERT INTO complaints (ticket_id, user_id, description, location, status, priority, wing, true_wing, created_at)
         VALUES (%s, %s, %s, %s, 'Pending', 'None', %s, %s, NOW())
-    """, (ticket_id, user_id, description, location, predicted_wing, predicted_wing))
+    """, (ticket_id, user_id, description, location, final_wing, db_wing))
     
     # Log action
-    action_msg = f"New Ticket {ticket_id} auto-assigned to {predicted_wing} wing"
-    cursor.execute("INSERT INTO syslogs (action, performed_by) VALUES (%s, %s)", (action_msg, user_id))
+    log_msg = f"New Ticket {ticket_id}: Predicted={predicted_wing}, Final={final_wing} (Spam={is_spam}, Uncertain={is_uncertain})"
+    cursor.execute("INSERT INTO syslogs (action, performed_by) VALUES (%s, %s)", (log_msg, user_id))
     
     conn.commit()
     cursor.close()
     conn.close()
     
-    return {"success": True, "ticket_id": ticket_id, "predicted_wing": str(predicted_wing)}
+    return {"success": True, "ticket_id": ticket_id, "predicted_wing": str(final_wing)}
 
 @app.route('/api/submit_feedback', methods=['POST'])
 def submit_feedback():
