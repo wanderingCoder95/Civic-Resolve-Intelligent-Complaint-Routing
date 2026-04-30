@@ -54,10 +54,10 @@ def predict_wing(description):
         max_prob = np.max(probs)
         prediction = model.classes_[np.argmax(probs)]
         
-        # Uncertainty threshold (e.g., 50%)
-        is_uncertain = max_prob < 0.5
-        # Extreme uncertainty or noise threshold (e.g., 30%)
-        is_spam = max_prob < 0.3
+        # Uncertainty threshold
+        is_uncertain = max_prob < 0.25
+        # Extreme uncertainty or noise threshold
+        is_spam = max_prob < 0.1
         
         return prediction, is_spam, is_uncertain
     except Exception as e:
@@ -180,16 +180,26 @@ def staff_dashboard():
 
 @app.route('/api/update_ticket', methods=['POST'])
 def update_ticket():
-    if 'user_id' not in session or session.get('role') not in ['maintenance', 'superadmin']:
+    if 'user_id' not in session or session.get('role') != 'maintenance':
         return {"error": "Unauthorized"}, 403
     
     data = request.get_json()
     ticket_id = data.get('ticket_id')
+    
+    # Extract field and value - support both {field, value} and {status/priority} formats
     field = data.get('field')
     value = data.get('value')
     
+    if not field:
+        if 'status' in data:
+            field = 'status'
+            value = data['status']
+        elif 'priority' in data:
+            field = 'priority'
+            value = data['priority']
+    
     if field not in ['priority', 'status']:
-        return {"error": "Invalid field"}, 400
+        return {"error": "Invalid or missing field. Use 'field' and 'value', or 'status' or 'priority' keys."}, 400
         
     conn = get_db_connection()
     cursor = conn.cursor()
